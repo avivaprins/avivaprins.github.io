@@ -1,6 +1,62 @@
+#profile .portrait-title h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #313131;
+  margin: 0px 0 10px 0;
+}
+
+figcaption.numbered:before {
+  font-weight: 700;
+  text-transform: none;
+  content: attr(data-pre) counter(captions) attr(data-post);
+}
+
+.navbar-default .navbar-brand {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.post-nav-item .meta-nav {
+  color: #767676;
+  font-weight: 900;
+  line-height: 2;
+  text-transform: none;
+}
+
 .section-heading p {
-    font-weight: 400;
-    font-size: 1.1rem;
-    color: #313131;
-  }
-  
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #313131;
+}
+
+.card h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: none;
+}
+
+.card .card-text p {
+  color: #313131;
+  font-size: 0.75rem;
+}
+
+.site-footer,
+footer a#back_to_top i {
+  color: #313131;
+}
+
+/*************************************************
+ *  Toolbar Buttons CHANGE if CHANGE THEME! (manual)
+ **************************************************/
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: #757de8 !important;
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: #002984 !important;
+}
