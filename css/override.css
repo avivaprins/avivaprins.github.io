@@ -60,3 +60,42 @@ footer a#back_to_top i {
 .btn-toolbar .btn.btn-primary.active {
   background-color: #002984 !important;
 }
+
+a[data-fancybox] img {
+  width: 50%;
+  height: inherit;
+  max-width: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 4px;
+  box-shadow: none;
+  vertical-align: inherit;
+}
+
+.half-size1 img {
+  float: left;
+  display: inline;
+  position: relative;
+  max-width: 50%;
+}
+
+.half-size1 figcaption {
+  float: left;
+  display: inline;
+  position: relative;
+  max-width: 100%;
+}
+
+.half-size2 img {
+  float: left;
+  display: inline;
+  position: absolute;
+  width: 50%;
+}
+
+.half-size2 {
+  height: 200px;
+  position: relative;
+}
+
+
