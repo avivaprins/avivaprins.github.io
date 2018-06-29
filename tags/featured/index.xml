@@ -31,5 +31,15 @@ The dataset contains the responses of $N \sim 10,000$ students.</description>
       <description>Preliminary Research This project is currently ongoing. Please see the links below.</description>
     </item>
     
+    <item>
+      <title>Financial Well Being</title>
+      <link>https://avivaprins.github.io/project/financial-well-being/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.github.io/project/financial-well-being/</guid>
+      <description>One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.
+Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being.</description>
+    </item>
+    
   </channel>
 </rss>

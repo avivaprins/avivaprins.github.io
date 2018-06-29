@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aviva Prins</copyright>
-    <lastBuildDate>Fri, 15 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://avivaprins.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
+      <link>https://avivaprins.github.io/publication/financial-well-being-report/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avivaprins.github.io/publication/financial-well-being-report/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
@@ -27,6 +36,33 @@
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://avivaprins.github.io/publication/gryd-pca-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.github.io/publication/theoretical-and-experimental/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://avivaprins.github.io/publication/theoretical-and-experimental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bidensity Particle Laden Flows on an Incline</title>
+      <link>https://avivaprins.github.io/publication/bidensity-particle-laden-flows/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://avivaprins.github.io/publication/bidensity-particle-laden-flows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</title>
+      <link>https://avivaprins.github.io/publication/constant-particle-laden/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://avivaprins.github.io/publication/constant-particle-laden/</guid>
       <description></description>
     </item>
     
