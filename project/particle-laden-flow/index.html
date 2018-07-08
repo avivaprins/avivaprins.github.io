@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.40" />
+  <meta name="author" content="Aviva Prins">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Introduction A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.
+The behavior of these flows are important because they occur in many fields.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://avivaprins.github.io/project/particle-laden-flow/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css//override.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-121172769-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="https://avivaprins.github.io/index.xml" type="application/rss+xml" title="Aviva Prins">
+  <link rel="feed" href="https://avivaprins.github.io/index.xml" type="application/rss+xml" title="Aviva Prins">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://avivaprins.github.io/project/particle-laden-flow/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Aviva Prins">
+  <meta property="og:url" content="https://avivaprins.github.io/project/particle-laden-flow/">
+  <meta property="og:title" content="Particle Laden Flow | Aviva Prins">
+  <meta property="og:description" content="Introduction A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.
+The behavior of these flows are important because they occur in many fields."><meta property="og:image" content="https://avivaprins.github.io/img/particle-laden-flow/DamExperiment1.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-05-21T00:00:00-07:00">
+  
+  <meta property="article:modified_time" content="2018-05-21T00:00:00-07:00">
+  
+
+  
+  
+
+  <title>Particle Laden Flow | Aviva Prins</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Aviva Prins</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/tags/research/">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="/img/particle-laden-flow/DamExperiment1.png" class="article-banner" itemprop="image">
+  
+
+  <span class="article-header-caption">From an experiment on landslide erosion.</span>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Particle Laden Flow</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Particle%20Laden%20Flow&amp;url=https%3a%2f%2favivaprins.github.io%2fproject%2fparticle-laden-flow%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2favivaprins.github.io%2fproject%2fparticle-laden-flow%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2favivaprins.github.io%2fproject%2fparticle-laden-flow%2f&amp;title=Particle%20Laden%20Flow"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2favivaprins.github.io%2fproject%2fparticle-laden-flow%2f&amp;title=Particle%20Laden%20Flow"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Particle%20Laden%20Flow&amp;body=https%3a%2f%2favivaprins.github.io%2fproject%2fparticle-laden-flow%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="introduction">Introduction</h2>
+
+<p>A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.</p>
+
+<p>The behavior of these flows are important because they occur in many fields. Mining companies use spiral separators to separate minerals from ore. Mixtures of oil, sand, and water occur in oil spills. Slurries also occur in industrial, biological, and pharmaceutical contexts.</p>
+
+<figure>
+
+<img src="/img/particle-laden-flow/Shear%20Stress.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4><strong>Figure 1:</strong> Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>When the mixture flows down a ramp, some interesting behavior occurs. Sometimes the particles separate from the liquid. Sometimes the particles move faster than the liquid, forming a particle-rich ridge at the front of the flow. Sometimes fingers form. We wanted to create a mathematical model to describe the fluid’s dynamics that depends on external forces and the types and quantity of particles present in the slurry.</p>
+
+<figure class="half-size1">
+
+<img src="/img/particle-laden-flow/settled%20regime.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4><strong>Figure 2:</strong> Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.</h4>
+  
+</figcaption>
+
+</figure>
+
+<figure class="half-size2">
+
+<img src="/img/particle-laden-flow/ridged%20regime.jpg" />
+
+
+</figure>
+
+<p>Previous research<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup><sup class="footnote-ref" id="fnref:3"><a href="#fn:3">2</a></sup><sup class="footnote-ref" id="fnref:4"><a href="#fn:4">3</a></sup> has developed a force-based model for constant volume monodisperse flow. Lee et. al.<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">4</a></sup> and Wong and Bertozzi<sup class="footnote-ref" id="fnref:5"><a href="#fn:5">5</a></sup> extended this model to the bidensity case using experiments and theory, respectively. They used constant volume initial conditions, meaning that a fixed volume of slurry was poured onto the incline and allowed to flow. We adapted their model to use constant flux initial conditions, where the slurry is continuously added to the incline with a constant flow rate. We also performed experiments using the same total volume fraction $\phi_0 = \frac{V_p}{V_t} = 0.4$ parameter, and compared the results to the prediction of the theory.</p>
+
+<h2 id="theory">Theory</h2>
+
+<p>Using the Navier-Stokes equation and particle mass conservation, we can create a system of coupled ODEs. Let $\phi_i$, $i=1,2$ to be the volume fraction of particle $i$ to the total volume, $\phi = \phi_1 + \phi_2$, and the $\boldsymbol{J}_i$ term is the flux of particle $i$:
+\begin{aligned}
+   0 &amp;= \nabla \cdot (-pI + \mu(\nabla\boldsymbol{u} + \nabla\boldsymbol{u}^T)) + \rho\boldsymbol{g}. \\<br />
+   0 &amp;= \frac{\partial \phi_i}{\partial t} + \boldsymbol{u} \cdot \nabla \phi_i + \nabla \cdot \boldsymbol{J}_i, \quad i=1,2.
+\end{aligned}
+Assuming equilibrium in the $z$-direction, the resulting system of ODEs relates the dervitives of the shear stress $\sigma$, viscosity $\mu$, and density $\rho$.</p>
+
+<p>To model the height and front position of the fluid and two particles, we introduce depth-averaged particle concentration and volume ratio. Then we have a system of PDEs:
+\begin{aligned}
+   0 &amp;= \frac{\partial h}{\partial t} + \frac{\partial}{\partial x}(h^3f(\bar{\phi},\bar{\chi})) \\<br />
+   0 &amp;= \frac{\partial (h\bar{\phi_i})}{\partial x} + \frac{\partial}{\partial x}(h^3g_i(\bar{\phi},\bar{\chi})), \quad i=1,2
+\end{aligned}</p>
+
+<p>We consider the Riemann initial condition:
+\begin{aligned}
+   h(x,0) &amp;= \begin{cases} \left[\frac{3\mu(\phi_0)Q}{W\rho(\phi_0)g\sin\alpha}\right]^\frac{1}{3}, &amp; x<0 \\
+\varepsilon, & x>0 \end{cases} \\<br />
+   \bar{\phi}(x,0) &amp;= \begin{cases} \phi_0, &amp; x<0 \\
+0, \qquad \qquad \qquad \! & x>0 \end{cases} \\<br />
+   \bar{\chi}(x,0) &amp;= \begin{cases} \chi_0, &amp; x<0 \\
+0, \qquad \qquad \qquad \! & x>0 \end{cases} \\<br />
+\end{aligned}</p>
+
+<p>Finally, expressing the system in vector notation we have:
+\begin{equation}
+    U = (h, h\bar{\phi_1},h\bar{\phi_2})^T \\<br />
+    F(U) = h^3(f,g_1,g_2)^T
+\end{equation}
+$$U_t + (F(U))_x = 0$$</p>
+
+<p>We then solve the partial differential equation using an upwind scheme. The height profile can be obtained from $h$ and the particle front profile can be found from plotting the concentration profile.</p>
+
+<h2 id="experiments">Experiments</h2>
+
+<p>We can perform experiments to track the particle fronts and height profile of the particle laden flow. We can vary the total volume fraction $\phi_0$, the volume ratio between beads $\chi$, and the inclination angle $\alpha$ of the track. In addition, we can have two types of initial conditions: constant volume or constant flux. In the constant volume case we measure and pour a finite volume onto the track. In the constant flux case, we use a pump to continuously add slurry to the track. A picture of the track is below.</p>
+
+<figure>
+
+<img src="/img/particle-laden-flow/Trackpic.png" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4><strong>Figure 3:</strong> A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>In 2017, we used the following materials:</p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Particles</strong></th>
+<th><strong>density</strong> $\rho$</th>
+<th><strong>diameter</strong> $d$</th>
+<th><strong>color</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Small Glass (P1)</td>
+<td>$2.5$ g/cm$^3$</td>
+<td>$0.07-0.125$ mm</td>
+<td>pink (dyed)</td>
+</tr>
+
+<tr>
+<td>Small Ceramic (P2)</td>
+<td>$3.8$ g/cm$^3$</td>
+<td>$0.150-0.180$ mm</td>
+<td>blue (dyed)</td>
+</tr>
+
+<tr>
+<td>Large Glass (P3)</td>
+<td>$2.5$ g/cm$^3$</td>
+<td>$0.40-0.60$ mm</td>
+<td>white</td>
+</tr>
+
+<tr>
+<td>Large Ceramic (P4)</td>
+<td>$3.8$ g/cm$^3$</td>
+<td>$0.40-0.60$ mm</td>
+<td>red</td>
+</tr>
+
+<tr>
+<td><strong>Fluid</strong></td>
+<td><strong>density</strong> $\rho$</td>
+<td><strong>viscosity</strong> $\nu$</td>
+<td><strong>color</strong></td>
+</tr>
+
+<tr>
+<td>PDMS oil</td>
+<td>$0.971$ g/cm$^3$</td>
+<td>$10^{-3}$ m$^2$/s</td>
+<td>clear</td>
+</tr>
+</tbody>
+</table>
+
+<p>The liquid used in all experiments is viscous polydimethylsiloxane (PDMS) oil. For bidensity experiments, we use glass and ceramic beads with the same diameter (P3 and P4). For bidisperse experiments, we use pairs of beads with the same density but different diameters (P1 and P3, or P2 and P4).</p>
+
+<p>We film the slurry as it flows down the track to capture front position and velocity information. Using MATLAB, we can analyze the concentrations of particles present in different segments of the flow. We identify the front position of each species of particle and the PDMS.</p>
+
+<p>To create a height profile of the flow, we use a laser sheet and analyze video in MATLAB. As shown in Figure 4, the laser line position in the video is distorted by the slurry.</p>
+
+<figure>
+
+<img src="/img/particle-laden-flow/heightP.png" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4><strong>Figure 4:</strong> One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.</h4>
+  
+</figcaption>
+
+</figure>
+
+<h2 id="experimental-results">Experimental Results</h2>
+
+<p>The constant flux bidensity experiments from 2017 are summarized in Figure 5. As the phase diagram shows, we experimentally see the ridged regime at trials displayed by the blue diamonds, the settled regime at trials displayed by black circles, and the well-mixed regime at trials displayed by red circles.The darker shaded region on the table shows where we expect to see more ridged regimes, and the white area is where we expect to see settled regimes. The light gray region in between our ridged and settled experiments is where we see the transient well-mixed regime.
+<figure>
+
+<img src="/img/particle-laden-flow/Phase_Diagram_final.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4><strong>Figure 5:</strong> Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.</h4>
+  
+</figcaption>
+
+</figure></p>
+
+<h2 id="numerical-results">Numerical Results</h2>
+
+<p>Figures 5 and 6 compare the simulation and experimental results for front position and height profile. In the settled regime, there are three distinct lines in both simulation and experiment corresponding to the three fronts. Although they do not align perfectly, we can see that qualitatively, the fluid and the lighter particles are behaving similarly to simulation, as they are moving with similar velocity. In the ridged regime, the simulated front positions coincide with the experimental results.</p>
+
+<figure class="half-size1">
+
+<img src="/img/particle-laden-flow/fpcmp_alpha30_chi0.75.png" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4><strong>Figure 5:</strong> Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.</h4>
+  
+</figcaption>
+
+</figure>
+
+<figure class="half-size2">
+
+<img src="/img/particle-laden-flow/fpcmp_alpha50_chi0.5.png" />
+
+
+</figure>
+
+<p>In the settled regime, the height profile for the experimental data and theoretical data correspond to each other well, except that the real height is about 1mm higher than predicted. In the ridged regime, again the shape of the graphs from experiment and simulation agrees with each other. But in the simulation, the spike at the slurry front will keep increasing in height as time goes on. This unrealistic behavior depends on the precursor height for the simulation. In this particular example, the precursor height is set to be 1% of the initial height of the slurry. Higher precursor height will prevent this behavior. If the precursor height is set to be 35% or higher, then the front will not keep getting higher forever.</p>
+
+<figure class="half-size1">
+
+<img src="/img/particle-laden-flow/alpha30.png" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4><strong>Figure 6:</strong> Height profile for the settled (left) and ridged (right) regimes.</h4>
+  
+</figcaption>
+
+</figure>
+
+<figure class="half-size2">
+
+<img src="/img/particle-laden-flow/alpha50.png" />
+
+
+</figure>
+
+<h2 id="discussion">Discussion</h2>
+
+<p>We found that the behavior of constant flux bidensity flow is similar to the behavior of constant volume bidensity flow studied in previous work <sup class="footnote-ref" id="fnref:2"><a href="#fn:2">4</a></sup><sup class="footnote-ref" id="fnref:5"><a href="#fn:5">5</a></sup>. Experimentally, we determine the time required for a regime to emerge, and the critical angle at which the transition between settled and ridged regimes occurs. In addition, we implement a theoretical model that shows the same results. The comparison between the theory and experiment shows good agreement, especially in the ridged regime. Unlike in previous work, the front position grows linearly with time because of the constant flux initial condition.</p>
+
+<h2 id="future-work">Future Work</h2>
+
+<p>The current model predicts the ridge to grow arbitrarily large in height as time goes on. Further research could look into mitigating this behavior by including a precursor height, i.e. a thickness of the fluid that is already present on the incline before the front reaches it. It may also be useful to look into improving the experimental technique used to measure the height profile to reduce noise. Our model may also be modified to investigate other types of slurries, such as with different size particles.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>Many thanks to all the undergraduate and graduate students I worked with. In 2016, I worked with Patrick Flynn, Joseph Pappe, William Sisson, Sam Stanton, Jeffrey Wong, Ruiyi Yang. In Spring 2017, I worked with Jessica Bojorquez, Josh Crasto, Dominic Diaz, Margaret Koulikova, Tameez Latib, Andrew Shapiro, and Clover Ye. In Summer 2017, I worked with Jessica Bojorquez, Adam Busis, Chutian Ma, Andrew Shapiro, Qiyao Zhu, and Xinzhe Zuo. My mentors are Dr. David Arnold, Dr. Claudia Falcon, and Dr. Michael Lindstrom. The Principle Investigator (PI) of the lab is Dr. Andrea Bertozzi. Thank you to the Science Research Initiative&rsquo;s Summer Scholars Research Program for funding in 2016. This material is based upon work supported by the National Science Foundation under grants DMS-1312543, DMS-1659676, and DMS-1045536.</p>
+
+<h2 id="bibliography">Bibliography</h2>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Herbert E Huppert.  Flow and instability of a viscous current down a slope. <em>Nature</em>, 300(5891):427–429, 1982.
+ <a class="footnote-return" href="#fnref:1"><sup>^</sup></a></li>
+<li id="fn:3">D. Leighton and A. Acrivos.  The shear-induced migration of particles in concentrated suspensions. <em>Journal of Fluid Mechanics</em>, 181:415–439, August 1987.
+ <a class="footnote-return" href="#fnref:3"><sup>^</sup></a></li>
+<li id="fn:4">N Murisic, J Ho, V Hu, P Latterman, T Koch, K Lin, M Mata, and AL Bertozzi. Particle-laden viscous thin-film flows on an incline: Experiments compared with a theory based on shear-induced migration and particle settling. <em>Physica D: Nonlinear Phenomena</em>, 240(20):1661–1673, 2011.
+ <a class="footnote-return" href="#fnref:4"><sup>^</sup></a></li>
+<li id="fn:2">Sungyon Lee, Aliki Mavromoustaki, Gilberto Urdaneta, Kaiwen Huang, and Andrea L Bertozzi. Experimental investigation of bidensity slurries on an incline. <em>Granular Matter</em>, 16(2):269-274, 2014.
+ <a class="footnote-return" href="#fnref:2"><sup>^</sup></a></li>
+<li id="fn:5">Jeffrey T. Wong and Andrea L. Bertozzi.  A conservation law model for bidensity suspensions on an incline. <em>Physica D: Nonlinear Phenomena</em>, 330:47–57, 2016.
+ <a class="footnote-return" href="#fnref:5"><sup>^</sup></a></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="https://avivaprins.github.io/tags/featured/">featured</a>
+  
+  <a class="btn btn-primary btn-outline" href="https://avivaprins.github.io/tags/research/">research</a>
+  
+  <a class="btn btn-primary btn-outline" href="https://avivaprins.github.io/tags/fluid-dynamics/">fluid-dynamics</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    Jessica Bojorquez, Adam Busis, Chutian Ma, Aviva Prins, Andrew Shapiro, Qiyao Zhu, Xinzhe Zuo</span>.
+  <a href="https://avivaprins.github.io/publication/theoretical-and-experimental/" itemprop="name">Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</a>.
+  Preprint,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://avivaprins.github.io/files/pdf/theoretical-and-experimental.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://avivaprins.github.io/project/particle-laden-flow/">
+    Project
+  </a>
+  
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://meetings.aps.org/Meeting/MAR18/Session/L60.347" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    Jessica Bojorquez, Josh Crasto, Dominic Diaz, Margaret Koulikova, Tameez Latib, Aviva Prins, Andrew Shapiro, Clover Ye</span>.
+  <a href="https://avivaprins.github.io/publication/bidensity-particle-laden-flows/" itemprop="name">Bidensity Particle Laden Flows on an Incline</a>.
+  Preprint,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://avivaprins.github.io/files/pdf/bidensity-particle-laden.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://avivaprins.github.io/project/particle-laden-flow/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    Patrick Flynn, Joseph Pappe, Aviva Prins, William Sisson, Samuel Stanton, Ruiyi Yang</span>.
+  <a href="https://avivaprins.github.io/publication/constant-particle-laden/" itemprop="name">Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</a>.
+  Preprint,
+  2016.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://avivaprins.github.io/files/pdf/Constant-Flux-Particle-laden-Viscous-Thin-Film.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="https://avivaprins.github.io/project/particle-laden-flow/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 Aviva Prins &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

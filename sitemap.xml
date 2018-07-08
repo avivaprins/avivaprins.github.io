@@ -50,6 +50,15 @@
     
     <url>
     
+      <loc>https://avivaprins.github.io/project/beam/</loc>
+      <lastmod>2018-06-12T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://avivaprins.github.io/publication/gryd-pca-report/</loc>
       <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     </url>
@@ -59,8 +68,26 @@
     
     <url>
     
+      <loc>https://avivaprins.github.io/project/particle-laden-flow/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://avivaprins.github.io/publication/theoretical-and-experimental/</loc>
       <lastmod>2017-08-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://avivaprins.github.io/project/audubon/</loc>
+      <lastmod>2017-06-12T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -113,6 +140,15 @@
     
     <url>
     
+      <loc>https://avivaprins.github.io/project/women-in-technology/</loc>
+      <lastmod>2016-06-12T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://avivaprins.github.io/publication_types/3/</loc>
       <lastmod>2018-06-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -144,6 +180,16 @@
     
       <loc>https://avivaprins.github.io/tags/featured/</loc>
       <lastmod>2018-06-24T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://avivaprins.github.io/tags/fluid-dynamics/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -204,6 +250,16 @@
     
       <loc>https://avivaprins.github.io/tags/</loc>
       <lastmod>2018-06-24T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://avivaprins.github.io/tags/teaching/</loc>
+      <lastmod>2018-06-12T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
