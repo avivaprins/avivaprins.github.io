@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aviva Prins</copyright>
-    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://avivaprins.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
+      <link>https://avivaprins.github.io/publication/gryd-dmd/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avivaprins.github.io/publication/gryd-dmd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>

@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
+      <link>https://avivaprins.github.io/publication/gryd-dmd/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avivaprins.github.io/publication/gryd-dmd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Text to Speech</title>
       <link>https://avivaprins.github.io/project/text-to-speech/</link>
       <pubDate>Sun, 15 Jul 2018 00:00:00 -0700</pubDate>
@@ -85,13 +94,13 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 &lt;h2 id=&#34;nonlinear-dimensionality-reduction&#34;&gt;Nonlinear Dimensionality Reduction&lt;/h2&gt;
 
-&lt;p&gt;I am currently working on nonlinear dimensionality reduction using manifold learning techniques in the UCLA Applied Math REU.&lt;/p&gt;
-
 &lt;p&gt;Isomap is a nonlinear dimensionality reduction method that extends metric multidimensional distances (MDS). The algorithm has three steps. First, it performs $k$-nearest neighbors to identify the contour of the manifold. Second, it estimates the geodesic distances by calculating the shortest paths between points. Finally, Isomap performs MDS on the new distance matrix.&lt;/p&gt;
 
-&lt;p&gt;In addition, I will be investigating longitudinal patterns this summer.&lt;/p&gt;
+&lt;p&gt;Additionally, Isomap is isometric, meaning that the mapping between manifolds preserves distances between points. Since we want to understand how different responses relate to each other, this is crutial. In the 2018 UCLA REU, Yifan Li worked on a methodology for nonlinear dimensionality reduction.&lt;/p&gt;
 
-&lt;p&gt;Stay tuned!&lt;/p&gt;
+&lt;h2 id=&#34;dynamic-mode-decomposition&#34;&gt;Dynamic Mode Decomposition&lt;/h2&gt;
+
+&lt;p&gt;In the summer of 2018, I studied the GRYD dataset as a dynamical system using Dynamic Mode Decomposition with Jiazhong Mei and Qinyi Zeng. Please see the publication below.&lt;/p&gt;
 </description>
     </item>
     
