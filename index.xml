@@ -16,7 +16,19 @@
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://avivaprins.github.io/publication/gryd-dmd/</guid>
-      <description></description>
+      <description>&lt;figure&gt;
+
+&lt;img src=&#34;https://avivaprins.github.io/img/GRYD/RF_barplots_Y1R1_R2.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;b&gt;Paper Highlight:&lt;/b&gt; Visualization of risk factor changes within the dataset. Risk factor decreases, showing that the program is effective. In the paper, we use Dynamic Mode Decomposition to quantify this conclusion.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -145,7 +157,19 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
       <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://avivaprins.github.io/publication/political-donations-preliminary-research/</guid>
-      <description></description>
+      <description>&lt;figure&gt;
+
+&lt;img src=&#34;https://avivaprins.github.io/img/political-donation-data/preview.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;b&gt;Paper Highlight:&lt;/b&gt; Prediction of 2008 Senatorial elections (sans Alaska) using modularity community detection on US donation data.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -164,7 +188,19 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://avivaprins.github.io/publication/gryd-pca-report/</guid>
-      <description></description>
+      <description>&lt;figure&gt;
+
+&lt;img src=&#34;https://avivaprins.github.io/img/GRYD/preview.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;b&gt;Paper Highlight:&lt;/b&gt; PCA projection of all responses to the questionnaire. Though the risk factors (RFs) are grouped according to value, the overlap is undesirable. The goal is to find an algorithm to reduce the dimensionality of the dataset, such that the risk factors are divided into $n$ groups.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -446,7 +482,19 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://avivaprins.github.io/publication/theoretical-and-experimental/</guid>
-      <description></description>
+      <description>&lt;figure&gt;
+
+&lt;img src=&#34;https://avivaprins.github.io/img/particle-laden-flow/Phase_Diagram_final.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;b&gt;Paper Highlight:&lt;/b&gt; Phase diagram of experimentally observed regimes (settled, well-mixed, or ridged) depending on volume ratio $\chi$ and inclination angle $\alpha$.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -465,7 +513,19 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://avivaprins.github.io/publication/bidensity-particle-laden-flows/</guid>
-      <description></description>
+      <description>&lt;figure&gt;
+
+&lt;img src=&#34;https://avivaprins.github.io/img/particle-laden-flow/settled_50_0.5.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;b&gt;Paper Highlight:&lt;/b&gt; Progression of a settled regime experiment. The border of the slurry is identified by front tracking code in blue. The time step between screenshots is 12 seconds. In this experiment, $\alpha =50^{\circ}$ and $\chi = 0.5$.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -474,7 +534,19 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
       <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://avivaprins.github.io/publication/constant-particle-laden/</guid>
-      <description></description>
+      <description>&lt;figure&gt;
+
+&lt;img src=&#34;https://avivaprins.github.io/img/particle-laden-flow/Trackpic.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;b&gt;Paper Highlight:&lt;/b&gt; Experimental setup. Shown is the adjustable incline. On the left is the peristaltic pump.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
