@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Aviva Prins</title>
-    <link>https://avivaprins.github.io/home/</link>
+    <link>https://avivaprins.com/home/</link>
     <description>Recent content in Homes on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aviva Prins</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://avivaprins.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://avivaprins.com/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://avivaprins.github.io/home/about/</link>
+      <link>https://avivaprins.com/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/home/about/</guid>
+      <guid>https://avivaprins.com/home/about/</guid>
       <description>Biography I study applied mathematics with a specialization in computing at UCLA. I have studied fluid dynamics, financial scores, and United States political donation data. I currently research Gang Reduction and Youth Development.
 I love using math to solve puzzles and real-world problems.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://avivaprins.github.io/home/projects/</link>
+      <link>https://avivaprins.com/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/home/projects/</guid>
+      <guid>https://avivaprins.com/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://avivaprins.github.io/home/tags/</link>
+      <link>https://avivaprins.com/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/home/tags/</guid>
+      <guid>https://avivaprins.com/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://avivaprins.github.io/home/contact/</link>
+      <link>https://avivaprins.com/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/home/contact/</guid>
+      <guid>https://avivaprins.com/home/contact/</guid>
       <description></description>
     </item>
     

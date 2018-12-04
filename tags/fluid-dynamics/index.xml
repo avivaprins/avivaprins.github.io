@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fluid-dynamics on Aviva Prins</title>
-    <link>https://avivaprins.github.io/tags/fluid-dynamics/</link>
-    <description>Recent content in Fluid-dynamics on Aviva Prins</description>
+    <title>Fluid Dynamics on Aviva Prins</title>
+    <link>https://avivaprins.com/tags/fluid-dynamics/</link>
+    <description>Recent content in Fluid Dynamics on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aviva Prins</copyright>
     <lastBuildDate>Mon, 21 May 2018 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://avivaprins.github.io/tags/fluid-dynamics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://avivaprins.com/tags/fluid-dynamics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Particle Laden Flow</title>
-      <link>https://avivaprins.github.io/project/particle-laden-flow/</link>
+      <link>https://avivaprins.com/project/particle-laden-flow/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/particle-laden-flow/</guid>
+      <guid>https://avivaprins.com/project/particle-laden-flow/</guid>
       <description>Introduction A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&amp;rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&amp;rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.
 The behavior of these flows are important because they occur in many fields.</description>
     </item>

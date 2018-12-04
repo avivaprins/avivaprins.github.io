@@ -2,88 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Aviva Prins</title>
-    <link>https://avivaprins.github.io/project/</link>
+    <link>https://avivaprins.com/project/</link>
     <description>Recent content in Projects on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aviva Prins</copyright>
     <lastBuildDate>Sun, 15 Jul 2018 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://avivaprins.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://avivaprins.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Text to Speech</title>
-      <link>https://avivaprins.github.io/project/text-to-speech/</link>
+      <link>https://avivaprins.com/project/text-to-speech/</link>
       <pubDate>Sun, 15 Jul 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/text-to-speech/</guid>
+      <guid>https://avivaprins.com/project/text-to-speech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gang Reduction and Youth Development</title>
-      <link>https://avivaprins.github.io/project/gang-reduction-youth-development/</link>
+      <link>https://avivaprins.com/project/gryd/</link>
       <pubDate>Sun, 24 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/gang-reduction-youth-development/</guid>
+      <guid>https://avivaprins.com/project/gryd/</guid>
       <description>The Gang Reduction and Youth Development (GRYD) program in Los Angeles has a program for adolescents at risk of joining gangs. GRYD uses a questionnaire (&amp;lsquo;Youth Services Eligibility Tool&amp;rsquo;, or YSET) to evaluate the eligibility of students for this program. Students are sorted into three categories: low risk, at risk, and high risk. The program aims to provide resources for the at risk group.
 The dataset contains the responses of $N \sim 10,000$ students.</description>
     </item>
     
     <item>
       <title>Political Donations in the United States</title>
-      <link>https://avivaprins.github.io/project/political-donation-data/</link>
+      <link>https://avivaprins.com/project/us-political-donations/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/political-donation-data/</guid>
-      <description>Preliminary Research This project is currently ongoing. Please see the links below.</description>
+      <guid>https://avivaprins.com/project/us-political-donations/</guid>
+      <description>Preliminary Research This project is ongoing. Please see the links below.</description>
     </item>
     
     <item>
       <title>Financial Well Being</title>
-      <link>https://avivaprins.github.io/project/financial-well-being/</link>
+      <link>https://avivaprins.com/project/financial-well-being/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/financial-well-being/</guid>
+      <guid>https://avivaprins.com/project/financial-well-being/</guid>
       <description>One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.
 Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being.</description>
     </item>
     
     <item>
       <title>Building Engineers and Mentors</title>
-      <link>https://avivaprins.github.io/project/beam/</link>
+      <link>https://avivaprins.com/project/beam/</link>
       <pubDate>Tue, 12 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/beam/</guid>
+      <guid>https://avivaprins.com/project/beam/</guid>
       <description>Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their website.</description>
     </item>
     
     <item>
       <title>Particle Laden Flow</title>
-      <link>https://avivaprins.github.io/project/particle-laden-flow/</link>
+      <link>https://avivaprins.com/project/particle-laden-flow/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/particle-laden-flow/</guid>
+      <guid>https://avivaprins.com/project/particle-laden-flow/</guid>
       <description>Introduction A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&amp;rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&amp;rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.
 The behavior of these flows are important because they occur in many fields.</description>
     </item>
     
     <item>
       <title>Environmental Education</title>
-      <link>https://avivaprins.github.io/project/audubon/</link>
+      <link>https://avivaprins.com/project/audubon/</link>
       <pubDate>Mon, 12 Jun 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/audubon/</guid>
+      <guid>https://avivaprins.com/project/audubon/</guid>
       <description>The Los Angeles Audubon’s environmental education program at Kenneth Hahn State Recreation Area educates local students about the outdoors. Interns lead elementary and middle school students on guided walks with educational stations. The curriculum includes lessons on photosynthesis, ecosystems, ecology, and geology depending on grade level.</description>
     </item>
     
     <item>
       <title>Women in Technology</title>
-      <link>https://avivaprins.github.io/project/women-in-technology/</link>
+      <link>https://avivaprins.com/project/women-in-technology/</link>
       <pubDate>Sun, 12 Jun 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/project/women-in-technology/</guid>
+      <guid>https://avivaprins.com/project/women-in-technology/</guid>
       <description>Women in Technology is a chapter of the Association for Computing Machinery at Santa Monica College. I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.</description>
     </item>
     

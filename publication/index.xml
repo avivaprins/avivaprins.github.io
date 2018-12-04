@@ -2,77 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Aviva Prins</title>
-    <link>https://avivaprins.github.io/publication/</link>
+    <link>https://avivaprins.com/publication/</link>
     <description>Recent content in Publications on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aviva Prins</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="https://avivaprins.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://avivaprins.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
-      <link>https://avivaprins.github.io/publication/gryd-dmd/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <title>Bidensity Particle Laden Flows on an Incline: Experimental Investigation of Constant Volume and Constant Flux Conditions</title>
+      <link>https://avivaprins.com/publication/particle-laden-flow-siuro/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://avivaprins.github.io/publication/gryd-dmd/</guid>
-      <description>Paper Highlight: Visualization of risk factor changes within the dataset. Risk factor decreases, showing that the program is effective. In the paper, we use Dynamic Mode Decomposition to quantify this conclusion. </description>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-siuro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
+      <link>https://avivaprins.com/publication/gryd-dmd/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/publication/gryd-dmd/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
-      <link>https://avivaprins.github.io/publication/financial-well-being-report/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <link>https://avivaprins.com/publication/financial-well-being-report/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/publication/financial-well-being-report/</guid>
+      <guid>https://avivaprins.com/publication/financial-well-being-report/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
-      <link>https://avivaprins.github.io/publication/political-donations-preliminary-research/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <link>https://avivaprins.com/publication/political-donations/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/publication/political-donations-preliminary-research/</guid>
-      <description>Paper Highlight: Prediction of 2008 Senatorial elections (sans Alaska) using modularity community detection on US donation data. </description>
+      <guid>https://avivaprins.com/publication/political-donations/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>PCA and Isomap Analysis</title>
-      <link>https://avivaprins.github.io/publication/gryd-pca-report/</link>
-      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <link>https://avivaprins.com/publication/gryd-pca/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/publication/gryd-pca-report/</guid>
-      <description>Paper Highlight: PCA projection of all responses to the questionnaire. Though the risk factors (RFs) are grouped according to value, the overlap is undesirable. The goal is to find an algorithm to reduce the dimensionality of the dataset, such that the risk factors are divided into $n$ groups. </description>
+      <guid>https://avivaprins.com/publication/gryd-pca/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
-      <link>https://avivaprins.github.io/publication/theoretical-and-experimental/</link>
-      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/publication/theoretical-and-experimental/</guid>
-      <description>Paper Highlight: Phase diagram of experimentally observed regimes (settled, well-mixed, or ridged) depending on volume ratio $\chi$ and inclination angle $\alpha$. </description>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Bidensity Particle Laden Flows on an Incline</title>
-      <link>https://avivaprins.github.io/publication/bidensity-particle-laden-flows/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <link>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/publication/bidensity-particle-laden-flows/</guid>
-      <description>Paper Highlight: Progression of a settled regime experiment. The border of the slurry is identified by front tracking code in blue. The time step between screenshots is 12 seconds. In this experiment, $\alpha =50^{\circ}$ and $\chi = 0.5$. </description>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</title>
-      <link>https://avivaprins.github.io/publication/constant-particle-laden/</link>
-      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.github.io/publication/constant-particle-laden/</guid>
-      <description>Paper Highlight: Experimental setup. Shown is the adjustable incline. On the left is the peristaltic pump. </description>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</guid>
+      <description></description>
     </item>
     
   </channel>

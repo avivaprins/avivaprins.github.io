@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Aviva Prins</title>
-    <link>https://avivaprins.github.io/categories/</link>
+    <link>https://avivaprins.com/categories/</link>
     <description>Recent content in Categories on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Aviva Prins</copyright>
     
-	<atom:link href="https://avivaprins.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://avivaprins.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
