@@ -6,8 +6,8 @@
     <description>Recent content in Research on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Aviva Prins</copyright>
-    <lastBuildDate>Sun, 24 Jun 2018 00:00:00 -0700</lastBuildDate>
+    <copyright>&amp;copy; {year} Aviva Prins</copyright>
+    <lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
     
 	<atom:link href="https://avivaprins.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Gang Reduction and Youth Development</title>
       <link>https://avivaprins.com/project/gryd/</link>
-      <pubDate>Sun, 24 Jun 2018 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
       
       <guid>https://avivaprins.com/project/gryd/</guid>
       <description>The Gang Reduction and Youth Development (GRYD) program in Los Angeles has a program for adolescents at risk of joining gangs. GRYD uses a questionnaire (&amp;lsquo;Youth Services Eligibility Tool&amp;rsquo;, or YSET) to evaluate the eligibility of students for this program. Students are sorted into three categories: low risk, at risk, and high risk. The program aims to provide resources for the at risk group.
@@ -23,18 +23,9 @@ The dataset contains the responses of $N \sim 10,000$ students.</description>
     </item>
     
     <item>
-      <title>Political Donations in the United States</title>
-      <link>https://avivaprins.com/project/us-political-donations/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/project/us-political-donations/</guid>
-      <description>Preliminary Research This project is ongoing. Please see the links below.</description>
-    </item>
-    
-    <item>
       <title>Financial Well Being</title>
       <link>https://avivaprins.com/project/financial-well-being/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
       
       <guid>https://avivaprins.com/project/financial-well-being/</guid>
       <description>One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.
@@ -42,13 +33,22 @@ Using Support Vector Machines (SVM), a supervised machine learning method, we in
     </item>
     
     <item>
-      <title>Particle Laden Flow</title>
-      <link>https://avivaprins.com/project/particle-laden-flow/</link>
-      <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
+      <title>Particle Laden Flows</title>
+      <link>https://avivaprins.com/project/particle-laden-flows/</link>
+      <pubDate>Sun, 04 Jun 2017 18:10:35 -0700</pubDate>
       
-      <guid>https://avivaprins.com/project/particle-laden-flow/</guid>
+      <guid>https://avivaprins.com/project/particle-laden-flows/</guid>
       <description>Introduction A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&amp;rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&amp;rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.
 The behavior of these flows are important because they occur in many fields.</description>
+    </item>
+    
+    <item>
+      <title>Political Donations in the United States</title>
+      <link>https://avivaprins.com/project/political-donations/</link>
+      <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/project/political-donations/</guid>
+      <description>This project is ongoing. Please see the links below.</description>
     </item>
     
   </channel>

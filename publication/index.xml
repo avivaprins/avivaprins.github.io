@@ -6,8 +6,8 @@
     <description>Recent content in Publications on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Aviva Prins</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
+    <copyright>&amp;copy; {year} Aviva Prins</copyright>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://avivaprins.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,19 +23,19 @@
     
     <item>
       <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
-      <link>https://avivaprins.com/publication/financial-well-being-report/</link>
+      <link>https://avivaprins.com/publication/financial-well-being/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.com/publication/financial-well-being-report/</guid>
+      <guid>https://avivaprins.com/publication/financial-well-being/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
-      <link>https://avivaprins.com/publication/political-donations/</link>
+      <link>https://avivaprins.com/publication/utilizing-political-campaign/</link>
       <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.com/publication/political-donations/</guid>
+      <guid>https://avivaprins.com/publication/utilizing-political-campaign/</guid>
       <description></description>
     </item>
     

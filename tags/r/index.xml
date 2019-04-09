@@ -6,29 +6,29 @@
     <description>Recent content in R on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Aviva Prins</copyright>
-    <lastBuildDate>Thu, 21 Jun 2018 00:00:00 -0700</lastBuildDate>
+    <copyright>&amp;copy; {year} Aviva Prins</copyright>
+    <lastBuildDate>Mon, 04 Jun 2018 19:06:00 -0700</lastBuildDate>
     
 	<atom:link href="https://avivaprins.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Political Donations in the United States</title>
-      <link>https://avivaprins.com/project/us-political-donations/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/project/us-political-donations/</guid>
-      <description>Preliminary Research This project is ongoing. Please see the links below.</description>
-    </item>
-    
-    <item>
       <title>Financial Well Being</title>
       <link>https://avivaprins.com/project/financial-well-being/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
       
       <guid>https://avivaprins.com/project/financial-well-being/</guid>
       <description>One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.
 Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being.</description>
+    </item>
+    
+    <item>
+      <title>Political Donations in the United States</title>
+      <link>https://avivaprins.com/project/political-donations/</link>
+      <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/project/political-donations/</guid>
+      <description>This project is ongoing. Please see the links below.</description>
     </item>
     
   </channel>

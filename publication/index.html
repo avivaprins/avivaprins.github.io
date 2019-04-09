@@ -5,17 +5,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 3.2.0">
-  <meta name="generator" content="Hugo 0.51" />
-  <meta name="author" content="Aviva Prins">
+  <meta name="generator" content="Source Themes Academic 4.1.0">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
 
   
   
   
   
+  
+    
+    
     
   
-  <meta name="description" content="Applied Math Student">
+  
+
+  <meta name="author" content="Aviva Prins">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Student">
 
   
   <link rel="alternate" hreflang="en-us" href="https://avivaprins.com/publication/">
@@ -48,7 +61,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
 
     
@@ -60,7 +73,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -78,7 +92,15 @@
 
   <link rel="stylesheet" href="/styles.css">
   
-  <link rel="stylesheet" href="/css//override.css">
+    
+    
+    
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.fa9911709136aee99ad4733b625b0f85.css">
   
 
   
@@ -122,10 +144,10 @@
   <meta property="og:site_name" content="Aviva Prins">
   <meta property="og:url" content="https://avivaprins.com/publication/">
   <meta property="og:title" content="Publications | Aviva Prins">
-  <meta property="og:description" content="Applied Math Student"><meta property="og:image" content="https://avivaprins.com/img/profile.png">
+  <meta property="og:description" content="Student"><meta property="og:image" content="https://avivaprins.com/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-01-01T00:00:00-08:00">
+  <meta property="og:updated_time" content="2018-08-01T00:00:00-07:00">
   
 
   
@@ -185,7 +207,7 @@
 
       
       
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         
 
         
@@ -227,6 +249,9 @@
         
 
       
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
 
         
 
@@ -238,6 +263,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
         
 
       </ul>
@@ -307,23 +336,27 @@
         
       
 
-      <div class="form-row mb-3">
+      <div class="form-row mb-4">
         <div class="col-auto">
-          Filter by type:
+          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
+          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
         </div>
         <div class="col-auto">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">All</option>
+            <option value="*">Type</option>
             
-            <option value=".pubtype-3">
-              Manuscript
+
+            
+            <option value=".pubtype-4">
+              
+              Report
             </option>
             
           </select>
         </div>
         <div class="col-auto">
           <select class="pub-filters form-control form-control-sm" data-filter-group="year">
-            <option value="*">All</option>
+            <option value="*">Date</option>
             
             
             
@@ -351,15 +384,56 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2018">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2018">
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Yifan Li, Jiazhong Mei, Aviva Prins, Qinyi Zeng</span>.
+
+  
+  
+
+  <span itemprop="author" class="article-metadata li-cite-author">
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/yifan-li/">Yifan Li</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/jiazhong-mei/">Jiazhong Mei</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/aviva/">Aviva Prins</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/qinyi-zeng/">Qinyi Zeng</a></span></span>
+  
+
+
+
+  </span>
+  (2018).
   <a href="/publication/gryd-dmd/" itemprop="name">Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</a>.
-  Preprint,
-  2018.
+  
   <p>
 
 
@@ -368,7 +442,9 @@
 
 
 
+
   
+
 
 
 
@@ -389,7 +465,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/pdf/GRYD_NSFposter_2018.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/gryd-dmd/GRYD_NSFposter_2018.pdf" target="_blank" rel="noopener">
   Poster
 </a>
 
@@ -409,6 +485,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -420,15 +499,49 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2018">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2018">
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Harsh Gupta, David Nguyen, Aviva Prins</span>.
-  <a href="/publication/financial-well-being-report/" itemprop="name">How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</a>.
-  Preprint,
-  2018.
+
+  
+  
+
+  <span itemprop="author" class="article-metadata li-cite-author">
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/harsh-gupta/">Harsh Gupta</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/david-nguyen/">David Nguyen</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/aviva/">Aviva Prins</a></span></span>
+  
+
+
+
+  </span>
+  (2018).
+  <a href="/publication/financial-well-being/" itemprop="name">How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</a>.
+  
   <p>
 
 
@@ -437,12 +550,12 @@
 
 
 
-  
-    
+
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/pdf/How-fat-is-your-piggy-bank.pdf" target="_blank" rel="noopener">
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/financial-well-being/financial-well-being.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -476,6 +589,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -487,15 +603,63 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2018">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2018">
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Leah Balter, William Cortes, Jing Lu, Aviva Prins, Oladimeji Salako</span>.
-  <a href="/publication/political-donations/" itemprop="name">Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</a>.
-  Preprint,
-  2018.
+
+  
+  
+
+  <span itemprop="author" class="article-metadata li-cite-author">
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/leah-balter/">Leah Balter</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/william-cortes/">William Cortes</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/jing-lu/">Jing Lu</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/aviva/">Aviva Prins</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/oladimeji-salako/">Oladimeji Salako</a></span></span>
+  
+
+
+
+  </span>
+  (2018).
+  <a href="/publication/utilizing-political-campaign/" itemprop="name">Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</a>.
+  
   <p>
 
 
@@ -504,12 +668,12 @@
 
 
 
-  
-    
+
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/pdf/utilizing-political-campaign.pdf" target="_blank" rel="noopener">
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/utilizing-political-campaign/utilizing-political-campaign.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -536,7 +700,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/us-political-donations/">
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/political-donations/">
     Project
   </a>
   
@@ -549,7 +713,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/political-donations/Investigation%20of%20US%20Political%20Donation%20Data.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/utilizing-political-campaign/Investigation%20of%20US%20Political%20Donation%20Data.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -559,6 +723,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -570,15 +737,35 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2018">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2018">
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Aviva Prins</span>.
+
+  
+  
+
+  <span itemprop="author" class="article-metadata li-cite-author">
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/aviva/">Aviva Prins</a></span></span>
+  
+
+
+
+  </span>
+  (2018).
   <a href="/publication/gryd-pca/" itemprop="name">PCA and Isomap Analysis</a>.
-  Preprint,
-  2018.
+  
   <p>
 
 
@@ -587,20 +774,16 @@
 
 
 
-  
-
-
-
-
-
-
-
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/gryd/">
-    Project
-  </a>
-  
+
+
+
+
+
+
+
+
 
 
 
@@ -612,6 +795,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -623,15 +809,77 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2017">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2017">
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Jessica Bojorquez, Adam Busis, Chutian Ma, Aviva Prins, Andrew Shapiro, Qiyao Zhu, Xinzhe Zuo</span>.
+
+  
+  
+
+  <span itemprop="author" class="article-metadata li-cite-author">
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/jessica-bojorquez/">Jessica Bojorquez</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/adam-busis/">Adam Busis</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/chutian-ma/">Chutian Ma</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/aviva/">Aviva Prins</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/andrew-shapiro/">Andrew Shapiro</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/qiyao-zhu/">Qiyao Zhu</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/xinzhe-zuo/">Xinzhe Zuo</a></span></span>
+  
+
+
+
+  </span>
+  (2017).
   <a href="/publication/particle-laden-flow-summer-2017/" itemprop="name">Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</a>.
-  Preprint,
-  2017.
+  
   <p>
 
 
@@ -640,17 +888,19 @@
 
 
 
-  
-
-
-
-
-
-
-
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/particle-laden-flow/">
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/particle-laden-flows/">
     Project
   </a>
   
@@ -661,7 +911,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/pdf/APS_March2018.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/particle-laden-flow-summer-2017/APS-March2018.pdf" target="_blank" rel="noopener">
   Poster
 </a>
 
@@ -673,6 +923,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -684,15 +937,84 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2017">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2017">
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Jessica Bojorquez, Josh Crasto, Dominic Diaz, Margaret Koulikova, Tameez Latib, Aviva Prins, Andrew Shapiro, Clover Ye</span>.
+
+  
+  
+
+  <span itemprop="author" class="article-metadata li-cite-author">
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/jessica-bojorquez/">Jessica Bojorquez</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/josh-crasto/">Josh Crasto</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/dominic-diaz/">Dominic Diaz</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/margaret-koulikova/">Margaret Koulikova</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/tameez-latib/">Tameez Latib</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/aviva/">Aviva Prins</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/andrew-shapiro/">Andrew Shapiro</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/clover-ye/">Clover Ye</a></span></span>
+  
+
+
+
+  </span>
+  (2017).
   <a href="/publication/particle-laden-flow-spring-2017/" itemprop="name">Bidensity Particle Laden Flows on an Incline</a>.
-  Preprint,
-  2017.
+  
   <p>
 
 
@@ -701,17 +1023,19 @@
 
 
 
-  
-
-
-
-
-
-
-
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/particle-laden-flow/">
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/particle-laden-flows/">
     Project
   </a>
   
@@ -726,6 +1050,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -737,15 +1064,70 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2016">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2016">
           
             <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Patrick Flynn, Joseph Pappe, Aviva Prins, William Sisson, Samuel Stanton, Ruiyi Yang</span>.
+
+  
+  
+
+  <span itemprop="author" class="article-metadata li-cite-author">
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/patrick-flynn/">Patrick Flynn</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/joseph-pappe/">Joseph Pappe</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      
+        <a href="/authors/aviva/">Aviva Prins</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/william-sisson/">William Sisson</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/samuel-stanton/">Samuel Stanton</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/ruiyi-yang/">Ruiyi Yang</a></span></span>
+  
+
+
+
+  </span>
+  (2016).
   <a href="/publication/particle-laden-flow-summer-2016/" itemprop="name">Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</a>.
-  Preprint,
-  2016.
+  
   <p>
 
 
@@ -754,17 +1136,19 @@
 
 
 
-  
-
-
-
-
-
-
-
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/particle-laden-flow/">
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/particle-laden-flows/">
     Project
   </a>
   
@@ -779,6 +1163,9 @@
 
 
 </p>
+
+  
+  
 </div>
 
           
@@ -795,7 +1182,7 @@
   
 
   <p class="powered-by">
-    &copy; 2018 Aviva Prins &middot; 
+    &copy; 2019 Aviva Prins &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -845,14 +1232,17 @@
 
     
     
+    
+    <script src="/js/mathjax-config.js"></script>
+    
 
     
     
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
       
@@ -862,6 +1252,8 @@
       
 
       
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
     
 
@@ -929,10 +1321,12 @@
     
     
     
+      
     
-    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
-
     
+    
+    
+    <script src="/js/academic.min.d7381f2d79e6271d4da28f474f49096c.js"></script>
 
   </body>
 </html>

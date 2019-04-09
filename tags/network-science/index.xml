@@ -6,19 +6,19 @@
     <description>Recent content in Network Science on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Aviva Prins</copyright>
-    <lastBuildDate>Thu, 21 Jun 2018 00:00:00 -0700</lastBuildDate>
+    <copyright>&amp;copy; {year} Aviva Prins</copyright>
+    <lastBuildDate>Fri, 03 Jun 2016 18:20:56 -0700</lastBuildDate>
     
 	<atom:link href="https://avivaprins.com/tags/network-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Political Donations in the United States</title>
-      <link>https://avivaprins.com/project/us-political-donations/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
+      <link>https://avivaprins.com/project/political-donations/</link>
+      <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
       
-      <guid>https://avivaprins.com/project/us-political-donations/</guid>
-      <description>Preliminary Research This project is ongoing. Please see the links below.</description>
+      <guid>https://avivaprins.com/project/political-donations/</guid>
+      <description>This project is ongoing. Please see the links below.</description>
     </item>
     
   </channel>

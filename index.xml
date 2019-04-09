@@ -4,34 +4,16 @@
     <title>Aviva Prins on Aviva Prins</title>
     <link>https://avivaprins.com/</link>
     <description>Recent content in Aviva Prins on Aviva Prins</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Aviva Prins</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <copyright>&amp;copy; {year} Aviva Prins</copyright>
+    <lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
-      <link>https://avivaprins.com/publication/gryd-dmd/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/publication/gryd-dmd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Text to Speech</title>
-      <link>https://avivaprins.com/project/text-to-speech/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/project/text-to-speech/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Gang Reduction and Youth Development</title>
       <link>https://avivaprins.com/project/gryd/</link>
-      <pubDate>Sun, 24 Jun 2018 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
       
       <guid>https://avivaprins.com/project/gryd/</guid>
       <description>
@@ -111,23 +93,36 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
     </item>
     
     <item>
-      <title>Political Donations in the United States</title>
-      <link>https://avivaprins.com/project/us-political-donations/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
+      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
+      <link>https://avivaprins.com/publication/gryd-dmd/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.com/project/us-political-donations/</guid>
-      <description>
-
-&lt;h2 id=&#34;preliminary-research&#34;&gt;Preliminary Research&lt;/h2&gt;
-
-&lt;p&gt;This project is ongoing. Please see the links below.&lt;/p&gt;
-</description>
+      <guid>https://avivaprins.com/publication/gryd-dmd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
+      <link>https://avivaprins.com/publication/financial-well-being/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/publication/financial-well-being/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
+      <link>https://avivaprins.com/publication/utilizing-political-campaign/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/publication/utilizing-political-campaign/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Financial Well Being</title>
       <link>https://avivaprins.com/project/financial-well-being/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
       
       <guid>https://avivaprins.com/project/financial-well-being/</guid>
       <description>&lt;p&gt;One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.&lt;/p&gt;
@@ -137,29 +132,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
     </item>
     
     <item>
-      <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
-      <link>https://avivaprins.com/publication/financial-well-being-report/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/publication/financial-well-being-report/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
-      <link>https://avivaprins.com/publication/political-donations/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/publication/political-donations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Building Engineers and Mentors</title>
-      <link>https://avivaprins.com/project/beam/</link>
-      <pubDate>Tue, 12 Jun 2018 00:00:00 -0700</pubDate>
+      <link>https://avivaprins.com/post/beam/</link>
+      <pubDate>Mon, 04 Jun 2018 19:02:15 -0700</pubDate>
       
-      <guid>https://avivaprins.com/project/beam/</guid>
+      <guid>https://avivaprins.com/post/beam/</guid>
       <description>&lt;p&gt;Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their website.&lt;/p&gt;
 </description>
     </item>
@@ -174,11 +151,20 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
     </item>
     
     <item>
-      <title>Particle Laden Flow</title>
-      <link>https://avivaprins.com/project/particle-laden-flow/</link>
-      <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
+      <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.com/project/particle-laden-flow/</guid>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Particle Laden Flows</title>
+      <link>https://avivaprins.com/project/particle-laden-flows/</link>
+      <pubDate>Sun, 04 Jun 2017 18:10:35 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/project/particle-laden-flows/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -477,25 +463,6 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
-      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
-      <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Environmental Education</title>
-      <link>https://avivaprins.com/project/audubon/</link>
-      <pubDate>Mon, 12 Jun 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/project/audubon/</guid>
-      <description>&lt;p&gt;The Los Angeles Audubon’s environmental education program at Kenneth Hahn State Recreation Area educates local students about the outdoors. Interns lead elementary and middle school students on guided walks with educational stations. The curriculum includes lessons on photosynthesis, ecosystems, ecology, and geology depending on grade level.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Bidensity Particle Laden Flows on an Incline</title>
       <link>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
@@ -514,11 +481,31 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Women in Technology</title>
-      <link>https://avivaprins.com/project/women-in-technology/</link>
-      <pubDate>Sun, 12 Jun 2016 00:00:00 -0700</pubDate>
+      <title>Environmental Education</title>
+      <link>https://avivaprins.com/post/audubon/</link>
+      <pubDate>Sat, 04 Jun 2016 18:33:47 -0700</pubDate>
       
-      <guid>https://avivaprins.com/project/women-in-technology/</guid>
+      <guid>https://avivaprins.com/post/audubon/</guid>
+      <description>&lt;p&gt;The Los Angeles Audubon’s environmental education program at Kenneth Hahn State Recreation Area educates local students about the outdoors. Interns lead elementary and middle school students on guided walks with educational stations. The curriculum includes lessons on photosynthesis, ecosystems, ecology, and geology depending on grade level.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Political Donations in the United States</title>
+      <link>https://avivaprins.com/project/political-donations/</link>
+      <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/project/political-donations/</guid>
+      <description>&lt;p&gt;This project is ongoing. Please see the links below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Women in Technology</title>
+      <link>https://avivaprins.com/post/women-in-technology/</link>
+      <pubDate>Wed, 04 Jun 2014 19:10:25 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/post/women-in-technology/</guid>
       <description>&lt;p&gt;Women in Technology is a chapter of the Association for Computing Machinery at Santa Monica College. I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.&lt;/p&gt;
 </description>
     </item>

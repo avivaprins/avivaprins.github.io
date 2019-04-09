@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Aviva Prins</copyright>
+    <copyright>&amp;copy; {year} Aviva Prins</copyright>
     
 	<atom:link href="https://avivaprins.com/categories/index.xml" rel="self" type="application/rss+xml" />
     

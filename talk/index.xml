@@ -6,8 +6,7 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Aviva Prins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Aviva Prins</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
+    <copyright>&amp;copy; {year} Aviva Prins</copyright>
     
 	<atom:link href="https://avivaprins.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
