@@ -7,10 +7,100 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Fri, 11 Aug 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
     
 	<atom:link href="https://avivaprins.com/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aviva</title>
+      <link>https://avivaprins.com/authors/aviva/</link>
+      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/aviva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jiazhong Mei</title>
+      <link>https://avivaprins.com/authors/jiazhong-mei/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/jiazhong-mei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qinyi Zeng</title>
+      <link>https://avivaprins.com/authors/qinyi-zeng/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/qinyi-zeng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yifan Li</title>
+      <link>https://avivaprins.com/authors/yifan-li/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/yifan-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David Nguyen</title>
+      <link>https://avivaprins.com/authors/david-nguyen/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/david-nguyen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harsh Gupta</title>
+      <link>https://avivaprins.com/authors/harsh-gupta/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/harsh-gupta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jing Lu</title>
+      <link>https://avivaprins.com/authors/jing-lu/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/jing-lu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leah Balter</title>
+      <link>https://avivaprins.com/authors/leah-balter/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/leah-balter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oladimeji Salako</title>
+      <link>https://avivaprins.com/authors/oladimeji-salako/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/oladimeji-salako/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>William Cortes</title>
+      <link>https://avivaprins.com/authors/william-cortes/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/william-cortes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adam Busis</title>
@@ -31,56 +121,11 @@
     </item>
     
     <item>
-      <title>Aviva</title>
-      <link>https://avivaprins.com/authors/aviva/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/aviva/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Chutian Ma</title>
       <link>https://avivaprins.com/authors/chutian-ma/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
       
       <guid>https://avivaprins.com/authors/chutian-ma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clover Ye</title>
-      <link>https://avivaprins.com/authors/clover-ye/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/clover-ye/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>David Nguyen</title>
-      <link>https://avivaprins.com/authors/david-nguyen/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/david-nguyen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dominic Diaz</title>
-      <link>https://avivaprins.com/authors/dominic-diaz/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/dominic-diaz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Harsh Gupta</title>
-      <link>https://avivaprins.com/authors/harsh-gupta/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/harsh-gupta/</guid>
       <description></description>
     </item>
     
@@ -94,29 +139,38 @@
     </item>
     
     <item>
-      <title>Jiazhong Mei</title>
-      <link>https://avivaprins.com/authors/jiazhong-mei/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
+      <title>Qiyao Zhu</title>
+      <link>https://avivaprins.com/authors/qiyao-zhu/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.com/authors/jiazhong-mei/</guid>
+      <guid>https://avivaprins.com/authors/qiyao-zhu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jing Lu</title>
-      <link>https://avivaprins.com/authors/jing-lu/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
+      <title>Xinzhe Zuo</title>
+      <link>https://avivaprins.com/authors/xinzhe-zuo/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.com/authors/jing-lu/</guid>
+      <guid>https://avivaprins.com/authors/xinzhe-zuo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Joseph Pappe</title>
-      <link>https://avivaprins.com/authors/joseph-pappe/</link>
-      <pubDate>Fri, 12 Aug 2016 00:00:00 -0700</pubDate>
+      <title>Clover Ye</title>
+      <link>https://avivaprins.com/authors/clover-ye/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.com/authors/joseph-pappe/</guid>
+      <guid>https://avivaprins.com/authors/clover-ye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dominic Diaz</title>
+      <link>https://avivaprins.com/authors/dominic-diaz/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/dominic-diaz/</guid>
       <description></description>
     </item>
     
@@ -130,15 +184,6 @@
     </item>
     
     <item>
-      <title>Leah Balter</title>
-      <link>https://avivaprins.com/authors/leah-balter/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/leah-balter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Margaret Koulikova</title>
       <link>https://avivaprins.com/authors/margaret-koulikova/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
@@ -148,11 +193,20 @@
     </item>
     
     <item>
-      <title>Oladimeji Salako</title>
-      <link>https://avivaprins.com/authors/oladimeji-salako/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
+      <title>Tameez Latib</title>
+      <link>https://avivaprins.com/authors/tameez-latib/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://avivaprins.com/authors/oladimeji-salako/</guid>
+      <guid>https://avivaprins.com/authors/tameez-latib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joseph Pappe</title>
+      <link>https://avivaprins.com/authors/joseph-pappe/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://avivaprins.com/authors/joseph-pappe/</guid>
       <description></description>
     </item>
     
@@ -162,24 +216,6 @@
       <pubDate>Fri, 12 Aug 2016 00:00:00 -0700</pubDate>
       
       <guid>https://avivaprins.com/authors/patrick-flynn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qinyi Zeng</title>
-      <link>https://avivaprins.com/authors/qinyi-zeng/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/qinyi-zeng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qiyao Zhu</title>
-      <link>https://avivaprins.com/authors/qiyao-zhu/</link>
-      <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/qiyao-zhu/</guid>
       <description></description>
     </item>
     
@@ -202,47 +238,11 @@
     </item>
     
     <item>
-      <title>Tameez Latib</title>
-      <link>https://avivaprins.com/authors/tameez-latib/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/tameez-latib/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>William Cortes</title>
-      <link>https://avivaprins.com/authors/william-cortes/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/william-cortes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>William Sisson</title>
       <link>https://avivaprins.com/authors/william-sisson/</link>
       <pubDate>Fri, 12 Aug 2016 00:00:00 -0700</pubDate>
       
       <guid>https://avivaprins.com/authors/william-sisson/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xinzhe Zuo</title>
-      <link>https://avivaprins.com/authors/xinzhe-zuo/</link>
-      <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/xinzhe-zuo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yifan Li</title>
-      <link>https://avivaprins.com/authors/yifan-li/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/authors/yifan-li/</guid>
       <description></description>
     </item>
     

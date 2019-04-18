@@ -18,8 +18,7 @@
       <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
       
       <guid>https://avivaprins.com/project/gryd/</guid>
-      <description>The Gang Reduction and Youth Development (GRYD) program in Los Angeles has a program for adolescents at risk of joining gangs. GRYD uses a questionnaire (&amp;lsquo;Youth Services Eligibility Tool&amp;rsquo;, or YSET) to evaluate the eligibility of students for this program. Students are sorted into three categories: low risk, at risk, and high risk. The program aims to provide resources for the at risk group.
-The dataset contains the responses of $N \sim 10,000$ students.</description>
+      <description>Research for the GRYD program in Los Angeles</description>
     </item>
     
     <item>
@@ -38,8 +37,7 @@ Using Support Vector Machines (SVM), a supervised machine learning method, we in
       <pubDate>Sun, 04 Jun 2017 18:10:35 -0700</pubDate>
       
       <guid>https://avivaprins.com/project/particle-laden-flows/</guid>
-      <description>Introduction A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&amp;rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&amp;rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.
-The behavior of these flows are important because they occur in many fields.</description>
+      <description>Research on particles in viscous fluid</description>
     </item>
     
     <item>
@@ -48,7 +46,7 @@ The behavior of these flows are important because they occur in many fields.</de
       <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
       
       <guid>https://avivaprins.com/project/political-donations/</guid>
-      <description>This project is ongoing. Please see the links below.</description>
+      <description>Research on United States political donations</description>
     </item>
     
   </channel>
