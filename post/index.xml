@@ -4,12 +4,12 @@
     <title>Posts on Aviva Prins</title>
     <link>https://avivaprins.com/post/</link>
     <description>Recent content in Posts on Aviva Prins</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Aviva Prins</copyright>
     <lastBuildDate>Mon, 04 Jun 2018 19:02:15 -0700</lastBuildDate>
     
-	<atom:link href="https://avivaprins.com/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://avivaprins.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,7 +18,8 @@
       <pubDate>Mon, 04 Jun 2018 19:02:15 -0700</pubDate>
       
       <guid>https://avivaprins.com/post/beam/</guid>
-      <description>Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their website.</description>
+      <description>&lt;p&gt;Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their website.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -27,7 +28,8 @@
       <pubDate>Sat, 04 Jun 2016 18:33:47 -0700</pubDate>
       
       <guid>https://avivaprins.com/post/audubon/</guid>
-      <description>The Los Angeles Audubon’s environmental education program at Kenneth Hahn State Recreation Area educates local students about the outdoors. Interns lead elementary and middle school students on guided walks with educational stations. The curriculum includes lessons on photosynthesis, ecosystems, ecology, and geology depending on grade level.</description>
+      <description>&lt;p&gt;The Los Angeles Audubon’s environmental education program at Kenneth Hahn State Recreation Area educates local students about the outdoors. Interns lead elementary and middle school students on guided walks with educational stations. The curriculum includes lessons on photosynthesis, ecosystems, ecology, and geology depending on grade level.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -36,7 +38,8 @@
       <pubDate>Wed, 04 Jun 2014 19:10:25 -0700</pubDate>
       
       <guid>https://avivaprins.com/post/women-in-technology/</guid>
-      <description>Women in Technology is a chapter of the Association for Computing Machinery at Santa Monica College. I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.</description>
+      <description>&lt;p&gt;Women in Technology is a chapter of the Association for Computing Machinery at Santa Monica College. I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

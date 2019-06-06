@@ -4,11 +4,11 @@
     <title>Recent &amp; Upcoming Talks on Aviva Prins</title>
     <link>https://avivaprins.com/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Aviva Prins</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Aviva Prins</copyright>
     
-	<atom:link href="https://avivaprins.com/talk/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://avivaprins.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
