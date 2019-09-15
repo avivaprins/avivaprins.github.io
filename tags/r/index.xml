@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on Aviva Prins</title>
+    <title>R | Aviva Prins</title>
     <link>https://avivaprins.com/tags/r/</link>
-    <description>Recent content in R on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Mon, 04 Jun 2018 19:06:00 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Mon, 04 Jun 2018 19:06:00 -0700</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>R</title>
+      <link>https://avivaprins.com/tags/r/</link>
+    </image>
     
     <item>
       <title>Financial Well Being</title>
       <link>https://avivaprins.com/project/financial-well-being/</link>
       <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
-      
       <guid>https://avivaprins.com/project/financial-well-being/</guid>
       <description>&lt;p&gt;One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.&lt;/p&gt;
 
@@ -28,10 +27,8 @@
       <title>Political Donations in the United States</title>
       <link>https://avivaprins.com/project/political-donations/</link>
       <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
-      
       <guid>https://avivaprins.com/project/political-donations/</guid>
-      <description>&lt;p&gt;This project is ongoing. Please see the links below.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

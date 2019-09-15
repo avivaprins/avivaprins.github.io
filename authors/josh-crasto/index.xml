@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Josh Crasto on Aviva Prins</title>
+    <title>Josh Crasto | Aviva Prins</title>
     <link>https://avivaprins.com/authors/josh-crasto/</link>
-    <description>Recent content in Josh Crasto on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Thu, 01 Jun 2017 00:00:00 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/authors/josh-crasto/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/authors/josh-crasto/index.xml" rel="self" type="application/rss+xml" />
+    <description>Josh Crasto</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Thu, 01 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>Josh Crasto</title>
+      <link>https://avivaprins.com/authors/josh-crasto/</link>
+    </image>
     
     <item>
       <title>Bidensity Particle Laden Flows on an Incline</title>
       <link>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
-      
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</guid>
-      <description></description>
+      <description>&lt;p&gt;Report available on request only.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

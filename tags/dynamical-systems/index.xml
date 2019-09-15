@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dynamical Systems on Aviva Prins</title>
+    <title>Dynamical Systems | Aviva Prins</title>
     <link>https://avivaprins.com/tags/dynamical-systems/</link>
-    <description>Recent content in Dynamical Systems on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/tags/dynamical-systems/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/tags/dynamical-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dynamical Systems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>Dynamical Systems</title>
+      <link>https://avivaprins.com/tags/dynamical-systems/</link>
+    </image>
     
     <item>
       <title>Gang Reduction and Youth Development</title>
       <link>https://avivaprins.com/project/gryd/</link>
       <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
-      
       <guid>https://avivaprins.com/project/gryd/</guid>
       <description>
 
@@ -49,36 +48,64 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;sPCA.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;sPCA.png&#34; data-caption=&#34;Figure 1: Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34\%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
+&lt;img src=&#34;sPCA.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34\%$ of the data is captured by the first eigenvector in dimensionality reduction.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 1:&lt;/strong&gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34\%$ of the data is captured by the first eigenvector in dimensionality reduction.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;Figure 2 shows the results of PCA on the questions. There is one large cluster with a clear progression from low Risk Factor to high Risk Factor, but there is significant overlap.&lt;/p&gt;
 
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;qPCA.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;qPCA.png&#34; data-caption=&#34;Figure 2: Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
+&lt;img src=&#34;qPCA.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 2:&lt;/strong&gt; Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;Different distance metrics in the weight calculation of the graph Laplacian may yield more desirable results. However, a nonlinear dimensionality reduction approach is far more important.&lt;/p&gt;
 

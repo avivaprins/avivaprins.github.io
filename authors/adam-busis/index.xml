@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Adam Busis on Aviva Prins</title>
+    <title>Adam Busis | Aviva Prins</title>
     <link>https://avivaprins.com/authors/adam-busis/</link>
-    <description>Recent content in Adam Busis on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Fri, 11 Aug 2017 00:00:00 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/authors/adam-busis/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/authors/adam-busis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Adam Busis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Fri, 11 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>Adam Busis</title>
+      <link>https://avivaprins.com/authors/adam-busis/</link>
+    </image>
     
     <item>
       <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
       <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
-      <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
-      
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
-      <description></description>
+      <description>&lt;p&gt;Report available on request only.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

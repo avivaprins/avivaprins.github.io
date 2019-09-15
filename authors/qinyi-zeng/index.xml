@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Qinyi Zeng on Aviva Prins</title>
+    <title>Qinyi Zeng | Aviva Prins</title>
     <link>https://avivaprins.com/authors/qinyi-zeng/</link>
-    <description>Recent content in Qinyi Zeng on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/authors/qinyi-zeng/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/authors/qinyi-zeng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qinyi Zeng</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>Qinyi Zeng</title>
+      <link>https://avivaprins.com/authors/qinyi-zeng/</link>
+    </image>
     
     <item>
       <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
       <link>https://avivaprins.com/publication/gryd-dmd/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
-      
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication/gryd-dmd/</guid>
-      <description></description>
+      <description>&lt;p&gt;Report available on request only.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

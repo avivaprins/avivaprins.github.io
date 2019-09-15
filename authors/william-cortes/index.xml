@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>William Cortes on Aviva Prins</title>
+    <title>William Cortes | Aviva Prins</title>
     <link>https://avivaprins.com/authors/william-cortes/</link>
-    <description>Recent content in William Cortes on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Fri, 15 Jun 2018 00:00:00 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/authors/william-cortes/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/authors/william-cortes/index.xml" rel="self" type="application/rss+xml" />
+    <description>William Cortes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Fri, 15 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>William Cortes</title>
+      <link>https://avivaprins.com/authors/william-cortes/</link>
+    </image>
     
     <item>
       <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
-      <link>https://avivaprins.com/publication/utilizing-political-campaign/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/publication/utilizing-political-campaign/</guid>
+      <link>https://avivaprins.com/publication/political-donations/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/political-donations/</guid>
       <description></description>
     </item>
     

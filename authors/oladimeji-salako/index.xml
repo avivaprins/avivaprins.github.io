@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oladimeji Salako on Aviva Prins</title>
+    <title>Oladimeji Salako | Aviva Prins</title>
     <link>https://avivaprins.com/authors/oladimeji-salako/</link>
-    <description>Recent content in Oladimeji Salako on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Fri, 15 Jun 2018 00:00:00 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/authors/oladimeji-salako/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/authors/oladimeji-salako/index.xml" rel="self" type="application/rss+xml" />
+    <description>Oladimeji Salako</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Fri, 15 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>Oladimeji Salako</title>
+      <link>https://avivaprins.com/authors/oladimeji-salako/</link>
+    </image>
     
     <item>
       <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
-      <link>https://avivaprins.com/publication/utilizing-political-campaign/</link>
-      <pubDate>Fri, 15 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/publication/utilizing-political-campaign/</guid>
+      <link>https://avivaprins.com/publication/political-donations/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/political-donations/</guid>
       <description></description>
     </item>
     

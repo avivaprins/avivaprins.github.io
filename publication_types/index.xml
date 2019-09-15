@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types on Aviva Prins</title>
+    <title>Publication_types | Aviva Prins</title>
     <link>https://avivaprins.com/publication_types/</link>
-    <description>Recent content in Publication_types on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>Publication_types</title>
+      <link>https://avivaprins.com/publication_types/</link>
+    </image>
     
     <item>
       <title>4</title>
       <link>https://avivaprins.com/publication_types/4/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
-      
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication_types/4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>0</title>
+      <link>https://avivaprins.com/publication_types/0/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication_types/0/</guid>
       <description></description>
     </item>
     

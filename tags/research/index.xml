@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research on Aviva Prins</title>
+    <title>Research | Aviva Prins</title>
     <link>https://avivaprins.com/tags/research/</link>
-    <description>Recent content in Research on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://avivaprins.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/img/icon-192.png</url>
+      <title>Research</title>
+      <link>https://avivaprins.com/tags/research/</link>
+    </image>
     
     <item>
       <title>Gang Reduction and Youth Development</title>
       <link>https://avivaprins.com/project/gryd/</link>
       <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
-      
       <guid>https://avivaprins.com/project/gryd/</guid>
       <description>
 
@@ -49,36 +48,64 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;sPCA.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;sPCA.png&#34; data-caption=&#34;Figure 1: Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34\%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
+&lt;img src=&#34;sPCA.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34\%$ of the data is captured by the first eigenvector in dimensionality reduction.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 1:&lt;/strong&gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34\%$ of the data is captured by the first eigenvector in dimensionality reduction.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;Figure 2 shows the results of PCA on the questions. There is one large cluster with a clear progression from low Risk Factor to high Risk Factor, but there is significant overlap.&lt;/p&gt;
 
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;qPCA.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;qPCA.png&#34; data-caption=&#34;Figure 2: Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
+&lt;img src=&#34;qPCA.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 2:&lt;/strong&gt; Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;Different distance metrics in the weight calculation of the graph Laplacian may yield more desirable results. However, a nonlinear dimensionality reduction approach is far more important.&lt;/p&gt;
 
@@ -98,7 +125,6 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
       <title>Financial Well Being</title>
       <link>https://avivaprins.com/project/financial-well-being/</link>
       <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
-      
       <guid>https://avivaprins.com/project/financial-well-being/</guid>
       <description>&lt;p&gt;One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.&lt;/p&gt;
 
@@ -110,7 +136,6 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
       <title>Particle Laden Flows</title>
       <link>https://avivaprins.com/project/particle-laden-flows/</link>
       <pubDate>Sun, 04 Jun 2017 18:10:35 -0700</pubDate>
-      
       <guid>https://avivaprins.com/project/particle-laden-flows/</guid>
       <description>
 
@@ -123,46 +148,88 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;Shear%20Stress.jpg&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;Shear%20Stress.jpg&#34; data-caption=&#34;Figure 1: Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&#34;&gt;
+&lt;img src=&#34;Shear%20Stress.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 1:&lt;/strong&gt; Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;When the mixture flows down a ramp, some interesting behavior occurs. Sometimes the particles separate from the liquid. Sometimes the particles move faster than the liquid, forming a particle-rich ridge at the front of the flow. Sometimes fingers form. We wanted to create a mathematical model to describe the fluid’s dynamics that depends on external forces and the types and quantity of particles present in the slurry.&lt;/p&gt;
 
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure class=&#34;half-size1&#34;&gt;
 
-&lt;img src=&#34;settled%20regime.jpg&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;settled%20regime.jpg&#34; data-caption=&#34;Figure 2: Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&#34;&gt;
+&lt;img src=&#34;settled%20regime.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 2:&lt;/strong&gt; Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 &lt;figure class=&#34;half-size2&#34;&gt;
 
-&lt;img src=&#34;ridged%20regime.jpg&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ridged%20regime.jpg&#34; &gt;
+&lt;img src=&#34;ridged%20regime.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;Previous research&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; has developed a force-based model for constant volume monodisperse flow. Lee et. al.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; and Wong and Bertozzi&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; extended this model to the bidensity case using experiments and theory, respectively. They used constant volume initial conditions, meaning that a fixed volume of slurry was poured onto the incline and allowed to flow. We adapted their model to use constant flux initial conditions, where the slurry is continuously added to the incline with a constant flow rate. We also performed experiments using the same total volume fraction $\phi_0 = \frac{V_p}{V_t} = 0.4$ parameter, and compared the results to the prediction of the theory.&lt;/p&gt;
 
@@ -207,18 +274,32 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;Trackpic.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;Trackpic.png&#34; data-caption=&#34;Figure 3: A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&#34;&gt;
+&lt;img src=&#34;Trackpic.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 3:&lt;/strong&gt; A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;In 2017, we used the following materials:&lt;/p&gt;
 
@@ -286,18 +367,32 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;heightP.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;heightP.png&#34; data-caption=&#34;Figure 4: One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&#34;&gt;
+&lt;img src=&#34;heightP.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 4:&lt;/strong&gt; One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
 
 &lt;h2 id=&#34;experimental-results&#34;&gt;Experimental Results&lt;/h2&gt;
 
@@ -305,18 +400,32 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;Phase_Diagram_final.jpg&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;Phase_Diagram_final.jpg&#34; data-caption=&#34;Figure 5: Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&#34;&gt;
+&lt;img src=&#34;Phase_Diagram_final.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 5:&lt;/strong&gt; Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.
+  &lt;/figcaption&gt;
 
-&lt;/figure&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;
 
 &lt;h2 id=&#34;numerical-results&#34;&gt;Numerical Results&lt;/h2&gt;
 
@@ -325,56 +434,112 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure class=&#34;half-size1&#34;&gt;
 
-&lt;img src=&#34;fpcmp_alpha30_chi0.75.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;fpcmp_alpha30_chi0.75.png&#34; data-caption=&#34;Figure 5: Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&#34;&gt;
+&lt;img src=&#34;fpcmp_alpha30_chi0.75.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 5:&lt;/strong&gt; Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 &lt;figure class=&#34;half-size2&#34;&gt;
 
-&lt;img src=&#34;fpcmp_alpha50_chi0.5.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;fpcmp_alpha50_chi0.5.png&#34; &gt;
+&lt;img src=&#34;fpcmp_alpha50_chi0.5.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;In the settled regime, the height profile for the experimental data and theoretical data correspond to each other well, except that the real height is about 1mm higher than predicted. In the ridged regime, again the shape of the graphs from experiment and simulation agrees with each other. But in the simulation, the spike at the slurry front will keep increasing in height as time goes on. This unrealistic behavior depends on the precursor height for the simulation. In this particular example, the precursor height is set to be 1% of the initial height of the slurry. Higher precursor height will prevent this behavior. If the precursor height is set to be 35% or higher, then the front will not keep getting higher forever.&lt;/p&gt;
 
 
 
 
+
+
+
+
+
+
+
+
+
+
 &lt;figure class=&#34;half-size1&#34;&gt;
 
-&lt;img src=&#34;alpha30.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;alpha30.png&#34; data-caption=&#34;Figure 6: Height profile for the settled (left) and ridged (right) regimes.&#34;&gt;
+&lt;img src=&#34;alpha30.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; Height profile for the settled (left) and ridged (right) regimes.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 6:&lt;/strong&gt; Height profile for the settled (left) and ridged (right) regimes.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 &lt;figure class=&#34;half-size2&#34;&gt;
 
-&lt;img src=&#34;alpha50.png&#34; /&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;alpha50.png&#34; &gt;
+&lt;img src=&#34;alpha50.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
+
 
 &lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;
 
@@ -413,10 +578,8 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
       <title>Political Donations in the United States</title>
       <link>https://avivaprins.com/project/political-donations/</link>
       <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
-      
       <guid>https://avivaprins.com/project/political-donations/</guid>
-      <description>&lt;p&gt;This project is ongoing. Please see the links below.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

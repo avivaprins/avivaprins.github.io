@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.3.1">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
 
   
 
@@ -35,8 +35,6 @@
 
   
 
-
-  
 
   
   
@@ -69,6 +67,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -76,13 +76,14 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.f10c1deacb5d5319243d82e75c1bf128.css">
+  <link rel="stylesheet" href="/css/academic.min.5ccf85c550425bb16b4dd68bbdca63c5.css">
 
   
     
@@ -93,7 +94,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.e356744af91e63087c22df58a456ad3f.css">
+    <link rel="stylesheet" href="/css/academic.4399c95f021db60cb67a0f0401f445f3.css">
   
 
   
@@ -101,13 +102,13 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-121172769-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
       ga('send', 'pageview');
     </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
     
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
     
@@ -116,11 +117,10 @@
 
   
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Aviva Prins">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Aviva Prins">
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="https://avivaprins.com/">
@@ -132,18 +132,64 @@
     
     
   
+  
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Aviva Prins">
   <meta property="og:url" content="https://avivaprins.com/">
   <meta property="og:title" content="Aviva Prins">
   <meta property="og:description" content="Data Scientist"><meta property="og:image" content="https://avivaprins.com/img/icon-192.png">
-  <meta property="og:locale" content="en-us">
+  <meta property="twitter:image" content="https://avivaprins.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2019-04-04T16:39:56-07:00">
+    <meta property="og:updated_time" content="2019-04-04T16:39:56-07:00">
   
 
   
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://avivaprins.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://avivaprins.com/"
+}
+</script>
+
+
+  
+
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#4c7aae",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#4c7aae"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -156,8 +202,7 @@
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -175,7 +220,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -192,7 +237,7 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
@@ -294,6 +339,13 @@
   
 
 
+
+
+
+
+
+
+
 <span class="js-widget-page d-none"></span>
 
 
@@ -354,29 +406,27 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
+<div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
       
-      <img class="portrait" src="/authors/aviva/avatar_hu3d5cd97c9837c4caecdf9f119ad98287_2814364_250x250_fill_lanczos_center_2.png" itemprop="image" alt="Avatar">
+      <img class="portrait" src="/authors/aviva/avatar_hu3d5cd97c9837c4caecdf9f119ad98287_2814364_250x250_fill_lanczos_center_2.png" alt="Avatar">
       
 
       <div class="portrait-title">
-        <h2 itemprop="name">Aviva Prins</h2>
-        <h3 itemprop="jobTitle">Data Scientist</h3>
+        <h2>Aviva Prins</h2>
+        <h3>Data Scientist</h3>
 
         
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="https://www.cs.umd.edu/" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">University of Maryland</span>
+        <h3>
+          <a href="https://www.cs.umd.edu/" target="_blank" rel="noopener">
+          <span>University of Maryland</span>
           </a>
         </h3>
         
       </div>
-
-      <link itemprop="url" href="">
 
       <ul class="network-icon" aria-hidden="true">
         
@@ -392,7 +442,7 @@
           
         
         <li>
-          <a itemprop="sameAs" href="/#contact" >
+          <a href="/#contact" >
             <i class="fas fa-envelope big-icon"></i>
           </a>
         </li>
@@ -409,7 +459,7 @@
           
         
         <li>
-          <a itemprop="sameAs" href="//linkedin.com/in/avivaprins/" >
+          <a href="https://linkedin.com/in/avivaprins" target="_blank" rel="noopener">
             <i class="fab fa-linkedin big-icon"></i>
           </a>
         </li>
@@ -426,7 +476,7 @@
           
         
         <li>
-          <a itemprop="sameAs" href="//github.com/avivaprins" >
+          <a href="https://github.com/avivaprins" target="_blank" rel="noopener">
             <i class="fab fa-github big-icon"></i>
           </a>
         </li>
@@ -435,14 +485,12 @@
 
     </div>
   </div>
-  <div class="col-12 col-lg-8" itemprop="description">
+  <div class="col-12 col-lg-8">
 
     
     <h1>Biography</h1>
 
-    <p>Welcome!</p>
-
-<p>I love using math to investigate real-world problems. I have studied fluid dynamics, United States political donation data, and Gang Reduction and Youth Development. This summer I will be participating in RIPS at UCLA.</p>
+    <p>I am a PhD student in the <a href="https://www.cs.umd.edu/" target="_blank">Department of Computer Science</a> at the University of Maryland, and I am a member of <a href="http://www.umiacs.umd.edu/" target="_blank">UMIACS</a>, the University of Maryland Institute for Advanced Computer Studies. I study fairness in machine learning with <a href="http://jpdickerson.com/" target="_blank">John Dickerson</a> and <a href="http://www.cs.umd.edu/~srin/" target="_blank">Aravind Srinivasan</a>. This summer, I participated in Research in Industrial Projects for Students (<a href="https://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2019/" target="_blank">RIPS</a>), co-sponsored by UCLA&rsquo;s Institute for Pure and Applied Mathematics (<a href="https://www.ipam.ucla.edu/" target="_blank">IPAM</a>) and Google. We studied privacy in databases with query access.</p>
 
 
     <div class="row">
@@ -452,11 +500,11 @@
         <h3>Interests</h3>
         <ul class="ul-interests">
           
+          <li>Fairness in Machine Learning</li>
+          
           <li>Artificial Intelligence</li>
           
           <li>Data Science</li>
-          
-          <li>Mathematical Modeling</li>
           
         </ul>
       </div>
@@ -471,7 +519,7 @@
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">PhD in Computer Science, expected 2025</p>
-              <p class="institution">UMD</p>
+              <p class="institution">University of Maryland, College Park</p>
             </div>
           </li>
           
@@ -479,7 +527,7 @@
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">BSc in Applied Mathematics, 2019</p>
-              <p class="institution">UCLA</p>
+              <p class="institution">University of California, Los Angeles</p>
             </div>
           </li>
           
@@ -541,7 +589,7 @@
   <div class="col-xs-12 col-md-4 section-heading">
 
     <h1>Research</h1>
-    
+    <p>More information coming soon!</p>
 
   </div>
   <div class="col-xs-12 col-md-8">
@@ -559,7 +607,7 @@
       
       
 
-      <span class="d-none default-project-filter">.js-id-active</span>
+      <span class="d-none default-project-filter">.js-id-Active</span>
 
       
       
@@ -571,12 +619,12 @@
                 
                 
                 
-                <a href="#" data-filter=".js-id-active" class="btn btn-primary btn-lg active">Current</a>
+                <a href="#" data-filter=".js-id-Active" class="btn btn-primary btn-lg active">Current</a>
               
                 
                 
                 
-                <a href="#" data-filter=".js-id-Completed" class="btn btn-primary btn-lg">Previous</a>
+                <a href="#" data-filter=".js-id-Featured" class="btn btn-primary btn-lg">Previous</a>
               
             </div>
           </div>
@@ -587,9 +635,11 @@
 
     <div class="isotope projects-container js-layout-masonry ">
       
+
         
         
         
+
         
           
 
@@ -600,7 +650,13 @@
 
 
 
-<div class="project-card project-item isotope-item js-id-Research js-id-Machine-Learning js-id-Dynamical-Systems js-id-Python js-id-active">
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Research js-id-Machine-Learning js-id-Dynamical-Systems js-id-Python js-id-Featured">
   <div class="card">
     
     
@@ -610,18 +666,23 @@
     
     <div class="card-text">
       <h4><a href="/project/gryd/" >Gang Reduction and Youth Development</a></h4>
-      <div class="card-desription">
+      
+      <div class="article-style">
         <p>Research for the GRYD program in Los Angeles</p>
       </div>
+      
     </div>
   </div>
 </div>
 
         
+
       
+
         
         
         
+
         
           
 
@@ -632,23 +693,77 @@
 
 
 
-<div class="project-card project-item isotope-item js-id-Research js-id-Machine-Learning js-id-R js-id-Python js-id-Completed">
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Teaching">
+  <div class="card">
+    
+    
+    <a href="/project/beam/"  class="card-image hover-overlay">
+      <img src="/project/beam/featured_hu75ee588b1dd4242bf3ba3579d6737a18_25488_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/beam/" >Building Engineers and Mentors</a></h4>
+      
+      <div class="article-style">
+        <p>Teaching local students science</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Research js-id-Machine-Learning js-id-R js-id-Python">
   <div class="card">
     
     <div class="card-text">
       <h4><a href="/project/financial-well-being/" >Financial Well Being</a></h4>
-      <div class="card-desription">
-        
+      
+      <div class="article-style">
+        <p>One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, …</p>
       </div>
+      
     </div>
   </div>
 </div>
 
         
+
       
+
         
         
         
+
         
           
 
@@ -659,7 +774,13 @@
 
 
 
-<div class="project-card project-item isotope-item js-id-Research js-id-Fluid-Dynamics js-id-MATLAB js-id-Completed">
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Research js-id-Fluid-Dynamics js-id-MATLAB js-id-Featured">
   <div class="card">
     
     
@@ -669,18 +790,23 @@
     
     <div class="card-text">
       <h4><a href="/project/particle-laden-flows/" >Particle Laden Flows</a></h4>
-      <div class="card-desription">
+      
+      <div class="article-style">
         <p>Research on particles in viscous fluid</p>
       </div>
+      
     </div>
   </div>
 </div>
 
         
+
       
+
         
         
         
+
         
           
 
@@ -691,7 +817,94 @@
 
 
 
-<div class="project-card project-item isotope-item js-id-Research js-id-Network-Science js-id-MATLAB js-id-R js-id-active">
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Teaching">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="/project/women-in-technology/" >Women in Technology</a></h4>
+      
+      <div class="article-style">
+        <p>College club for women in computer science</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Teaching">
+  <div class="card">
+    
+    
+    <a href="/project/audubon/"  class="card-image hover-overlay">
+      <img src="/project/audubon/featured_hub2e325cca46e2b5f87d745ff2523fd94_114653_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/audubon/" >Environmental Education</a></h4>
+      
+      <div class="article-style">
+        <p>Teaching local students about the outdoors</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Research js-id-Network-Science js-id-MATLAB js-id-R js-id-Featured">
   <div class="card">
     
     
@@ -701,14 +914,17 @@
     
     <div class="card-text">
       <h4><a href="/project/political-donations/" >Political Donations in the United States</a></h4>
-      <div class="card-desription">
-        <p>Research on United States political donations</p>
+      
+      <div class="article-style">
+        <p>Investigation into United States political donations</p>
       </div>
+      
     </div>
   </div>
 </div>
 
         
+
       
     </div>
 
@@ -755,6 +971,7 @@
 
 
 
+
 <div class="row contact-widget">
   <div class="col-12 col-lg-4 section-heading">
     <h1>Contact</h1>
@@ -765,15 +982,18 @@
 
     
 
-    <ul class="fa-ul" itemscope>
+    <ul class="fa-ul">
 
       
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email">aviva@avivaprins.com</span>
+        <span id="person-email">aviva@avivaprins.com</span>
       </li>
       
 
+      
+
+      
       
 
       
@@ -819,6 +1039,8 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
       
 
       
@@ -829,9 +1051,7 @@
 
     
     
-
-    
-    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -886,6 +1106,9 @@
 
     
     
+
+    
+    
     
     
     
@@ -898,7 +1121,7 @@
     
     
     
-    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
+    <script src="/js/academic.min.130521ecfc6f534c52c158217bbff718.js"></script>
 
     
 
