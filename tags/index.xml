@@ -5,9 +5,9 @@
     <link>https://avivaprins.com/tags/</link>
       <atom:link href="https://avivaprins.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Tue, 04 Jun 2019 16:39:56 -0700</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
       <link>https://avivaprins.com/tags/</link>
     </image>
@@ -15,7 +15,7 @@
     <item>
       <title>Dynamical Systems</title>
       <link>https://avivaprins.com/tags/dynamical-systems/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
+      <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/tags/dynamical-systems/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Featured</title>
       <link>https://avivaprins.com/tags/featured/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
+      <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/tags/featured/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Machine Learning</title>
       <link>https://avivaprins.com/tags/machine-learning/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
+      <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/tags/machine-learning/</guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>Python</title>
       <link>https://avivaprins.com/tags/python/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
+      <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/tags/python/</guid>
       <description></description>
     </item>
@@ -47,8 +47,32 @@
     <item>
       <title>Research</title>
       <link>https://avivaprins.com/tags/research/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
+      <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MATLAB</title>
+      <link>https://avivaprins.com/tags/matlab/</link>
+      <pubDate>Fri, 03 Aug 2018 18:20:56 -0700</pubDate>
+      <guid>https://avivaprins.com/tags/matlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Science</title>
+      <link>https://avivaprins.com/tags/network-science/</link>
+      <pubDate>Fri, 03 Aug 2018 18:20:56 -0700</pubDate>
+      <guid>https://avivaprins.com/tags/network-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://avivaprins.com/tags/r/</link>
+      <pubDate>Fri, 03 Aug 2018 18:20:56 -0700</pubDate>
+      <guid>https://avivaprins.com/tags/r/</guid>
       <description></description>
     </item>
     
@@ -61,34 +85,10 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>https://avivaprins.com/tags/r/</link>
-      <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
-      <guid>https://avivaprins.com/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fluid Dynamics</title>
       <link>https://avivaprins.com/tags/fluid-dynamics/</link>
       <pubDate>Sun, 04 Jun 2017 18:10:35 -0700</pubDate>
       <guid>https://avivaprins.com/tags/fluid-dynamics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MATLAB</title>
-      <link>https://avivaprins.com/tags/matlab/</link>
-      <pubDate>Sun, 04 Jun 2017 18:10:35 -0700</pubDate>
-      <guid>https://avivaprins.com/tags/matlab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Network Science</title>
-      <link>https://avivaprins.com/tags/network-science/</link>
-      <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
-      <guid>https://avivaprins.com/tags/network-science/</guid>
       <description></description>
     </item>
     

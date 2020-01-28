@@ -5,9 +5,9 @@
     <link>https://avivaprins.com/tags/teaching/</link>
       <atom:link href="https://avivaprins.com/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Teaching</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Tue, 12 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Tue, 12 Jun 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Teaching</title>
       <link>https://avivaprins.com/tags/teaching/</link>
     </image>
@@ -17,7 +17,9 @@
       <link>https://avivaprins.com/project/beam/</link>
       <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/project/beam/</guid>
-      <description>&lt;p&gt;Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their &lt;a href=&#34;http://www.tanms-erc.org/beam&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their 
+&lt;a href=&#34;http://www.tanms-erc.org/beam&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website.&lt;/a&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -26,7 +28,11 @@
       <link>https://avivaprins.com/project/women-in-technology/</link>
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/project/women-in-technology/</guid>
-      <description>&lt;p&gt;Women in Technology is a chapter of the &lt;a href=&#34;https://www.acm.org/&#34; target=&#34;_blank&#34;&gt;Association for Computing Machinery&lt;/a&gt; at &lt;a href=&#34;http://www.smc.edu&#34; target=&#34;_blank&#34;&gt;Santa Monica College&lt;/a&gt;. I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.&lt;/p&gt;
+      <description>&lt;p&gt;Women in Technology is a chapter of the 
+&lt;a href=&#34;https://www.acm.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Association for Computing Machinery&lt;/a&gt;
+ at 
+&lt;a href=&#34;http://www.smc.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Santa Monica College.&lt;/a&gt;
+ I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.&lt;/p&gt;
 </description>
     </item>
     

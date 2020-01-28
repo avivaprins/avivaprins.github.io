@@ -5,9 +5,9 @@
     <link>https://avivaprins.com/tags/fluid-dynamics/</link>
       <atom:link href="https://avivaprins.com/tags/fluid-dynamics/index.xml" rel="self" type="application/rss+xml" />
     <description>Fluid Dynamics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Sun, 04 Jun 2017 18:10:35 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 04 Jun 2017 18:10:35 -0700</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Fluid Dynamics</title>
       <link>https://avivaprins.com/tags/fluid-dynamics/</link>
     </image>
@@ -17,16 +17,16 @@
       <link>https://avivaprins.com/project/particle-laden-flows/</link>
       <pubDate>Sun, 04 Jun 2017 18:10:35 -0700</pubDate>
       <guid>https://avivaprins.com/project/particle-laden-flows/</guid>
-      <description>
-
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&amp;rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&amp;rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.&lt;/p&gt;
-
 &lt;p&gt;The behavior of these flows are important because they occur in many fields. Mining companies use spiral separators to separate minerals from ore. Mixtures of oil, sand, and water occur in oil spills. Slurries also occur in industrial, biological, and pharmaceutical contexts.&lt;/p&gt;
 
 
 
+
+
+  
+  
 
 
 
@@ -41,8 +41,11 @@
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;Shear%20Stress.jpg&#34; data-caption=&#34;Figure 1: Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&#34;&gt;
-&lt;img src=&#34;Shear%20Stress.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 1: Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;886&#34; height=&#34;429&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -54,11 +57,14 @@
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;When the mixture flows down a ramp, some interesting behavior occurs. Sometimes the particles separate from the liquid. Sometimes the particles move faster than the liquid, forming a particle-rich ridge at the front of the flow. Sometimes fingers form. We wanted to create a mathematical model to describe the fluid’s dynamics that depends on external forces and the types and quantity of particles present in the slurry.&lt;/p&gt;
 
 
 
+
+
+  
+  
 
 
 
@@ -73,8 +79,11 @@
 &lt;figure class=&#34;half-size1&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;settled%20regime.jpg&#34; data-caption=&#34;Figure 2: Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&#34;&gt;
-&lt;img src=&#34;settled%20regime.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 2: Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1046&#34; height=&#34;567&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -91,6 +100,10 @@
 
 
 
+  
+  
+
+
 
 
 
@@ -103,56 +116,54 @@
 &lt;figure class=&#34;half-size2&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;ridged%20regime.jpg&#34; &gt;
-&lt;img src=&#34;ridged%20regime.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/ridged%20regime_hudb377af2c36174626bc95af458c55f32_84554_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/ridged%20regime_hudb377af2c36174626bc95af458c55f32_84554_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1019&#34; height=&#34;542&#34;&gt;
+&lt;/a&gt;
 
 
 
 &lt;/figure&gt;
 
-
-&lt;p&gt;Previous research&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; has developed a force-based model for constant volume monodisperse flow. Lee et. al.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; and Wong and Bertozzi&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; extended this model to the bidensity case using experiments and theory, respectively. They used constant volume initial conditions, meaning that a fixed volume of slurry was poured onto the incline and allowed to flow. We adapted their model to use constant flux initial conditions, where the slurry is continuously added to the incline with a constant flow rate. We also performed experiments using the same total volume fraction $\phi_0 = \frac{V_p}{V_t} = 0.4$ parameter, and compared the results to the prediction of the theory.&lt;/p&gt;
-
+&lt;p&gt;Previous research&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; has developed a force-based model for constant volume monodisperse flow. Lee et. al.&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; and Wong and Bertozzi&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; extended this model to the bidensity case using experiments and theory, respectively. They used constant volume initial conditions, meaning that a fixed volume of slurry was poured onto the incline and allowed to flow. We adapted their model to use constant flux initial conditions, where the slurry is continuously added to the incline with a constant flow rate. We also performed experiments using the same total volume fraction $\phi_0 = \frac{V_p}{V_t} = 0.4$ parameter, and compared the results to the prediction of the theory.&lt;/p&gt;
 &lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
-
 &lt;p&gt;Using the Navier-Stokes equation and particle mass conservation, we can create a system of coupled ODEs. Let $\phi_i$, $i=1,2$ to be the volume fraction of particle $i$ to the total volume, $\phi = \phi_1 + \phi_2$, and the $\boldsymbol{J}_i$ term is the flux of particle $i$:
-\begin{aligned}
-   0 &amp;amp;= \nabla \cdot (-pI + \mu(\nabla\boldsymbol{u} + \nabla\boldsymbol{u}^T)) + \rho\boldsymbol{g}. \\&lt;br /&gt;
-   0 &amp;amp;= \frac{\partial \phi_i}{\partial t} + \boldsymbol{u} \cdot \nabla \phi_i + \nabla \cdot \boldsymbol{J}_i, \quad i=1,2.
+\begin{aligned} 
+0 &amp;amp;= \nabla \cdot (-pI + \mu(\nabla\boldsymbol{u} + \nabla\boldsymbol{u}^T)) + \rho\boldsymbol{g}. \\\&lt;br&gt;
+0 &amp;amp;= \frac{\partial \phi_i}{\partial t} + \boldsymbol{u} \cdot \nabla \phi_i + \nabla \cdot \boldsymbol{J}_i, \quad i=1,2.
 \end{aligned}
 Assuming equilibrium in the $z$-direction, the resulting system of ODEs relates the dervitives of the shear stress $\sigma$, viscosity $\mu$, and density $\rho$.&lt;/p&gt;
-
 &lt;p&gt;To model the height and front position of the fluid and two particles, we introduce depth-averaged particle concentration and volume ratio. Then we have a system of PDEs:
-\begin{aligned}
-   0 &amp;amp;= \frac{\partial h}{\partial t} + \frac{\partial}{\partial x}(h^3f(\bar{\phi},\bar{\chi})) \\&lt;br /&gt;
-   0 &amp;amp;= \frac{\partial (h\bar{\phi_i})}{\partial x} + \frac{\partial}{\partial x}(h^3g_i(\bar{\phi},\bar{\chi})), \quad i=1,2
+\begin{aligned} 
+0 &amp;amp;= \frac{\partial h}{\partial t} + \frac{\partial}{\partial x}(h^3f(\bar{\phi},\bar{\chi})) \\\&lt;br&gt;
+0 &amp;amp;= \frac{\partial (h\bar{\phi_i})}{\partial x} + \frac{\partial}{\partial x}(h^3g_i(\bar{\phi},\bar{\chi})), \quad i=1,2
 \end{aligned}&lt;/p&gt;
-
 &lt;p&gt;We consider the Riemann initial condition:
-\begin{aligned}
-   h(x,0) &amp;amp;= \begin{cases} \left[\frac{3\mu(\phi_0)Q}{W\rho(\phi_0)g\sin\alpha}\right]^\frac{1}{3}, &amp;amp; x&lt;0 \\
-\varepsilon, &amp; x&gt;0 \end{cases} \\&lt;br /&gt;
-   \bar{\phi}(x,0) &amp;amp;= \begin{cases} \phi_0, &amp;amp; x&lt;0 \\
-0, \qquad \qquad \qquad \! &amp; x&gt;0 \end{cases} \\&lt;br /&gt;
-   \bar{\chi}(x,0) &amp;amp;= \begin{cases} \chi_0, &amp;amp; x&lt;0 \\
-0, \qquad \qquad \qquad \! &amp; x&gt;0 \end{cases} \\&lt;br /&gt;
+\begin{aligned} 
+h(x,0) &amp;amp;= \begin{cases} \left[\frac{3\mu(\phi_0)Q}{W\rho(\phi_0)g\sin\alpha}\right]^\frac{1}{3}, &amp;amp; x&amp;lt;0 \&lt;br&gt;
+\varepsilon, &amp;amp; x&amp;gt;0 \end{cases} \\\&lt;br&gt;
+\bar{\phi}(x,0) &amp;amp;= \begin{cases} \phi_0, &amp;amp; x&amp;lt;0 \&lt;br&gt;
+0, \qquad \qquad \qquad ! &amp;amp; x&amp;gt;0 \end{cases} \\\&lt;br&gt;
+\bar{\chi}(x,0) &amp;amp;= \begin{cases} \chi_0, &amp;amp; x&amp;lt;0 \&lt;br&gt;
+0, \qquad \qquad \qquad ! &amp;amp; x&amp;gt;0 \end{cases} \\\&lt;br&gt;
 \end{aligned}&lt;/p&gt;
-
 &lt;p&gt;Finally, expressing the system in vector notation we have:
 \begin{equation}
-    U = (h, h\bar{\phi_1},h\bar{\phi_2})^T \\&lt;br /&gt;
-    F(U) = h^3(f,g_1,g_2)^T
+U = (h, h\bar{\phi_1},h\bar{\phi_2})^T \\\&lt;br&gt;
+F(U) = h^3(f,g_1,g_2)^T
 \end{equation}
 $$U_t + (F(U))_x = 0$$&lt;/p&gt;
-
 &lt;p&gt;We then solve the partial differential equation using an upwind scheme. The height profile can be obtained from $h$ and the particle front profile can be found from plotting the concentration profile.&lt;/p&gt;
-
 &lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
-
 &lt;p&gt;We can perform experiments to track the particle fronts and height profile of the particle laden flow. We can vary the total volume fraction $\phi_0$, the volume ratio between beads $\chi$, and the inclination angle $\alpha$ of the track. In addition, we can have two types of initial conditions: constant volume or constant flux. In the constant volume case we measure and pour a finite volume onto the track. In the constant flux case, we use a pump to continuously add slurry to the track. A picture of the track is below.&lt;/p&gt;
 
 
 
+
+
+  
+  
 
 
 
@@ -167,8 +178,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;Trackpic.png&#34; data-caption=&#34;Figure 3: A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&#34;&gt;
-&lt;img src=&#34;Trackpic.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 3: A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1650&#34; height=&#34;928&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -180,9 +194,7 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;In 2017, we used the following materials:&lt;/p&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -192,7 +204,6 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;th&gt;&lt;strong&gt;color&lt;/strong&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Small Glass (P1)&lt;/td&gt;
@@ -200,52 +211,53 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;td&gt;$0.07-0.125$ mm&lt;/td&gt;
 &lt;td&gt;pink (dyed)&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;Small Ceramic (P2)&lt;/td&gt;
 &lt;td&gt;$3.8$ g/cm$^3$&lt;/td&gt;
 &lt;td&gt;$0.150-0.180$ mm&lt;/td&gt;
 &lt;td&gt;blue (dyed)&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;Large Glass (P3)&lt;/td&gt;
 &lt;td&gt;$2.5$ g/cm$^3$&lt;/td&gt;
 &lt;td&gt;$0.40-0.60$ mm&lt;/td&gt;
 &lt;td&gt;white&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;Large Ceramic (P4)&lt;/td&gt;
 &lt;td&gt;$3.8$ g/cm$^3$&lt;/td&gt;
 &lt;td&gt;$0.40-0.60$ mm&lt;/td&gt;
 &lt;td&gt;red&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Fluid&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;density&lt;/strong&gt; $\rho$&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;viscosity&lt;/strong&gt; $\nu$&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;color&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;PDMS oil&lt;/td&gt;
 &lt;td&gt;$0.971$ g/cm$^3$&lt;/td&gt;
 &lt;td&gt;$10^{-3}$ m$^2$/s&lt;/td&gt;
 &lt;td&gt;clear&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The liquid used in all experiments is viscous polydimethylsiloxane (PDMS) oil. For bidensity experiments, we use glass and ceramic beads with the same diameter (P3 and P4). For bidisperse experiments, we use pairs of beads with the same density but different diameters (P1 and P3, or P2 and P4).&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;p&gt;The liquid used in all experiments is viscous polydimethylsiloxane (PDMS) oil. For bidensity experiments, we use glass and ceramic beads with the same diameter (P3 and P4). For bidisperse experiments, we use pairs of beads with the same density but different diameters (P1 and P3, or P2 and P4).&lt;/p&gt;
-
 &lt;p&gt;We film the slurry as it flows down the track to capture front position and velocity information. Using MATLAB, we can analyze the concentrations of particles present in different segments of the flow. We identify the front position of each species of particle and the PDMS.&lt;/p&gt;
-
 &lt;p&gt;To create a height profile of the flow, we use a laser sheet and analyze video in MATLAB. As shown in Figure 4, the laser line position in the video is distorted by the slurry.&lt;/p&gt;
 
 
 
+
+
+  
+  
 
 
 
@@ -260,8 +272,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;heightP.png&#34; data-caption=&#34;Figure 4: One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&#34;&gt;
-&lt;img src=&#34;heightP.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 4: One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1338&#34; height=&#34;258&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -273,12 +288,15 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 &lt;/figure&gt;
 
-
 &lt;h2 id=&#34;experimental-results&#34;&gt;Experimental Results&lt;/h2&gt;
-
 &lt;p&gt;The constant flux bidensity experiments from 2017 are summarized in Figure 5. As the phase diagram shows, we experimentally see the ridged regime at trials displayed by the blue diamonds, the settled regime at trials displayed by black circles, and the well-mixed regime at trials displayed by red circles.The darker shaded region on the table shows where we expect to see more ridged regimes, and the white area is where we expect to see settled regimes. The light gray region in between our ridged and settled experiments is where we see the transient well-mixed regime.
 
 
+
+
+
+  
+  
 
 
 
@@ -293,8 +311,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;Phase_Diagram_final.jpg&#34; data-caption=&#34;Figure 5: Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&#34;&gt;
-&lt;img src=&#34;Phase_Diagram_final.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 5: Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;578&#34; height=&#34;417&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -306,13 +327,15 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 &lt;/figure&gt;
 &lt;/p&gt;
-
 &lt;h2 id=&#34;numerical-results&#34;&gt;Numerical Results&lt;/h2&gt;
-
 &lt;p&gt;Figures 5 and 6 compare the simulation and experimental results for front position and height profile. In the settled regime, there are three distinct lines in both simulation and experiment corresponding to the three fronts. Although they do not align perfectly, we can see that qualitatively, the fluid and the lighter particles are behaving similarly to simulation, as they are moving with similar velocity. In the ridged regime, the simulated front positions coincide with the experimental results.&lt;/p&gt;
 
 
 
+
+
+  
+  
 
 
 
@@ -327,8 +350,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;figure class=&#34;half-size1&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;fpcmp_alpha30_chi0.75.png&#34; data-caption=&#34;Figure 5: Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&#34;&gt;
-&lt;img src=&#34;fpcmp_alpha30_chi0.75.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 5: Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;809&#34; height=&#34;616&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -345,6 +371,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+  
+  
+
+
 
 
 
@@ -357,18 +387,24 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;figure class=&#34;half-size2&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;fpcmp_alpha50_chi0.5.png&#34; &gt;
-&lt;img src=&#34;fpcmp_alpha50_chi0.5.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha50_chi0.5_hu8f09f3b77e52b39e1afde7bf05b55c86_30714_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha50_chi0.5_hu8f09f3b77e52b39e1afde7bf05b55c86_30714_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;809&#34; height=&#34;616&#34;&gt;
+&lt;/a&gt;
 
 
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;In the settled regime, the height profile for the experimental data and theoretical data correspond to each other well, except that the real height is about 1mm higher than predicted. In the ridged regime, again the shape of the graphs from experiment and simulation agrees with each other. But in the simulation, the spike at the slurry front will keep increasing in height as time goes on. This unrealistic behavior depends on the precursor height for the simulation. In this particular example, the precursor height is set to be 1% of the initial height of the slurry. Higher precursor height will prevent this behavior. If the precursor height is set to be 35% or higher, then the front will not keep getting higher forever.&lt;/p&gt;
 
 
 
+
+
+  
+  
 
 
 
@@ -383,8 +419,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;figure class=&#34;half-size1&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;alpha30.png&#34; data-caption=&#34;Figure 6: Height profile for the settled (left) and ridged (right) regimes.&#34;&gt;
-&lt;img src=&#34;alpha30.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 6: Height profile for the settled (left) and ridged (right) regimes.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;771&#34; height=&#34;425&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -401,6 +440,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+  
+  
+
+
 
 
 
@@ -413,44 +456,43 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 &lt;figure class=&#34;half-size2&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;alpha50.png&#34; &gt;
-&lt;img src=&#34;alpha50.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha50_hufd25af0d0031ecfaac829549c686669a_28144_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/alpha50_hufd25af0d0031ecfaac829549c686669a_28144_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;771&#34; height=&#34;425&#34;&gt;
+&lt;/a&gt;
 
 
 
 &lt;/figure&gt;
 
-
 &lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;
-
-&lt;p&gt;We found that the behavior of constant flux bidensity flow is similar to the behavior of constant volume bidensity flow studied in previous work &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. Experimentally, we determine the time required for a regime to emerge, and the critical angle at which the transition between settled and ridged regimes occurs. In addition, we implement a theoretical model that shows the same results. The comparison between the theory and experiment shows good agreement, especially in the ridged regime. Unlike in previous work, the front position grows linearly with time because of the constant flux initial condition.&lt;/p&gt;
-
+&lt;p&gt;We found that the behavior of constant flux bidensity flow is similar to the behavior of constant volume bidensity flow studied in previous work &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. Experimentally, we determine the time required for a regime to emerge, and the critical angle at which the transition between settled and ridged regimes occurs. In addition, we implement a theoretical model that shows the same results. The comparison between the theory and experiment shows good agreement, especially in the ridged regime. Unlike in previous work, the front position grows linearly with time because of the constant flux initial condition.&lt;/p&gt;
 &lt;h2 id=&#34;future-work&#34;&gt;Future Work&lt;/h2&gt;
-
 &lt;p&gt;The current model predicts the ridge to grow arbitrarily large in height as time goes on. Further research could look into mitigating this behavior by including a precursor height, i.e. a thickness of the fluid that is already present on the incline before the front reaches it. It may also be useful to look into improving the experimental technique used to measure the height profile to reduce noise. Our model may also be modified to investigate other types of slurries, such as with different size particles.&lt;/p&gt;
-
 &lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
-
 &lt;p&gt;Many thanks to all the undergraduate and graduate students I worked with. In 2016, I worked with Patrick Flynn, Joseph Pappe, William Sisson, Sam Stanton, Jeffrey Wong, Ruiyi Yang. In Spring 2017, I worked with Jessica Bojorquez, Josh Crasto, Dominic Diaz, Margaret Koulikova, Tameez Latib, Andrew Shapiro, and Clover Ye. In Summer 2017, I worked with Jessica Bojorquez, Adam Busis, Chutian Ma, Andrew Shapiro, Qiyao Zhu, and Xinzhe Zuo. My mentors are Dr. David Arnold, Dr. Claudia Falcon, and Dr. Michael Lindstrom. The Principal Investigator (PI) of the lab is Dr. Andrea Bertozzi. Thank you to the Science Research Initiative&amp;rsquo;s Summer Scholars Research Program for funding in 2016. This material is based upon work supported by the National Science Foundation under grants DMS-1312543, DMS-1659676, and DMS-1045536.&lt;/p&gt;
-
 &lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;Herbert E Huppert.  Flow and instability of a viscous current down a slope. &lt;em&gt;Nature&lt;/em&gt;, 300(5891):427–429, 1982.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34;&gt;D. Leighton and A. Acrivos.  The shear-induced migration of particles in concentrated suspensions. &lt;em&gt;Journal of Fluid Mechanics&lt;/em&gt;, 181:415–439, August 1987.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34;&gt;N Murisic, J Ho, V Hu, P Latterman, T Koch, K Lin, M Mata, and AL Bertozzi. Particle-laden viscous thin-film flows on an incline: Experiments compared with a theory based on shear-induced migration and particle settling. &lt;em&gt;Physica D: Nonlinear Phenomena&lt;/em&gt;, 240(20):1661–1673, 2011.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:4&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;Sungyon Lee, Aliki Mavromoustaki, Gilberto Urdaneta, Kaiwen Huang, and Andrea L Bertozzi. Experimental investigation of bidensity slurries on an incline. &lt;em&gt;Granular Matter&lt;/em&gt;, 16(2):269-274, 2014.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:5&#34;&gt;Jeffrey T. Wong and Andrea L. Bertozzi.  A conservation law model for bidensity suspensions on an incline. &lt;em&gt;Physica D: Nonlinear Phenomena&lt;/em&gt;, 330:47–57, 2016.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:5&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Herbert E Huppert.  Flow and instability of a viscous current down a slope. &lt;em&gt;Nature&lt;/em&gt;, 300(5891):427–429, 1982. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;D. Leighton and A. Acrivos.  The shear-induced migration of particles in concentrated suspensions. &lt;em&gt;Journal of Fluid Mechanics&lt;/em&gt;, 181:415–439, August 1987. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;N Murisic, J Ho, V Hu, P Latterman, T Koch, K Lin, M Mata, and AL Bertozzi. Particle-laden viscous thin-film flows on an incline: Experiments compared with a theory based on shear-induced migration and particle settling. &lt;em&gt;Physica D: Nonlinear Phenomena&lt;/em&gt;, 240(20):1661–1673, 2011. &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Sungyon Lee, Aliki Mavromoustaki, Gilberto Urdaneta, Kaiwen Huang, and Andrea L Bertozzi. Experimental investigation of bidensity slurries on an incline. &lt;em&gt;Granular Matter&lt;/em&gt;, 16(2):269-274, 2014. &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Jeffrey T. Wong and Andrea L. Bertozzi.  A conservation law model for bidensity suspensions on an incline. &lt;em&gt;Physica D: Nonlinear Phenomena&lt;/em&gt;, 330:47–57, 2016. &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
+&lt;/section&gt;
 </description>
     </item>
     

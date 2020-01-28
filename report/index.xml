@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reports | Aviva Prins</title>
+    <link>https://avivaprins.com/report/</link>
+      <atom:link href="https://avivaprins.com/report/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reports</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
+      <title>Reports</title>
+      <link>https://avivaprins.com/report/</link>
+    </image>
+    
+    <item>
+      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
+      <link>https://avivaprins.com/report/gryd-dmd/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/gryd-dmd/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
+      <link>https://avivaprins.com/report/financial-well-being/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/financial-well-being/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
+      <link>https://avivaprins.com/report/political-donations/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/political-donations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PCA and Isomap Analysis</title>
+      <link>https://avivaprins.com/report/gryd-pca/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/gryd-pca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/report/particle-laden-flow-summer-2017/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/particle-laden-flow-summer-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bidensity Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/report/particle-laden-flow-spring-2017/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/particle-laden-flow-spring-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</title>
+      <link>https://avivaprins.com/report/particle-laden-flow-summer-2016/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/particle-laden-flow-summer-2016/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,30 +5,32 @@
     <link>https://avivaprins.com/tags/r/</link>
       <atom:link href="https://avivaprins.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Mon, 04 Jun 2018 19:06:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Fri, 03 Aug 2018 18:20:56 -0700</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>R</title>
       <link>https://avivaprins.com/tags/r/</link>
     </image>
     
     <item>
-      <title>Financial Well Being</title>
-      <link>https://avivaprins.com/project/financial-well-being/</link>
-      <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
-      <guid>https://avivaprins.com/project/financial-well-being/</guid>
-      <description>&lt;p&gt;One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.&lt;/p&gt;
-
-&lt;p&gt;Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being. In addition, we utilize this dataset to investigate the dependencies of SVM. We find that we are able to correlate financial-well being with only 10% of the given questionnaire data, and that SVM performs best on two classes.&lt;/p&gt;
+      <title>Political Donations in the United States</title>
+      <link>https://avivaprins.com/project/political-donations/</link>
+      <pubDate>Fri, 03 Aug 2018 18:20:56 -0700</pubDate>
+      <guid>https://avivaprins.com/project/political-donations/</guid>
+      <description>&lt;p&gt;Please see our 
+&lt;a href=&#34;https://github.com/leahbalter/political-campaign-networks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;main repository&lt;/a&gt;
+ or the links below for more information.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Political Donations in the United States</title>
-      <link>https://avivaprins.com/project/political-donations/</link>
-      <pubDate>Fri, 03 Jun 2016 18:20:56 -0700</pubDate>
-      <guid>https://avivaprins.com/project/political-donations/</guid>
-      <description></description>
+      <title>Financial Well-Being</title>
+      <link>https://avivaprins.com/project/financial-well-being/</link>
+      <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
+      <guid>https://avivaprins.com/project/financial-well-being/</guid>
+      <description>&lt;p&gt;One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.&lt;/p&gt;
+&lt;p&gt;Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being. In addition, we utilize this dataset to investigate the dependencies of SVM. We find that we are able to correlate financial well-being with only 10% of the given questionnaire data, and that SVM performs best on two classes.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

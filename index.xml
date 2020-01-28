@@ -5,43 +5,723 @@
     <link>https://avivaprins.com/</link>
       <atom:link href="https://avivaprins.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Aviva Prins</title>
       <link>https://avivaprins.com/</link>
     </image>
     
     <item>
-      <title>Projects</title>
-      <link>https://avivaprins.com/project/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
-      <guid>https://avivaprins.com/project/</guid>
+      <title>Investigation of Constant Volume and Constant Flux Initial Conditions on Bidensity Particle-Laden Slurries on an Incline</title>
+      <link>https://avivaprins.com/publication/ajur2019/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/ajur2019/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>https://avivaprins.com/publication/</link>
+      <title>Gang Reduction and Youth Development</title>
+      <link>https://avivaprins.com/project/gryd/</link>
+      <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
+      <guid>https://avivaprins.com/project/gryd/</guid>
+      <description>&lt;p&gt;The Gang Reduction and Youth Development (GRYD) program in Los Angeles has a program for adolescents at risk of joining gangs. GRYD uses a questionnaire (&amp;lsquo;Youth Services Eligibility Tool&amp;rsquo;, or YSET) to evaluate the eligibility of students for this program. Students are sorted into three categories: low risk, at risk, and high risk. The program aims to provide resources for the at risk group.&lt;/p&gt;
+&lt;p&gt;The dataset contains the responses of $N \sim 10,000$ students. The questionnaire has $100$ questions, of which only $56$ are used for risk assessment. To calculate risk factor, a student&amp;rsquo;s score is calculated using nine thematic scales. A student scoring in less than three of the scales is considered to have low risk factor, and a student scoring in more than five of the scales is considered to have high risk factor.&lt;/p&gt;
+&lt;p&gt;There may be other methods that are more effective at classifying students into three groups. It is important to be able to visualize our data in order to identify features of our dataset and to be able to compare different methods. If each response can be thought of as a point in real coordinate space, we should investigate projecting the space onto two dimensions without loss of information.&lt;/p&gt;
+&lt;h2 id=&#34;principle-component-analysis&#34;&gt;Principle Component Analysis&lt;/h2&gt;
+&lt;p&gt;The first method to try is linear dimensionality reduction using Principle Component Analysis (PCA). PCA linearly projects the data onto the directions in which the sample variance is maximized.&lt;/p&gt;
+&lt;p&gt;Instead of doing analysis directly, I used the graph Laplacian $L$ on either the scales or the questions. Considering that there are nine scales and $56$ questions, a response $x_i \in \mathbb{R}^9$ or $x_i \in \mathbb{R}^{56}$, respectively. The dataset can be written as a graph with nodes $x_i$ and weighted edges $w_{ij}$ corresponding to the similarity in answering the questionnaire. The weights $w_{ij}$ correspond to a Gaussian distribution, scaled according to the Euclidean distance between responses $x_i$ and $x_j$ and a parameter $\sigma$. Then the corresponding graph Laplacian $L = D - W$, where:&lt;/p&gt;
+&lt;p&gt;\begin{aligned}
+W_{ij} &amp;amp;= e^{\frac{-\Vert x_i - x_j \Vert^2}{2\sigma^2}} \\\&lt;br&gt;
+D &amp;amp;= \text{diag}\left(\sum_{j=1}^m W_{ij}\right) 
+\end{aligned}
+The graph Laplacian is positive semidefinite, meaning we can decompose it into eigenvalues $\lambda_i \geq 0$ such that $Lv_i = \lambda_i v_i$.&lt;/p&gt;
+&lt;p&gt;PCA works as follows. Let $\mathbf{V} \subset \mathbb{R}^2$ be the subspace spanned by the basis of the first two unit eigenvectors corresponding to the largest eigenvalues of $L_{d\times d}$, $\lambda_1$ and $\lambda_2$. Then we can project a point $x$ onto $\mathbf{V}$:
+$$\hat{x} = \text{proj}_\mathbf{V}(x) = \bar{x} + \sum_{i=1}^2 \langle x - \bar{x}, u_i\rangle u_i$$
+where $\bar{x}$ is the sample mean. The error using least squares is 
+$$\frac{1}{N} \sum_{n=1}^N \Vert \hat{x_n} - \bar{x}\Vert^2 = \sum_{j=3}^d \lambda_j$$
+so the projection minimizes the error by taking the largest two eigenvalues.&lt;/p&gt;
+&lt;p&gt;Figure 1 shows the results of PCA on the scales. The responses are clearly clustered into three groups, however these three groups do not correspond to Risk Factor (RF). Upon further investigation, they are clustered according to a scale that only has two questions. Thus, this result reflects a property of the questionnaire&amp;rsquo;s construction which is not meaningful.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 1: Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;491&#34; height=&#34;278&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 1:&lt;/strong&gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34%$ of the data is captured by the first eigenvector in dimensionality reduction.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Figure 2 shows the results of PCA on the questions. There is one large cluster with a clear progression from low Risk Factor to high Risk Factor, but there is significant overlap.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 2: Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;491&#34; height=&#34;278&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 2:&lt;/strong&gt; Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Different distance metrics in the weight calculation of the graph Laplacian may yield more desirable results. However, a nonlinear dimensionality reduction approach is far more important.&lt;/p&gt;
+&lt;h2 id=&#34;nonlinear-dimensionality-reduction&#34;&gt;Nonlinear Dimensionality Reduction&lt;/h2&gt;
+&lt;p&gt;Isomap is a nonlinear dimensionality reduction method that extends metric multidimensional distances (MDS). The algorithm has three steps. First, it performs $k$-nearest neighbors to identify the contour of the manifold. Second, it estimates the geodesic distances by calculating the shortest paths between points. Finally, Isomap performs MDS on the new distance matrix.&lt;/p&gt;
+&lt;p&gt;Additionally, Isomap is isometric, meaning that the mapping between manifolds preserves distances between points. Since we want to understand how different responses relate to each other, this is crutial. In the 2018 UCLA REU, Yifan Li worked on a methodology for nonlinear dimensionality reduction.&lt;/p&gt;
+&lt;h2 id=&#34;dynamic-mode-decomposition&#34;&gt;Dynamic Mode Decomposition&lt;/h2&gt;
+&lt;p&gt;In the summer of 2018, I studied the GRYD dataset as a dynamical system using Dynamic Mode Decomposition with Jiazhong Mei and Qinyi Zeng. Please see the report below. In January 2019 I applied the methodology to students who were rejected from the program and analyzed new data from GRYD. We are working on publishing our findings so stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Political Donations in the United States</title>
+      <link>https://avivaprins.com/project/political-donations/</link>
+      <pubDate>Fri, 03 Aug 2018 18:20:56 -0700</pubDate>
+      <guid>https://avivaprins.com/project/political-donations/</guid>
+      <description>&lt;p&gt;Please see our 
+&lt;a href=&#34;https://github.com/leahbalter/political-campaign-networks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;main repository&lt;/a&gt;
+ or the links below for more information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
+      <link>https://avivaprins.com/report/gryd-dmd/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/publication/</guid>
+      <guid>https://avivaprins.com/report/gryd-dmd/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
+      <link>https://avivaprins.com/report/financial-well-being/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/financial-well-being/</guid>
       <description></description>
     </item>
     
     <item>
-      <title></title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
+      <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
+      <link>https://avivaprins.com/report/political-donations/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/political-donations/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://avivaprins.com/talk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/talk/</guid>
+      <title>Building Engineers and Mentors</title>
+      <link>https://avivaprins.com/project/beam/</link>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/project/beam/</guid>
+      <description>&lt;p&gt;Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their 
+&lt;a href=&#34;http://www.tanms-erc.org/beam&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website.&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Financial Well-Being</title>
+      <link>https://avivaprins.com/project/financial-well-being/</link>
+      <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
+      <guid>https://avivaprins.com/project/financial-well-being/</guid>
+      <description>&lt;p&gt;One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.&lt;/p&gt;
+&lt;p&gt;Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being. In addition, we utilize this dataset to investigate the dependencies of SVM. We find that we are able to correlate financial well-being with only 10% of the given questionnaire data, and that SVM performs best on two classes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PCA and Isomap Analysis</title>
+      <link>https://avivaprins.com/report/gryd-pca/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/gryd-pca/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/report/particle-laden-flow-summer-2017/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/particle-laden-flow-summer-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Particle Laden Flows</title>
+      <link>https://avivaprins.com/project/particle-laden-flows/</link>
+      <pubDate>Sun, 04 Jun 2017 18:10:35 -0700</pubDate>
+      <guid>https://avivaprins.com/project/particle-laden-flows/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&amp;rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&amp;rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.&lt;/p&gt;
+&lt;p&gt;The behavior of these flows are important because they occur in many fields. Mining companies use spiral separators to separate minerals from ore. Mixtures of oil, sand, and water occur in oil spills. Slurries also occur in industrial, biological, and pharmaceutical contexts.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 1: Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;886&#34; height=&#34;429&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 1:&lt;/strong&gt; Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;When the mixture flows down a ramp, some interesting behavior occurs. Sometimes the particles separate from the liquid. Sometimes the particles move faster than the liquid, forming a particle-rich ridge at the front of the flow. Sometimes fingers form. We wanted to create a mathematical model to describe the fluid’s dynamics that depends on external forces and the types and quantity of particles present in the slurry.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;half-size1&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 2: Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1046&#34; height=&#34;567&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 2:&lt;/strong&gt; Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;half-size2&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/ridged%20regime_hudb377af2c36174626bc95af458c55f32_84554_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/ridged%20regime_hudb377af2c36174626bc95af458c55f32_84554_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1019&#34; height=&#34;542&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Previous research&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; has developed a force-based model for constant volume monodisperse flow. Lee et. al.&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; and Wong and Bertozzi&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; extended this model to the bidensity case using experiments and theory, respectively. They used constant volume initial conditions, meaning that a fixed volume of slurry was poured onto the incline and allowed to flow. We adapted their model to use constant flux initial conditions, where the slurry is continuously added to the incline with a constant flow rate. We also performed experiments using the same total volume fraction $\phi_0 = \frac{V_p}{V_t} = 0.4$ parameter, and compared the results to the prediction of the theory.&lt;/p&gt;
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+&lt;p&gt;Using the Navier-Stokes equation and particle mass conservation, we can create a system of coupled ODEs. Let $\phi_i$, $i=1,2$ to be the volume fraction of particle $i$ to the total volume, $\phi = \phi_1 + \phi_2$, and the $\boldsymbol{J}_i$ term is the flux of particle $i$:
+\begin{aligned} 
+0 &amp;amp;= \nabla \cdot (-pI + \mu(\nabla\boldsymbol{u} + \nabla\boldsymbol{u}^T)) + \rho\boldsymbol{g}. \\\&lt;br&gt;
+0 &amp;amp;= \frac{\partial \phi_i}{\partial t} + \boldsymbol{u} \cdot \nabla \phi_i + \nabla \cdot \boldsymbol{J}_i, \quad i=1,2.
+\end{aligned}
+Assuming equilibrium in the $z$-direction, the resulting system of ODEs relates the dervitives of the shear stress $\sigma$, viscosity $\mu$, and density $\rho$.&lt;/p&gt;
+&lt;p&gt;To model the height and front position of the fluid and two particles, we introduce depth-averaged particle concentration and volume ratio. Then we have a system of PDEs:
+\begin{aligned} 
+0 &amp;amp;= \frac{\partial h}{\partial t} + \frac{\partial}{\partial x}(h^3f(\bar{\phi},\bar{\chi})) \\\&lt;br&gt;
+0 &amp;amp;= \frac{\partial (h\bar{\phi_i})}{\partial x} + \frac{\partial}{\partial x}(h^3g_i(\bar{\phi},\bar{\chi})), \quad i=1,2
+\end{aligned}&lt;/p&gt;
+&lt;p&gt;We consider the Riemann initial condition:
+\begin{aligned} 
+h(x,0) &amp;amp;= \begin{cases} \left[\frac{3\mu(\phi_0)Q}{W\rho(\phi_0)g\sin\alpha}\right]^\frac{1}{3}, &amp;amp; x&amp;lt;0 \&lt;br&gt;
+\varepsilon, &amp;amp; x&amp;gt;0 \end{cases} \\\&lt;br&gt;
+\bar{\phi}(x,0) &amp;amp;= \begin{cases} \phi_0, &amp;amp; x&amp;lt;0 \&lt;br&gt;
+0, \qquad \qquad \qquad ! &amp;amp; x&amp;gt;0 \end{cases} \\\&lt;br&gt;
+\bar{\chi}(x,0) &amp;amp;= \begin{cases} \chi_0, &amp;amp; x&amp;lt;0 \&lt;br&gt;
+0, \qquad \qquad \qquad ! &amp;amp; x&amp;gt;0 \end{cases} \\\&lt;br&gt;
+\end{aligned}&lt;/p&gt;
+&lt;p&gt;Finally, expressing the system in vector notation we have:
+\begin{equation}
+U = (h, h\bar{\phi_1},h\bar{\phi_2})^T \\\&lt;br&gt;
+F(U) = h^3(f,g_1,g_2)^T
+\end{equation}
+$$U_t + (F(U))_x = 0$$&lt;/p&gt;
+&lt;p&gt;We then solve the partial differential equation using an upwind scheme. The height profile can be obtained from $h$ and the particle front profile can be found from plotting the concentration profile.&lt;/p&gt;
+&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
+&lt;p&gt;We can perform experiments to track the particle fronts and height profile of the particle laden flow. We can vary the total volume fraction $\phi_0$, the volume ratio between beads $\chi$, and the inclination angle $\alpha$ of the track. In addition, we can have two types of initial conditions: constant volume or constant flux. In the constant volume case we measure and pour a finite volume onto the track. In the constant flux case, we use a pump to continuously add slurry to the track. A picture of the track is below.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 3: A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1650&#34; height=&#34;928&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 3:&lt;/strong&gt; A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In 2017, we used the following materials:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Particles&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;density&lt;/strong&gt; $\rho$&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;diameter&lt;/strong&gt; $d$&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;color&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Small Glass (P1)&lt;/td&gt;
+&lt;td&gt;$2.5$ g/cm$^3$&lt;/td&gt;
+&lt;td&gt;$0.07-0.125$ mm&lt;/td&gt;
+&lt;td&gt;pink (dyed)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Small Ceramic (P2)&lt;/td&gt;
+&lt;td&gt;$3.8$ g/cm$^3$&lt;/td&gt;
+&lt;td&gt;$0.150-0.180$ mm&lt;/td&gt;
+&lt;td&gt;blue (dyed)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Large Glass (P3)&lt;/td&gt;
+&lt;td&gt;$2.5$ g/cm$^3$&lt;/td&gt;
+&lt;td&gt;$0.40-0.60$ mm&lt;/td&gt;
+&lt;td&gt;white&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Large Ceramic (P4)&lt;/td&gt;
+&lt;td&gt;$3.8$ g/cm$^3$&lt;/td&gt;
+&lt;td&gt;$0.40-0.60$ mm&lt;/td&gt;
+&lt;td&gt;red&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Fluid&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;density&lt;/strong&gt; $\rho$&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;viscosity&lt;/strong&gt; $\nu$&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;color&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PDMS oil&lt;/td&gt;
+&lt;td&gt;$0.971$ g/cm$^3$&lt;/td&gt;
+&lt;td&gt;$10^{-3}$ m$^2$/s&lt;/td&gt;
+&lt;td&gt;clear&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The liquid used in all experiments is viscous polydimethylsiloxane (PDMS) oil. For bidensity experiments, we use glass and ceramic beads with the same diameter (P3 and P4). For bidisperse experiments, we use pairs of beads with the same density but different diameters (P1 and P3, or P2 and P4).&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We film the slurry as it flows down the track to capture front position and velocity information. Using MATLAB, we can analyze the concentrations of particles present in different segments of the flow. We identify the front position of each species of particle and the PDMS.&lt;/p&gt;
+&lt;p&gt;To create a height profile of the flow, we use a laser sheet and analyze video in MATLAB. As shown in Figure 4, the laser line position in the video is distorted by the slurry.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 4: One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1338&#34; height=&#34;258&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 4:&lt;/strong&gt; One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;experimental-results&#34;&gt;Experimental Results&lt;/h2&gt;
+&lt;p&gt;The constant flux bidensity experiments from 2017 are summarized in Figure 5. As the phase diagram shows, we experimentally see the ridged regime at trials displayed by the blue diamonds, the settled regime at trials displayed by black circles, and the well-mixed regime at trials displayed by red circles.The darker shaded region on the table shows where we expect to see more ridged regimes, and the white area is where we expect to see settled regimes. The light gray region in between our ridged and settled experiments is where we see the transient well-mixed regime.
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 5: Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;578&#34; height=&#34;417&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 5:&lt;/strong&gt; Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;numerical-results&#34;&gt;Numerical Results&lt;/h2&gt;
+&lt;p&gt;Figures 5 and 6 compare the simulation and experimental results for front position and height profile. In the settled regime, there are three distinct lines in both simulation and experiment corresponding to the three fronts. Although they do not align perfectly, we can see that qualitatively, the fluid and the lighter particles are behaving similarly to simulation, as they are moving with similar velocity. In the ridged regime, the simulated front positions coincide with the experimental results.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;half-size1&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 5: Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;809&#34; height=&#34;616&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 5:&lt;/strong&gt; Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;half-size2&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha50_chi0.5_hu8f09f3b77e52b39e1afde7bf05b55c86_30714_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha50_chi0.5_hu8f09f3b77e52b39e1afde7bf05b55c86_30714_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;809&#34; height=&#34;616&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the settled regime, the height profile for the experimental data and theoretical data correspond to each other well, except that the real height is about 1mm higher than predicted. In the ridged regime, again the shape of the graphs from experiment and simulation agrees with each other. But in the simulation, the spike at the slurry front will keep increasing in height as time goes on. This unrealistic behavior depends on the precursor height for the simulation. In this particular example, the precursor height is set to be 1% of the initial height of the slurry. Higher precursor height will prevent this behavior. If the precursor height is set to be 35% or higher, then the front will not keep getting higher forever.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;half-size1&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 6: Height profile for the settled (left) and ridged (right) regimes.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;771&#34; height=&#34;425&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Figure 6:&lt;/strong&gt; Height profile for the settled (left) and ridged (right) regimes.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;half-size2&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha50_hufd25af0d0031ecfaac829549c686669a_28144_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/alpha50_hufd25af0d0031ecfaac829549c686669a_28144_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;771&#34; height=&#34;425&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;
+&lt;p&gt;We found that the behavior of constant flux bidensity flow is similar to the behavior of constant volume bidensity flow studied in previous work &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. Experimentally, we determine the time required for a regime to emerge, and the critical angle at which the transition between settled and ridged regimes occurs. In addition, we implement a theoretical model that shows the same results. The comparison between the theory and experiment shows good agreement, especially in the ridged regime. Unlike in previous work, the front position grows linearly with time because of the constant flux initial condition.&lt;/p&gt;
+&lt;h2 id=&#34;future-work&#34;&gt;Future Work&lt;/h2&gt;
+&lt;p&gt;The current model predicts the ridge to grow arbitrarily large in height as time goes on. Further research could look into mitigating this behavior by including a precursor height, i.e. a thickness of the fluid that is already present on the incline before the front reaches it. It may also be useful to look into improving the experimental technique used to measure the height profile to reduce noise. Our model may also be modified to investigate other types of slurries, such as with different size particles.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;Many thanks to all the undergraduate and graduate students I worked with. In 2016, I worked with Patrick Flynn, Joseph Pappe, William Sisson, Sam Stanton, Jeffrey Wong, Ruiyi Yang. In Spring 2017, I worked with Jessica Bojorquez, Josh Crasto, Dominic Diaz, Margaret Koulikova, Tameez Latib, Andrew Shapiro, and Clover Ye. In Summer 2017, I worked with Jessica Bojorquez, Adam Busis, Chutian Ma, Andrew Shapiro, Qiyao Zhu, and Xinzhe Zuo. My mentors are Dr. David Arnold, Dr. Claudia Falcon, and Dr. Michael Lindstrom. The Principal Investigator (PI) of the lab is Dr. Andrea Bertozzi. Thank you to the Science Research Initiative&amp;rsquo;s Summer Scholars Research Program for funding in 2016. This material is based upon work supported by the National Science Foundation under grants DMS-1312543, DMS-1659676, and DMS-1045536.&lt;/p&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Herbert E Huppert.  Flow and instability of a viscous current down a slope. &lt;em&gt;Nature&lt;/em&gt;, 300(5891):427–429, 1982. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;D. Leighton and A. Acrivos.  The shear-induced migration of particles in concentrated suspensions. &lt;em&gt;Journal of Fluid Mechanics&lt;/em&gt;, 181:415–439, August 1987. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;N Murisic, J Ho, V Hu, P Latterman, T Koch, K Lin, M Mata, and AL Bertozzi. Particle-laden viscous thin-film flows on an incline: Experiments compared with a theory based on shear-induced migration and particle settling. &lt;em&gt;Physica D: Nonlinear Phenomena&lt;/em&gt;, 240(20):1661–1673, 2011. &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Sungyon Lee, Aliki Mavromoustaki, Gilberto Urdaneta, Kaiwen Huang, and Andrea L Bertozzi. Experimental investigation of bidensity slurries on an incline. &lt;em&gt;Granular Matter&lt;/em&gt;, 16(2):269-274, 2014. &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Jeffrey T. Wong and Andrea L. Bertozzi.  A conservation law model for bidensity suspensions on an incline. &lt;em&gt;Physica D: Nonlinear Phenomena&lt;/em&gt;, 330:47–57, 2016. &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bidensity Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/report/particle-laden-flow-spring-2017/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/particle-laden-flow-spring-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</title>
+      <link>https://avivaprins.com/report/particle-laden-flow-summer-2016/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/report/particle-laden-flow-summer-2016/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Women in Technology</title>
+      <link>https://avivaprins.com/project/women-in-technology/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/project/women-in-technology/</guid>
+      <description>&lt;p&gt;Women in Technology is a chapter of the 
+&lt;a href=&#34;https://www.acm.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Association for Computing Machinery&lt;/a&gt;
+ at 
+&lt;a href=&#34;http://www.smc.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Santa Monica College.&lt;/a&gt;
+ I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Environmental Education</title>
+      <link>https://avivaprins.com/project/audubon/</link>
+      <pubDate>Sat, 04 Jun 2016 18:33:47 -0700</pubDate>
+      <guid>https://avivaprins.com/project/audubon/</guid>
+      <description>&lt;p&gt;The Los Angeles Audubon’s environmental education program at Kenneth Hahn State Recreation Area educates local students about the outdoors. Interns lead elementary and middle school students on guided walks with educational stations. The curriculum includes lessons on photosynthesis, ecosystems, ecology, and geology depending on grade level.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

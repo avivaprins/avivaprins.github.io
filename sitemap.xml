@@ -1,69 +1,159 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://avivaprins.com/authors/aviva/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/publication_types/2/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/andrea-l.-bertozzi/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/andrew-shapiro/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/authors/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/claudia-falcon/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/clover-ye/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/david-arnold/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/dominic-diaz/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/publication/ajur2019/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/jessica-bojorquez/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/josh-crasto/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/margaret-koulikova/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/michael-r.-lindstrom/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/publication_types/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/publication/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/authors/tameez-latib/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/tags/dynamical-systems/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-06-04T16:39:56-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/tags/featured/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-06-04T16:39:56-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/project/gryd/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-06-04T16:39:56-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/tags/machine-learning/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-06-04T16:39:56-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/project/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-06-04T16:39:56-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/tags/python/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-06-04T16:39:56-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/tags/research/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-06-04T16:39:56-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://avivaprins.com/tags/</loc>
-    <lastmod>2019-04-04T16:39:56-07:00</lastmod>
+    <lastmod>2019-06-04T16:39:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://avivaprins.com/publication_types/4/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <loc>https://avivaprins.com/tags/matlab/</loc>
+    <lastmod>2018-08-03T18:20:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://avivaprins.com/publication/gryd-dmd/</loc>
+    <loc>https://avivaprins.com/tags/network-science/</loc>
+    <lastmod>2018-08-03T18:20:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/project/political-donations/</loc>
+    <lastmod>2018-08-03T18:20:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/tags/r/</loc>
+    <lastmod>2018-08-03T18:20:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/report/gryd-dmd/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,17 +163,12 @@
   </url>
   
   <url>
-    <loc>https://avivaprins.com/publication_types/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/publication/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://avivaprins.com/authors/qinyi-zeng/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avivaprins.com/report/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,7 +188,7 @@
   </url>
   
   <url>
-    <loc>https://avivaprins.com/publication/financial-well-being/</loc>
+    <loc>https://avivaprins.com/report/financial-well-being/</loc>
     <lastmod>2018-06-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,7 +213,7 @@
   </url>
   
   <url>
-    <loc>https://avivaprins.com/publication/political-donations/</loc>
+    <loc>https://avivaprins.com/report/political-donations/</loc>
     <lastmod>2018-06-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -153,27 +238,12 @@
   </url>
   
   <url>
-    <loc>https://avivaprins.com/tags/r/</loc>
-    <lastmod>2018-06-04T19:06:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/publication/gryd-pca/</loc>
+    <loc>https://avivaprins.com/report/gryd-pca/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://avivaprins.com/publication_types/0/</loc>
-    <lastmod>2017-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://avivaprins.com/authors/adam-busis/</loc>
-    <lastmod>2017-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/authors/andrew-shapiro/</loc>
     <lastmod>2017-08-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,17 +253,12 @@
   </url>
   
   <url>
-    <loc>https://avivaprins.com/authors/jessica-bojorquez/</loc>
-    <lastmod>2017-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://avivaprins.com/authors/qiyao-zhu/</loc>
     <lastmod>2017-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</loc>
+    <loc>https://avivaprins.com/report/particle-laden-flow-summer-2017/</loc>
     <lastmod>2017-08-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -208,47 +273,17 @@
   </url>
   
   <url>
-    <loc>https://avivaprins.com/tags/matlab/</loc>
-    <lastmod>2017-06-04T18:10:35-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://avivaprins.com/project/particle-laden-flows/</loc>
     <lastmod>2017-06-04T18:10:35-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</loc>
+    <loc>https://avivaprins.com/report/particle-laden-flow-spring-2017/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://avivaprins.com/authors/clover-ye/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/authors/dominic-diaz/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/authors/josh-crasto/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/authors/margaret-koulikova/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/authors/tameez-latib/</loc>
-    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</loc>
+    <loc>https://avivaprins.com/report/particle-laden-flow-summer-2016/</loc>
     <lastmod>2016-08-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -288,21 +323,7 @@
   </url>
   
   <url>
-    <loc>https://avivaprins.com/tags/network-science/</loc>
-    <lastmod>2016-06-03T18:20:56-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/project/political-donations/</loc>
-    <lastmod>2016-06-03T18:20:56-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://avivaprins.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://avivaprins.com/talk/</loc>
   </url>
   
 </urlset>

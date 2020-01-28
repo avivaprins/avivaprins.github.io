@@ -5,9 +5,9 @@
     <link>https://avivaprins.com/authors/</link>
       <atom:link href="https://avivaprins.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
       <link>https://avivaprins.com/authors/</link>
     </image>
@@ -15,10 +15,110 @@
     <item>
       <title></title>
       <link>https://avivaprins.com/authors/aviva/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/authors/aviva/</guid>
-      <description>&lt;p&gt;I am a PhD student in the &lt;a href=&#34;https://www.cs.umd.edu/&#34; target=&#34;_blank&#34;&gt;Department of Computer Science&lt;/a&gt; at the University of Maryland, and I am a member of &lt;a href=&#34;http://www.umiacs.umd.edu/&#34; target=&#34;_blank&#34;&gt;UMIACS&lt;/a&gt;, the University of Maryland Institute for Advanced Computer Studies. I study fairness in machine learning with &lt;a href=&#34;http://jpdickerson.com/&#34; target=&#34;_blank&#34;&gt;John Dickerson&lt;/a&gt; and &lt;a href=&#34;http://www.cs.umd.edu/~srin/&#34; target=&#34;_blank&#34;&gt;Aravind Srinivasan&lt;/a&gt;. This summer, I participated in Research in Industrial Projects for Students (&lt;a href=&#34;https://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2019/&#34; target=&#34;_blank&#34;&gt;RIPS&lt;/a&gt;), co-sponsored by UCLA&amp;rsquo;s Institute for Pure and Applied Mathematics (&lt;a href=&#34;https://www.ipam.ucla.edu/&#34; target=&#34;_blank&#34;&gt;IPAM&lt;/a&gt;) and Google. We studied privacy in databases with query access.&lt;/p&gt;
+      <description>&lt;p&gt;I am a PhD student in the 
+&lt;a href=&#34;https://www.cs.umd.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Computer Science&lt;/a&gt;
+ at the University of Maryland, and I am a member of the University of Maryland Institute for Advanced Computer Studies, 
+&lt;a href=&#34;http://www.umiacs.umd.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UMIACS.&lt;/a&gt;
+ I study fairness in Artificial Intelligence with 
+&lt;a href=&#34;http://jpdickerson.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John Dickerson&lt;/a&gt;
+ and 
+&lt;a href=&#34;http://www.cs.umd.edu/~srin/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aravind Srinivasan.&lt;/a&gt;
+ This summer, I participated in Research in Industrial Projects for Students 
+&lt;a href=&#34;https://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(RIPS),&lt;/a&gt;
+ co-sponsored by UCLA&amp;rsquo;s Institute for Pure and Applied Mathematics 
+&lt;a href=&#34;https://www.ipam.ucla.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(IPAM)&lt;/a&gt;
+ and Google. We studied privacy in databases with query access.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Andrea L. Bertozzi</title>
+      <link>https://avivaprins.com/authors/andrea-l.-bertozzi/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/andrea-l.-bertozzi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andrew Shapiro</title>
+      <link>https://avivaprins.com/authors/andrew-shapiro/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/andrew-shapiro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Claudia Falcon</title>
+      <link>https://avivaprins.com/authors/claudia-falcon/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/claudia-falcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clover Ye</title>
+      <link>https://avivaprins.com/authors/clover-ye/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/clover-ye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David Arnold</title>
+      <link>https://avivaprins.com/authors/david-arnold/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/david-arnold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dominic Diaz</title>
+      <link>https://avivaprins.com/authors/dominic-diaz/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/dominic-diaz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jessica Bojorquez</title>
+      <link>https://avivaprins.com/authors/jessica-bojorquez/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/jessica-bojorquez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Josh Crasto</title>
+      <link>https://avivaprins.com/authors/josh-crasto/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/josh-crasto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Margaret Koulikova</title>
+      <link>https://avivaprins.com/authors/margaret-koulikova/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/margaret-koulikova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michael R. Lindstrom</title>
+      <link>https://avivaprins.com/authors/michael-r.-lindstrom/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/michael-r.-lindstrom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tameez Latib</title>
+      <link>https://avivaprins.com/authors/tameez-latib/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/authors/tameez-latib/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -110,26 +210,10 @@
     </item>
     
     <item>
-      <title>Andrew Shapiro</title>
-      <link>https://avivaprins.com/authors/andrew-shapiro/</link>
-      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/authors/andrew-shapiro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Chutian Ma</title>
       <link>https://avivaprins.com/authors/chutian-ma/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/authors/chutian-ma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jessica Bojorquez</title>
-      <link>https://avivaprins.com/authors/jessica-bojorquez/</link>
-      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/authors/jessica-bojorquez/</guid>
       <description></description>
     </item>
     
@@ -146,46 +230,6 @@
       <link>https://avivaprins.com/authors/xinzhe-zuo/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/authors/xinzhe-zuo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clover Ye</title>
-      <link>https://avivaprins.com/authors/clover-ye/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/authors/clover-ye/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dominic Diaz</title>
-      <link>https://avivaprins.com/authors/dominic-diaz/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/authors/dominic-diaz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Josh Crasto</title>
-      <link>https://avivaprins.com/authors/josh-crasto/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/authors/josh-crasto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Margaret Koulikova</title>
-      <link>https://avivaprins.com/authors/margaret-koulikova/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/authors/margaret-koulikova/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tameez Latib</title>
-      <link>https://avivaprins.com/authors/tameez-latib/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/authors/tameez-latib/</guid>
       <description></description>
     </item>
     

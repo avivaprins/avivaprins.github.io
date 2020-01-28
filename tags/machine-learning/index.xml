@@ -5,9 +5,9 @@
     <link>https://avivaprins.com/tags/machine-learning/</link>
       <atom:link href="https://avivaprins.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Thu, 04 Apr 2019 16:39:56 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Tue, 04 Jun 2019 16:39:56 -0700</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Machine Learning</title>
       <link>https://avivaprins.com/tags/machine-learning/</link>
     </image>
@@ -15,38 +15,32 @@
     <item>
       <title>Gang Reduction and Youth Development</title>
       <link>https://avivaprins.com/project/gryd/</link>
-      <pubDate>Thu, 04 Apr 2019 16:39:56 -0700</pubDate>
+      <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/project/gryd/</guid>
-      <description>
-
-&lt;p&gt;The Gang Reduction and Youth Development (GRYD) program in Los Angeles has a program for adolescents at risk of joining gangs. GRYD uses a questionnaire (&amp;lsquo;Youth Services Eligibility Tool&amp;rsquo;, or YSET) to evaluate the eligibility of students for this program. Students are sorted into three categories: low risk, at risk, and high risk. The program aims to provide resources for the at risk group.&lt;/p&gt;
-
+      <description>&lt;p&gt;The Gang Reduction and Youth Development (GRYD) program in Los Angeles has a program for adolescents at risk of joining gangs. GRYD uses a questionnaire (&amp;lsquo;Youth Services Eligibility Tool&amp;rsquo;, or YSET) to evaluate the eligibility of students for this program. Students are sorted into three categories: low risk, at risk, and high risk. The program aims to provide resources for the at risk group.&lt;/p&gt;
 &lt;p&gt;The dataset contains the responses of $N \sim 10,000$ students. The questionnaire has $100$ questions, of which only $56$ are used for risk assessment. To calculate risk factor, a student&amp;rsquo;s score is calculated using nine thematic scales. A student scoring in less than three of the scales is considered to have low risk factor, and a student scoring in more than five of the scales is considered to have high risk factor.&lt;/p&gt;
-
 &lt;p&gt;There may be other methods that are more effective at classifying students into three groups. It is important to be able to visualize our data in order to identify features of our dataset and to be able to compare different methods. If each response can be thought of as a point in real coordinate space, we should investigate projecting the space onto two dimensions without loss of information.&lt;/p&gt;
-
 &lt;h2 id=&#34;principle-component-analysis&#34;&gt;Principle Component Analysis&lt;/h2&gt;
-
 &lt;p&gt;The first method to try is linear dimensionality reduction using Principle Component Analysis (PCA). PCA linearly projects the data onto the directions in which the sample variance is maximized.&lt;/p&gt;
-
 &lt;p&gt;Instead of doing analysis directly, I used the graph Laplacian $L$ on either the scales or the questions. Considering that there are nine scales and $56$ questions, a response $x_i \in \mathbb{R}^9$ or $x_i \in \mathbb{R}^{56}$, respectively. The dataset can be written as a graph with nodes $x_i$ and weighted edges $w_{ij}$ corresponding to the similarity in answering the questionnaire. The weights $w_{ij}$ correspond to a Gaussian distribution, scaled according to the Euclidean distance between responses $x_i$ and $x_j$ and a parameter $\sigma$. Then the corresponding graph Laplacian $L = D - W$, where:&lt;/p&gt;
-
 &lt;p&gt;\begin{aligned}
-    W_{ij} &amp;amp;= e^{\frac{-\Vert x_i - x_j \Vert^2}{2\sigma^2}} \\&lt;br /&gt;
-    D &amp;amp;= \text{diag}\left(\sum_{j=1}^m W_{ij}\right)
+W_{ij} &amp;amp;= e^{\frac{-\Vert x_i - x_j \Vert^2}{2\sigma^2}} \\\&lt;br&gt;
+D &amp;amp;= \text{diag}\left(\sum_{j=1}^m W_{ij}\right) 
 \end{aligned}
 The graph Laplacian is positive semidefinite, meaning we can decompose it into eigenvalues $\lambda_i \geq 0$ such that $Lv_i = \lambda_i v_i$.&lt;/p&gt;
-
 &lt;p&gt;PCA works as follows. Let $\mathbf{V} \subset \mathbb{R}^2$ be the subspace spanned by the basis of the first two unit eigenvectors corresponding to the largest eigenvalues of $L_{d\times d}$, $\lambda_1$ and $\lambda_2$. Then we can project a point $x$ onto $\mathbf{V}$:
 $$\hat{x} = \text{proj}_\mathbf{V}(x) = \bar{x} + \sum_{i=1}^2 \langle x - \bar{x}, u_i\rangle u_i$$
-where $\bar{x}$ is the sample mean. The error using least squares is
+where $\bar{x}$ is the sample mean. The error using least squares is 
 $$\frac{1}{N} \sum_{n=1}^N \Vert \hat{x_n} - \bar{x}\Vert^2 = \sum_{j=3}^d \lambda_j$$
 so the projection minimizes the error by taking the largest two eigenvalues.&lt;/p&gt;
-
 &lt;p&gt;Figure 1 shows the results of PCA on the scales. The responses are clearly clustered into three groups, however these three groups do not correspond to Risk Factor (RF). Upon further investigation, they are clustered according to a scale that only has two questions. Thus, this result reflects a property of the questionnaire&amp;rsquo;s construction which is not meaningful.&lt;/p&gt;
 
 
 
+
+
+  
+  
 
 
 
@@ -61,19 +55,21 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;sPCA.png&#34; data-caption=&#34;Figure 1: Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34\%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
-&lt;img src=&#34;sPCA.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 1: Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;491&#34; height=&#34;278&#34;&gt;
+&lt;/a&gt;
 
 
   
   
   &lt;figcaption&gt;
-    &lt;strong&gt;Figure 1:&lt;/strong&gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34\%$ of the data is captured by the first eigenvector in dimensionality reduction.
+    &lt;strong&gt;Figure 1:&lt;/strong&gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34%$ of the data is captured by the first eigenvector in dimensionality reduction.
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
-
 
 &lt;p&gt;Figure 2 shows the results of PCA on the questions. There is one large cluster with a clear progression from low Risk Factor to high Risk Factor, but there is significant overlap.&lt;/p&gt;
 
@@ -81,6 +77,10 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+  
+  
+
+
 
 
 
@@ -93,8 +93,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;qPCA.png&#34; data-caption=&#34;Figure 2: Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
-&lt;img src=&#34;qPCA.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 2: Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;491&#34; height=&#34;278&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -106,29 +109,22 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;Different distance metrics in the weight calculation of the graph Laplacian may yield more desirable results. However, a nonlinear dimensionality reduction approach is far more important.&lt;/p&gt;
-
 &lt;h2 id=&#34;nonlinear-dimensionality-reduction&#34;&gt;Nonlinear Dimensionality Reduction&lt;/h2&gt;
-
 &lt;p&gt;Isomap is a nonlinear dimensionality reduction method that extends metric multidimensional distances (MDS). The algorithm has three steps. First, it performs $k$-nearest neighbors to identify the contour of the manifold. Second, it estimates the geodesic distances by calculating the shortest paths between points. Finally, Isomap performs MDS on the new distance matrix.&lt;/p&gt;
-
 &lt;p&gt;Additionally, Isomap is isometric, meaning that the mapping between manifolds preserves distances between points. Since we want to understand how different responses relate to each other, this is crutial. In the 2018 UCLA REU, Yifan Li worked on a methodology for nonlinear dimensionality reduction.&lt;/p&gt;
-
 &lt;h2 id=&#34;dynamic-mode-decomposition&#34;&gt;Dynamic Mode Decomposition&lt;/h2&gt;
-
-&lt;p&gt;In the summer of 2018, I studied the GRYD dataset as a dynamical system using Dynamic Mode Decomposition with Jiazhong Mei and Qinyi Zeng. Please see the publication below. In January 2019 I will apply the methodology to students who were rejected from the program and analyze new data from GRYD.&lt;/p&gt;
+&lt;p&gt;In the summer of 2018, I studied the GRYD dataset as a dynamical system using Dynamic Mode Decomposition with Jiazhong Mei and Qinyi Zeng. Please see the report below. In January 2019 I applied the methodology to students who were rejected from the program and analyzed new data from GRYD. We are working on publishing our findings so stay tuned!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Financial Well Being</title>
+      <title>Financial Well-Being</title>
       <link>https://avivaprins.com/project/financial-well-being/</link>
       <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
       <guid>https://avivaprins.com/project/financial-well-being/</guid>
       <description>&lt;p&gt;One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.&lt;/p&gt;
-
-&lt;p&gt;Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being. In addition, we utilize this dataset to investigate the dependencies of SVM. We find that we are able to correlate financial-well being with only 10% of the given questionnaire data, and that SVM performs best on two classes.&lt;/p&gt;
+&lt;p&gt;Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being. In addition, we utilize this dataset to investigate the dependencies of SVM. We find that we are able to correlate financial well-being with only 10% of the given questionnaire data, and that SVM performs best on two classes.&lt;/p&gt;
 </description>
     </item>
     

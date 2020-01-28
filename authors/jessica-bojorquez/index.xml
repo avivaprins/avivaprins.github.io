@@ -5,28 +5,36 @@
     <link>https://avivaprins.com/authors/jessica-bojorquez/</link>
       <atom:link href="https://avivaprins.com/authors/jessica-bojorquez/index.xml" rel="self" type="application/rss+xml" />
     <description>Jessica Bojorquez</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Fri, 11 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Jessica Bojorquez</title>
       <link>https://avivaprins.com/authors/jessica-bojorquez/</link>
     </image>
     
     <item>
+      <title>Investigation of Constant Volume and Constant Flux Initial Conditions on Bidensity Particle-Laden Slurries on an Incline</title>
+      <link>https://avivaprins.com/publication/ajur2019/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/ajur2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
-      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
+      <link>https://avivaprins.com/report/particle-laden-flow-summer-2017/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
-      <description>&lt;p&gt;Report available on request only.&lt;/p&gt;
+      <guid>https://avivaprins.com/report/particle-laden-flow-summer-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Bidensity Particle Laden Flows on an Incline</title>
-      <link>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</link>
+      <title>Bidensity Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/report/particle-laden-flow-spring-2017/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</guid>
-      <description>&lt;p&gt;Report available on request only.&lt;/p&gt;
+      <guid>https://avivaprins.com/report/particle-laden-flow-spring-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
     

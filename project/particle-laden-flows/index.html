@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
 
   
 
@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Research on particles in viscous fluid">
+  <meta name="description" content="Research on particles in viscous fluid.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://avivaprins.com/project/particle-laden-flows/">
@@ -45,11 +45,17 @@
   
   
   
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -60,16 +66,128 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -83,46 +201,64 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.5ccf85c550425bb16b4dd68bbdca63c5.css">
+  
+  <link rel="stylesheet" href="/css/academic.css">
 
   
-    
-    
-    
-    
-      
-    
-    
-    
-    <link rel="stylesheet" href="/css/academic.4399c95f021db60cb67a0f0401f445f3.css">
-  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121172769-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-121172769-1', { 'anonymize_ip': true });
 
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-121172769-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
-  
-  
+
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://avivaprins.com/project/particle-laden-flows/">
 
+  
   
   
   
@@ -135,7 +271,7 @@
   <meta property="og:site_name" content="Aviva Prins">
   <meta property="og:url" content="https://avivaprins.com/project/particle-laden-flows/">
   <meta property="og:title" content="Particle Laden Flows | Aviva Prins">
-  <meta property="og:description" content="Research on particles in viscous fluid"><meta property="og:image" content="https://avivaprins.com/project/particle-laden-flows/featured.jpg">
+  <meta property="og:description" content="Research on particles in viscous fluid."><meta property="og:image" content="https://avivaprins.com/project/particle-laden-flows/featured.jpg">
   <meta property="twitter:image" content="https://avivaprins.com/project/particle-laden-flows/featured.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -186,10 +322,10 @@
     "name": "Aviva Prins",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://avivaprins.com/img/icon-512.png"
+      "url": "img/https://avivaprins.com/"
     }
   },
-  "description": "Research on particles in viscous fluid"
+  "description": "Research on particles in viscous fluid."
 }
 </script>
 
@@ -199,10 +335,14 @@
 
 
   
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
@@ -220,10 +360,10 @@
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://cookies.insites.com"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -272,24 +412,41 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Aviva Prins</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Aviva Prins</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -344,29 +501,28 @@
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -400,7 +556,6 @@
     
 
 
-
 <div class="article-metadata">
 
   
@@ -412,7 +567,8 @@
 
 
 
-  <span><a href="/authors/aviva/">Aviva Prins</a></span>
+  
+  <span>Aviva Prins</span>
 
   </div>
   
@@ -437,11 +593,6 @@
   
 
   
-  
-
-  
-    
-
   
 
 </div>
@@ -469,16 +620,16 @@
   <div class="article-container">
 
     <div class="article-style">
-      
-
-<h2 id="introduction">Introduction</h2>
-
+      <h2 id="introduction">Introduction</h2>
 <p>A slurry is a mixture of solid particles and liquid. I studied an aspect of slurries called viscous particle laden flow in Dr. Bertozzi&rsquo;s Applied Math Lab in 2016 and 2017 with other undergraduate students. We used simulations and experiments to study the effects of gravitational and shear forces on bidisperse slurries. I&rsquo;ve decided to highlight some of our findings on bidensity slurries in this article.</p>
-
 <p>The behavior of these flows are important because they occur in many fields. Mining companies use spiral separators to separate minerals from ore. Mixtures of oil, sand, and water occur in oil spills. Slurries also occur in industrial, biological, and pharmaceutical contexts.</p>
 
 
 
+
+
+  
+  
 
 
 
@@ -493,8 +644,11 @@
 <figure>
 
 
-  <a data-fancybox="" href="Shear%20Stress.jpg" data-caption="Figure 1: Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.">
-<img src="Shear%20Stress.jpg" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg" data-caption="Figure 1: Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.">
+
+
+  <img data-src="/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="886" height="429">
+</a>
 
 
   
@@ -506,11 +660,14 @@
 
 </figure>
 
-
 <p>When the mixture flows down a ramp, some interesting behavior occurs. Sometimes the particles separate from the liquid. Sometimes the particles move faster than the liquid, forming a particle-rich ridge at the front of the flow. Sometimes fingers form. We wanted to create a mathematical model to describe the fluid’s dynamics that depends on external forces and the types and quantity of particles present in the slurry.</p>
 
 
 
+
+
+  
+  
 
 
 
@@ -525,8 +682,11 @@
 <figure class="half-size1">
 
 
-  <a data-fancybox="" href="settled%20regime.jpg" data-caption="Figure 2: Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.">
-<img src="settled%20regime.jpg" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg" data-caption="Figure 2: Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.">
+
+
+  <img data-src="/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="1046" height="567">
+</a>
 
 
   
@@ -543,6 +703,10 @@
 
 
 
+  
+  
+
+
 
 
 
@@ -555,56 +719,54 @@
 <figure class="half-size2">
 
 
-  <a data-fancybox="" href="ridged%20regime.jpg" >
-<img src="ridged%20regime.jpg" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/ridged%20regime_hudb377af2c36174626bc95af458c55f32_84554_2000x2000_fit_q90_lanczos.jpg" >
+
+
+  <img data-src="/project/particle-laden-flows/ridged%20regime_hudb377af2c36174626bc95af458c55f32_84554_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="1019" height="542">
+</a>
 
 
 
 </figure>
 
-
-<p>Previous research<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup><sup class="footnote-ref" id="fnref:3"><a href="#fn:3">2</a></sup><sup class="footnote-ref" id="fnref:4"><a href="#fn:4">3</a></sup> has developed a force-based model for constant volume monodisperse flow. Lee et. al.<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">4</a></sup> and Wong and Bertozzi<sup class="footnote-ref" id="fnref:5"><a href="#fn:5">5</a></sup> extended this model to the bidensity case using experiments and theory, respectively. They used constant volume initial conditions, meaning that a fixed volume of slurry was poured onto the incline and allowed to flow. We adapted their model to use constant flux initial conditions, where the slurry is continuously added to the incline with a constant flow rate. We also performed experiments using the same total volume fraction $\phi_0 = \frac{V_p}{V_t} = 0.4$ parameter, and compared the results to the prediction of the theory.</p>
-
+<p>Previous research<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> has developed a force-based model for constant volume monodisperse flow. Lee et. al.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> and Wong and Bertozzi<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> extended this model to the bidensity case using experiments and theory, respectively. They used constant volume initial conditions, meaning that a fixed volume of slurry was poured onto the incline and allowed to flow. We adapted their model to use constant flux initial conditions, where the slurry is continuously added to the incline with a constant flow rate. We also performed experiments using the same total volume fraction $\phi_0 = \frac{V_p}{V_t} = 0.4$ parameter, and compared the results to the prediction of the theory.</p>
 <h2 id="theory">Theory</h2>
-
 <p>Using the Navier-Stokes equation and particle mass conservation, we can create a system of coupled ODEs. Let $\phi_i$, $i=1,2$ to be the volume fraction of particle $i$ to the total volume, $\phi = \phi_1 + \phi_2$, and the $\boldsymbol{J}_i$ term is the flux of particle $i$:
-\begin{aligned}
-   0 &amp;= \nabla \cdot (-pI + \mu(\nabla\boldsymbol{u} + \nabla\boldsymbol{u}^T)) + \rho\boldsymbol{g}. \\<br />
-   0 &amp;= \frac{\partial \phi_i}{\partial t} + \boldsymbol{u} \cdot \nabla \phi_i + \nabla \cdot \boldsymbol{J}_i, \quad i=1,2.
+\begin{aligned} 
+0 &amp;= \nabla \cdot (-pI + \mu(\nabla\boldsymbol{u} + \nabla\boldsymbol{u}^T)) + \rho\boldsymbol{g}. \\\<br>
+0 &amp;= \frac{\partial \phi_i}{\partial t} + \boldsymbol{u} \cdot \nabla \phi_i + \nabla \cdot \boldsymbol{J}_i, \quad i=1,2.
 \end{aligned}
 Assuming equilibrium in the $z$-direction, the resulting system of ODEs relates the dervitives of the shear stress $\sigma$, viscosity $\mu$, and density $\rho$.</p>
-
 <p>To model the height and front position of the fluid and two particles, we introduce depth-averaged particle concentration and volume ratio. Then we have a system of PDEs:
-\begin{aligned}
-   0 &amp;= \frac{\partial h}{\partial t} + \frac{\partial}{\partial x}(h^3f(\bar{\phi},\bar{\chi})) \\<br />
-   0 &amp;= \frac{\partial (h\bar{\phi_i})}{\partial x} + \frac{\partial}{\partial x}(h^3g_i(\bar{\phi},\bar{\chi})), \quad i=1,2
+\begin{aligned} 
+0 &amp;= \frac{\partial h}{\partial t} + \frac{\partial}{\partial x}(h^3f(\bar{\phi},\bar{\chi})) \\\<br>
+0 &amp;= \frac{\partial (h\bar{\phi_i})}{\partial x} + \frac{\partial}{\partial x}(h^3g_i(\bar{\phi},\bar{\chi})), \quad i=1,2
 \end{aligned}</p>
-
 <p>We consider the Riemann initial condition:
-\begin{aligned}
-   h(x,0) &amp;= \begin{cases} \left[\frac{3\mu(\phi_0)Q}{W\rho(\phi_0)g\sin\alpha}\right]^\frac{1}{3}, &amp; x<0 \\
-\varepsilon, & x>0 \end{cases} \\<br />
-   \bar{\phi}(x,0) &amp;= \begin{cases} \phi_0, &amp; x<0 \\
-0, \qquad \qquad \qquad \! & x>0 \end{cases} \\<br />
-   \bar{\chi}(x,0) &amp;= \begin{cases} \chi_0, &amp; x<0 \\
-0, \qquad \qquad \qquad \! & x>0 \end{cases} \\<br />
+\begin{aligned} 
+h(x,0) &amp;= \begin{cases} \left[\frac{3\mu(\phi_0)Q}{W\rho(\phi_0)g\sin\alpha}\right]^\frac{1}{3}, &amp; x&lt;0 \<br>
+\varepsilon, &amp; x&gt;0 \end{cases} \\\<br>
+\bar{\phi}(x,0) &amp;= \begin{cases} \phi_0, &amp; x&lt;0 \<br>
+0, \qquad \qquad \qquad ! &amp; x&gt;0 \end{cases} \\\<br>
+\bar{\chi}(x,0) &amp;= \begin{cases} \chi_0, &amp; x&lt;0 \<br>
+0, \qquad \qquad \qquad ! &amp; x&gt;0 \end{cases} \\\<br>
 \end{aligned}</p>
-
 <p>Finally, expressing the system in vector notation we have:
 \begin{equation}
-    U = (h, h\bar{\phi_1},h\bar{\phi_2})^T \\<br />
-    F(U) = h^3(f,g_1,g_2)^T
+U = (h, h\bar{\phi_1},h\bar{\phi_2})^T \\\<br>
+F(U) = h^3(f,g_1,g_2)^T
 \end{equation}
 $$U_t + (F(U))_x = 0$$</p>
-
 <p>We then solve the partial differential equation using an upwind scheme. The height profile can be obtained from $h$ and the particle front profile can be found from plotting the concentration profile.</p>
-
 <h2 id="experiments">Experiments</h2>
-
 <p>We can perform experiments to track the particle fronts and height profile of the particle laden flow. We can vary the total volume fraction $\phi_0$, the volume ratio between beads $\chi$, and the inclination angle $\alpha$ of the track. In addition, we can have two types of initial conditions: constant volume or constant flux. In the constant volume case we measure and pour a finite volume onto the track. In the constant flux case, we use a pump to continuously add slurry to the track. A picture of the track is below.</p>
 
 
 
+
+
+  
+  
 
 
 
@@ -619,8 +781,11 @@ $$U_t + (F(U))_x = 0$$</p>
 <figure>
 
 
-  <a data-fancybox="" href="Trackpic.png" data-caption="Figure 3: A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.">
-<img src="Trackpic.png" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png" data-caption="Figure 3: A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.">
+
+
+  <img data-src="/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="1650" height="928">
+</a>
 
 
   
@@ -632,9 +797,7 @@ $$U_t + (F(U))_x = 0$$</p>
 
 </figure>
 
-
 <p>In 2017, we used the following materials:</p>
-
 <table>
 <thead>
 <tr>
@@ -644,7 +807,6 @@ $$U_t + (F(U))_x = 0$$</p>
 <th><strong>color</strong></th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Small Glass (P1)</td>
@@ -652,52 +814,53 @@ $$U_t + (F(U))_x = 0$$</p>
 <td>$0.07-0.125$ mm</td>
 <td>pink (dyed)</td>
 </tr>
-
 <tr>
 <td>Small Ceramic (P2)</td>
 <td>$3.8$ g/cm$^3$</td>
 <td>$0.150-0.180$ mm</td>
 <td>blue (dyed)</td>
 </tr>
-
 <tr>
 <td>Large Glass (P3)</td>
 <td>$2.5$ g/cm$^3$</td>
 <td>$0.40-0.60$ mm</td>
 <td>white</td>
 </tr>
-
 <tr>
 <td>Large Ceramic (P4)</td>
 <td>$3.8$ g/cm$^3$</td>
 <td>$0.40-0.60$ mm</td>
 <td>red</td>
 </tr>
-
 <tr>
 <td><strong>Fluid</strong></td>
 <td><strong>density</strong> $\rho$</td>
 <td><strong>viscosity</strong> $\nu$</td>
 <td><strong>color</strong></td>
 </tr>
-
 <tr>
 <td>PDMS oil</td>
 <td>$0.971$ g/cm$^3$</td>
 <td>$10^{-3}$ m$^2$/s</td>
 <td>clear</td>
 </tr>
+<tr>
+<td>The liquid used in all experiments is viscous polydimethylsiloxane (PDMS) oil. For bidensity experiments, we use glass and ceramic beads with the same diameter (P3 and P4). For bidisperse experiments, we use pairs of beads with the same density but different diameters (P1 and P3, or P2 and P4).</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-
-<p>The liquid used in all experiments is viscous polydimethylsiloxane (PDMS) oil. For bidensity experiments, we use glass and ceramic beads with the same diameter (P3 and P4). For bidisperse experiments, we use pairs of beads with the same density but different diameters (P1 and P3, or P2 and P4).</p>
-
 <p>We film the slurry as it flows down the track to capture front position and velocity information. Using MATLAB, we can analyze the concentrations of particles present in different segments of the flow. We identify the front position of each species of particle and the PDMS.</p>
-
 <p>To create a height profile of the flow, we use a laser sheet and analyze video in MATLAB. As shown in Figure 4, the laser line position in the video is distorted by the slurry.</p>
 
 
 
+
+
+  
+  
 
 
 
@@ -712,8 +875,11 @@ $$U_t + (F(U))_x = 0$$</p>
 <figure>
 
 
-  <a data-fancybox="" href="heightP.png" data-caption="Figure 4: One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.">
-<img src="heightP.png" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png" data-caption="Figure 4: One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.">
+
+
+  <img data-src="/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="1338" height="258">
+</a>
 
 
   
@@ -725,12 +891,15 @@ $$U_t + (F(U))_x = 0$$</p>
 
 </figure>
 
-
 <h2 id="experimental-results">Experimental Results</h2>
-
 <p>The constant flux bidensity experiments from 2017 are summarized in Figure 5. As the phase diagram shows, we experimentally see the ridged regime at trials displayed by the blue diamonds, the settled regime at trials displayed by black circles, and the well-mixed regime at trials displayed by red circles.The darker shaded region on the table shows where we expect to see more ridged regimes, and the white area is where we expect to see settled regimes. The light gray region in between our ridged and settled experiments is where we see the transient well-mixed regime.
 
 
+
+
+
+  
+  
 
 
 
@@ -745,8 +914,11 @@ $$U_t + (F(U))_x = 0$$</p>
 <figure>
 
 
-  <a data-fancybox="" href="Phase_Diagram_final.jpg" data-caption="Figure 5: Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.">
-<img src="Phase_Diagram_final.jpg" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg" data-caption="Figure 5: Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.">
+
+
+  <img data-src="/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="578" height="417">
+</a>
 
 
   
@@ -758,13 +930,15 @@ $$U_t + (F(U))_x = 0$$</p>
 
 </figure>
 </p>
-
 <h2 id="numerical-results">Numerical Results</h2>
-
 <p>Figures 5 and 6 compare the simulation and experimental results for front position and height profile. In the settled regime, there are three distinct lines in both simulation and experiment corresponding to the three fronts. Although they do not align perfectly, we can see that qualitatively, the fluid and the lighter particles are behaving similarly to simulation, as they are moving with similar velocity. In the ridged regime, the simulated front positions coincide with the experimental results.</p>
 
 
 
+
+
+  
+  
 
 
 
@@ -779,8 +953,11 @@ $$U_t + (F(U))_x = 0$$</p>
 <figure class="half-size1">
 
 
-  <a data-fancybox="" href="fpcmp_alpha30_chi0.75.png" data-caption="Figure 5: Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.">
-<img src="fpcmp_alpha30_chi0.75.png" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png" data-caption="Figure 5: Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.">
+
+
+  <img data-src="/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="809" height="616">
+</a>
 
 
   
@@ -797,6 +974,10 @@ $$U_t + (F(U))_x = 0$$</p>
 
 
 
+  
+  
+
+
 
 
 
@@ -809,18 +990,24 @@ $$U_t + (F(U))_x = 0$$</p>
 <figure class="half-size2">
 
 
-  <a data-fancybox="" href="fpcmp_alpha50_chi0.5.png" >
-<img src="fpcmp_alpha50_chi0.5.png" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/fpcmp_alpha50_chi0.5_hu8f09f3b77e52b39e1afde7bf05b55c86_30714_2000x2000_fit_lanczos_2.png" >
+
+
+  <img data-src="/project/particle-laden-flows/fpcmp_alpha50_chi0.5_hu8f09f3b77e52b39e1afde7bf05b55c86_30714_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="809" height="616">
+</a>
 
 
 
 </figure>
 
-
 <p>In the settled regime, the height profile for the experimental data and theoretical data correspond to each other well, except that the real height is about 1mm higher than predicted. In the ridged regime, again the shape of the graphs from experiment and simulation agrees with each other. But in the simulation, the spike at the slurry front will keep increasing in height as time goes on. This unrealistic behavior depends on the precursor height for the simulation. In this particular example, the precursor height is set to be 1% of the initial height of the slurry. Higher precursor height will prevent this behavior. If the precursor height is set to be 35% or higher, then the front will not keep getting higher forever.</p>
 
 
 
+
+
+  
+  
 
 
 
@@ -835,8 +1022,11 @@ $$U_t + (F(U))_x = 0$$</p>
 <figure class="half-size1">
 
 
-  <a data-fancybox="" href="alpha30.png" data-caption="Figure 6: Height profile for the settled (left) and ridged (right) regimes.">
-<img src="alpha30.png" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png" data-caption="Figure 6: Height profile for the settled (left) and ridged (right) regimes.">
+
+
+  <img data-src="/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="771" height="425">
+</a>
 
 
   
@@ -853,6 +1043,10 @@ $$U_t + (F(U))_x = 0$$</p>
 
 
 
+  
+  
+
+
 
 
 
@@ -865,48 +1059,49 @@ $$U_t + (F(U))_x = 0$$</p>
 <figure class="half-size2">
 
 
-  <a data-fancybox="" href="alpha50.png" >
-<img src="alpha50.png" alt="" ></a>
+  <a data-fancybox="" href="/project/particle-laden-flows/alpha50_hufd25af0d0031ecfaac829549c686669a_28144_2000x2000_fit_lanczos_2.png" >
+
+
+  <img data-src="/project/particle-laden-flows/alpha50_hufd25af0d0031ecfaac829549c686669a_28144_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="771" height="425">
+</a>
 
 
 
 </figure>
 
-
 <h2 id="discussion">Discussion</h2>
-
-<p>We found that the behavior of constant flux bidensity flow is similar to the behavior of constant volume bidensity flow studied in previous work <sup class="footnote-ref" id="fnref:2"><a href="#fn:2">4</a></sup><sup class="footnote-ref" id="fnref:5"><a href="#fn:5">5</a></sup>. Experimentally, we determine the time required for a regime to emerge, and the critical angle at which the transition between settled and ridged regimes occurs. In addition, we implement a theoretical model that shows the same results. The comparison between the theory and experiment shows good agreement, especially in the ridged regime. Unlike in previous work, the front position grows linearly with time because of the constant flux initial condition.</p>
-
+<p>We found that the behavior of constant flux bidensity flow is similar to the behavior of constant volume bidensity flow studied in previous work <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. Experimentally, we determine the time required for a regime to emerge, and the critical angle at which the transition between settled and ridged regimes occurs. In addition, we implement a theoretical model that shows the same results. The comparison between the theory and experiment shows good agreement, especially in the ridged regime. Unlike in previous work, the front position grows linearly with time because of the constant flux initial condition.</p>
 <h2 id="future-work">Future Work</h2>
-
 <p>The current model predicts the ridge to grow arbitrarily large in height as time goes on. Further research could look into mitigating this behavior by including a precursor height, i.e. a thickness of the fluid that is already present on the incline before the front reaches it. It may also be useful to look into improving the experimental technique used to measure the height profile to reduce noise. Our model may also be modified to investigate other types of slurries, such as with different size particles.</p>
-
 <h2 id="acknowledgements">Acknowledgements</h2>
-
 <p>Many thanks to all the undergraduate and graduate students I worked with. In 2016, I worked with Patrick Flynn, Joseph Pappe, William Sisson, Sam Stanton, Jeffrey Wong, Ruiyi Yang. In Spring 2017, I worked with Jessica Bojorquez, Josh Crasto, Dominic Diaz, Margaret Koulikova, Tameez Latib, Andrew Shapiro, and Clover Ye. In Summer 2017, I worked with Jessica Bojorquez, Adam Busis, Chutian Ma, Andrew Shapiro, Qiyao Zhu, and Xinzhe Zuo. My mentors are Dr. David Arnold, Dr. Claudia Falcon, and Dr. Michael Lindstrom. The Principal Investigator (PI) of the lab is Dr. Andrea Bertozzi. Thank you to the Science Research Initiative&rsquo;s Summer Scholars Research Program for funding in 2016. This material is based upon work supported by the National Science Foundation under grants DMS-1312543, DMS-1659676, and DMS-1045536.</p>
-
 <h2 id="bibliography">Bibliography</h2>
-<div class="footnotes">
-
-<hr />
-
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li id="fn:1">Herbert E Huppert.  Flow and instability of a viscous current down a slope. <em>Nature</em>, 300(5891):427–429, 1982.
- <a class="footnote-return" href="#fnref:1"><sup>^</sup></a></li>
-<li id="fn:3">D. Leighton and A. Acrivos.  The shear-induced migration of particles in concentrated suspensions. <em>Journal of Fluid Mechanics</em>, 181:415–439, August 1987.
- <a class="footnote-return" href="#fnref:3"><sup>^</sup></a></li>
-<li id="fn:4">N Murisic, J Ho, V Hu, P Latterman, T Koch, K Lin, M Mata, and AL Bertozzi. Particle-laden viscous thin-film flows on an incline: Experiments compared with a theory based on shear-induced migration and particle settling. <em>Physica D: Nonlinear Phenomena</em>, 240(20):1661–1673, 2011.
- <a class="footnote-return" href="#fnref:4"><sup>^</sup></a></li>
-<li id="fn:2">Sungyon Lee, Aliki Mavromoustaki, Gilberto Urdaneta, Kaiwen Huang, and Andrea L Bertozzi. Experimental investigation of bidensity slurries on an incline. <em>Granular Matter</em>, 16(2):269-274, 2014.
- <a class="footnote-return" href="#fnref:2"><sup>^</sup></a></li>
-<li id="fn:5">Jeffrey T. Wong and Andrea L. Bertozzi.  A conservation law model for bidensity suspensions on an incline. <em>Physica D: Nonlinear Phenomena</em>, 330:47–57, 2016.
- <a class="footnote-return" href="#fnref:5"><sup>^</sup></a></li>
+<li id="fn:1" role="doc-endnote">
+<p>Herbert E Huppert.  Flow and instability of a viscous current down a slope. <em>Nature</em>, 300(5891):427–429, 1982. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>D. Leighton and A. Acrivos.  The shear-induced migration of particles in concentrated suspensions. <em>Journal of Fluid Mechanics</em>, 181:415–439, August 1987. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>N Murisic, J Ho, V Hu, P Latterman, T Koch, K Lin, M Mata, and AL Bertozzi. Particle-laden viscous thin-film flows on an incline: Experiments compared with a theory based on shear-induced migration and particle settling. <em>Physica D: Nonlinear Phenomena</em>, 240(20):1661–1673, 2011. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Sungyon Lee, Aliki Mavromoustaki, Gilberto Urdaneta, Kaiwen Huang, and Andrea L Bertozzi. Experimental investigation of bidensity slurries on an incline. <em>Granular Matter</em>, 16(2):269-274, 2014. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>Jeffrey T. Wong and Andrea L. Bertozzi.  A conservation law model for bidensity suspensions on an incline. <em>Physica D: Nonlinear Phenomena</em>, 330:47–57, 2016. <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
-</div>
+</section>
 
     </div>
 
     
+
+
 
 <div class="article-tags">
   
@@ -921,7 +1116,6 @@ $$U_t + (F(U))_x = 0$$</p>
 </div>
 
 
-    
 
 
 
@@ -930,27 +1124,32 @@ $$U_t + (F(U))_x = 0$$</p>
 
 
 
-  
-  
-    
-  
-  
 
 
 
 
-
-
-  
   
   
     
   
   
-  <div class="media author-card">
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/authors/aviva/avatar_hu3d5cd97c9837c4caecdf9f119ad98287_2814364_250x250_fill_lanczos_center_2.png" alt="Avatar">
+      <img class="avatar mr-3 avatar-circle" src="/authors/aviva/avatar_hu3d5cd97c9837c4caecdf9f119ad98287_2814364_270x270_fill_lanczos_center_2.png" alt="Avatar">
     
 
     <div class="media-body">
@@ -958,82 +1157,91 @@ $$U_t + (F(U))_x = 0$$</p>
       <h6 class="card-subtitle">Data Scientist</h6>
       
       <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a href="/#contact" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a href="https://linkedin.com/in/avivaprins" target="_blank" rel="noopener">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a href="https://github.com/avivaprins" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        
-      </ul>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://linkedin.com/in/avivaprins" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/avivaprins" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
     </div>
   </div>
 
 
 
 
-    
 
 
-    
-    
 
-    
-    
-    
 
-    
-    
-    
-      <h2>Publications</h2>
+
+  
+  
+
+
+
+    <div class="project-related-pages content-widget-hr">
       
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
         
           
+            
 
 
 
@@ -1046,23 +1254,15 @@ $$U_t + (F(U))_x = 0$$</p>
   
 
 
-
-
-
-  
 
 
 <div class="media stream-item">
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/particle-laden-flow-summer-2017/" >Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</a>
+      <a href="/publication/ajur2019/" >Investigation of Constant Volume and Constant Flux Initial Conditions on Bidensity Particle-Laden Slurries on an Incline</a>
     </h3>
 
-    
-    <div class="article-style">
-      We investigate constant flux bidensity slurries and constant volume bidisperse slurries on an incline. The former mixture consists of …
-    </div>
     
 
     <div class="stream-meta article-metadata">
@@ -1075,7 +1275,8 @@ $$U_t + (F(U))_x = 0$$</p>
 
 
 
-  <span><a href="/authors/jessica-bojorquez/">Jessica Bojorquez</a></span>, <span><a href="/authors/adam-busis/">Adam Busis</a></span>, <span><a href="/authors/chutian-ma/">Chutian Ma</a></span>, <span><a href="/authors/aviva/">Aviva Prins</a></span>, <span><a href="/authors/andrew-shapiro/">Andrew Shapiro</a></span>, <span><a href="/authors/qiyao-zhu/">Qiyao Zhu</a></span>, <span><a href="/authors/xinzhe-zuo/">Xinzhe Zuo</a></span>
+  
+  <span>Dominic Diaz</span>, <span>Jessica Bojorquez</span>, <span>Josh Crasto</span>, <span>Margaret Koulikova</span>, <span>Tameez Latib</span>, <span>Aviva Prins</span>, <span>Andrew Shapiro</span>, <span>Clover Ye</span>, <span>David Arnold</span>, <span>Claudia Falcon</span>, <span>Michael R. Lindstrom</span>, <span>Andrea L. Bertozzi</span>
 
       </div>
       
@@ -1084,6 +1285,109 @@ $$U_t + (F(U))_x = 0$$</p>
     
     <div class="btn-links">
       
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/ajur2019/AJUR2019.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ajur2019/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/particle-laden-flows/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.33697/ajur.2019.029" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+        <h2>Reports</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/report/particle-laden-flow-summer-2017/" >Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span>Jessica Bojorquez</span>, <span>Adam Busis</span>, <span>Chutian Ma</span>, <span>Aviva Prins</span>, <span>Andrew Shapiro</span>, <span>Qiyao Zhu</span>, <span>Xinzhe Zuo</span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
 
 
 
@@ -1114,7 +1418,7 @@ $$U_t + (F(U))_x = 0$$</p>
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/particle-laden-flow-summer-2017/APS-March2018.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/report/particle-laden-flow-summer-2017/APS-March2018.pdf" target="_blank" rel="noopener">
   Poster
 </a>
 
@@ -1126,70 +1430,50 @@ $$U_t + (F(U))_x = 0$$</p>
 
 
 
-    </div>
-    
+  </div>
+  
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
 </div>
 
-        
-      
+          
         
           
+            
 
 
 
 
 
-
-
-
-  
-  
 
 
 
 
 
   
+  
 
 
-<div class="media stream-item">
-  <div class="media-body">
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/report/particle-laden-flow-spring-2017/" >Bidensity Particle-Laden Flows on an Incline</a>
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/particle-laden-flow-spring-2017/" >Bidensity Particle Laden Flows on an Incline</a>
-    </h3>
+  
 
-    
-    <div class="article-style">
-      Particle laden slurries are ubiquitous in nature and in industrial settings, whenever particles are suspended or transported in a …
-    </div>
+  
+  <div class="article-metadata">
     
 
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
+  
+  <span>Jessica Bojorquez</span>, <span>Josh Crasto</span>, <span>Dominic Diaz</span>, <span>Margaret Koulikova</span>, <span>Tameez Latib</span>, <span>Aviva Prins</span>, <span>Andrew Shapiro</span>, <span>Clover Ye</span>
 
-  <span><a href="/authors/jessica-bojorquez/">Jessica Bojorquez</a></span>, <span><a href="/authors/josh-crasto/">Josh Crasto</a></span>, <span><a href="/authors/dominic-diaz/">Dominic Diaz</a></span>, <span><a href="/authors/margaret-koulikova/">Margaret Koulikova</a></span>, <span><a href="/authors/tameez-latib/">Tameez Latib</a></span>, <span><a href="/authors/aviva/">Aviva Prins</a></span>, <span><a href="/authors/andrew-shapiro/">Andrew Shapiro</a></span>, <span><a href="/authors/clover-ye/">Clover Ye</a></span>
+  </div>
+  
 
-      </div>
-      
-    </div>
-
+  
+  <div class="btn-links">
     
-    <div class="btn-links">
-      
 
 
 
@@ -1224,70 +1508,50 @@ $$U_t + (F(U))_x = 0$$</p>
 
 
 
-    </div>
-    
+  </div>
+  
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
 </div>
 
-        
-      
+          
         
           
+            
 
 
 
 
 
-
-
-
-  
-  
 
 
 
 
 
   
+  
 
 
-<div class="media stream-item">
-  <div class="media-body">
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/report/particle-laden-flow-summer-2016/" >Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</a>
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/particle-laden-flow-summer-2016/" >Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</a>
-    </h3>
+  
 
-    
-    <div class="article-style">
-      We study the behaviour of particle-laden thin-films down an incline. Previous research focused on the finite volume case, whereas we …
-    </div>
+  
+  <div class="article-metadata">
     
 
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
+  
+  <span>Patrick Flynn</span>, <span>Joseph Pappe</span>, <span>Aviva Prins</span>, <span>William Sisson</span>, <span>Samuel Stanton</span>, <span>Ruiyi Yang</span>
 
-  <span><a href="/authors/patrick-flynn/">Patrick Flynn</a></span>, <span><a href="/authors/joseph-pappe/">Joseph Pappe</a></span>, <span><a href="/authors/aviva/">Aviva Prins</a></span>, <span><a href="/authors/william-sisson/">William Sisson</a></span>, <span><a href="/authors/samuel-stanton/">Samuel Stanton</a></span>, <span><a href="/authors/ruiyi-yang/">Ruiyi Yang</a></span>
+  </div>
+  
 
-      </div>
-      
-    </div>
-
+  
+  <div class="btn-links">
     
-    <div class="btn-links">
-      
 
 
 
@@ -1322,36 +1586,23 @@ $$U_t + (F(U))_x = 0$$</p>
 
 
 
-    </div>
-    
+  </div>
+  
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
 </div>
 
+          
         
       
-    
 
-    
-    
-    
-
+      
+      
+      
+    </div>
   </div>
 </article>
 
-
-
       
-
-    
-    
-    
-    <script src="/js/mathjax-config.js"></script>
-    
 
     
     
@@ -1359,43 +1610,39 @@ $$U_t + (F(U))_x = 0$$</p>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
         
       
 
-      
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
-      
     
 
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
     
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
     
 
+    
+    
+    
+    
     
     
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -1449,7 +1696,7 @@ $$U_t + (F(U))_x = 0$$</p>
     
     
     
-    <script src="/js/academic.min.130521ecfc6f534c52c158217bbff718.js"></script>
+    <script src="/js/academic.min.0630fec5958cb075a5a38f042b3ddde6.js"></script>
 
     
 
@@ -1459,12 +1706,13 @@ $$U_t + (F(U))_x = 0$$</p>
 
 
   
+  
   <div class="container">
     <footer class="site-footer">
   
 
   <p class="powered-by">
-    &copy; 2019 Aviva Prins &middot; 
+    © 2020 Aviva Prins &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -1472,7 +1720,7 @@ $$U_t + (F(U))_x = 0$$</p>
 
     
     <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
+      <a href="#" class="back-to-top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x"></i>
         </span>

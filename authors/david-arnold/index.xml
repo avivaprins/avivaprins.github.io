@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Arnold | Aviva Prins</title>
+    <link>https://avivaprins.com/authors/david-arnold/</link>
+      <atom:link href="https://avivaprins.com/authors/david-arnold/index.xml" rel="self" type="application/rss+xml" />
+    <description>David Arnold</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
+      <title>David Arnold</title>
+      <link>https://avivaprins.com/authors/david-arnold/</link>
+    </image>
+    
+    <item>
+      <title>Investigation of Constant Volume and Constant Flux Initial Conditions on Bidensity Particle-Laden Slurries on an Incline</title>
+      <link>https://avivaprins.com/publication/ajur2019/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/ajur2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
