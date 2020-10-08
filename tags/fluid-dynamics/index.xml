@@ -5,7 +5,7 @@
     <link>https://avivaprins.com/tags/fluid-dynamics/</link>
       <atom:link href="https://avivaprins.com/tags/fluid-dynamics/index.xml" rel="self" type="application/rss+xml" />
     <description>Fluid Dynamics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 04 Jun 2017 18:10:35 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 04 Jun 2017 18:10:35 -0700</lastBuildDate>
     <image>
       <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Fluid Dynamics</title>
@@ -25,6 +25,11 @@
 
 
 
+
+  
+
+
+
   
   
 
@@ -38,10 +43,10 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-1__-bidisperse-slurries-are-any-slurry-with-two-types-of-particles-present-such-as-this-bidensity-slurry-to-study-how-gravity-and-shear-force-affect-the-flow-we-use-an-incline-with-variable-angle-alpha-since-the-height-of-the-slurry-h-is-small-relative-to-the-length-of-the-incline-this-is-called-a-thin-film-flow&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 1: Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 1:&amp;lt;/strong&amp;gt; Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;886&#34; height=&#34;429&#34;&gt;
@@ -63,6 +68,11 @@
 
 
 
+
+  
+
+
+
   
   
 
@@ -76,10 +86,10 @@
 
 
 
-&lt;figure class=&#34;half-size1&#34;&gt;
+&lt;figure class=&#34;half-size1&#34; id=&#34;figure-__figure-2__-two-regimes-emerge-as-the-slurry-flows-down-the-incline-depending-on-the-dominating-force-gravity-dominates-in-the-settled-regime-so-the-particles-sink-out-of-the-flow-in-this-case-the-heavier-particles-settle-first-followed-by-the-lighter-particles-leaving-a-clear-fluid-front-in-the-ridged-regime-the-shear-force-dominates-creating-a-particle-rich-front&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 2: Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 2:&amp;lt;/strong&amp;gt; Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1046&#34; height=&#34;567&#34;&gt;
@@ -100,6 +110,11 @@
 
 
 
+
+  
+
+
+
   
   
 
@@ -113,7 +128,7 @@
 
 
 
-&lt;figure class=&#34;half-size2&#34;&gt;
+&lt;figure class=&#34;half-size2&#34; &gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/ridged%20regime_hudb377af2c36174626bc95af458c55f32_84554_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
@@ -162,6 +177,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -175,10 +195,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-3__-a-picture-of-our-adjustable-incline-the-track-is-clear-with-a-green-screen-behind-it-the-white-peristaltic-pump-on-the-left-is-used-for-constant-flux-experiments&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 3: A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 3:&amp;lt;/strong&amp;gt; A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1650&#34; height=&#34;928&#34;&gt;
@@ -256,6 +276,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -269,10 +294,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-4__-one-frame-from-a-height-profile-experiment-as-the-particle-laden-flow-moves-down-the-incline-it-distorts-the-location-of-the-laser-line-in-the-video&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 4: One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 4:&amp;lt;/strong&amp;gt; One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1338&#34; height=&#34;258&#34;&gt;
@@ -295,6 +320,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -308,10 +338,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-5__-markers-specify-experimental-trials-shading-indicates-the-ridged-dark-grey-well-mixed-light-grey-and-settled-white-regimes-the-theory-suggests-that-eventually-the-boundary-between-settled-and-ridged-regimes-is-the-dotted-line&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 5: Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 5:&amp;lt;/strong&amp;gt; Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;578&#34; height=&#34;417&#34;&gt;
@@ -334,6 +364,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -347,10 +382,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure class=&#34;half-size1&#34;&gt;
+&lt;figure class=&#34;half-size1&#34; id=&#34;figure-__figure-5__-front-position-for-the-settled-regime-left-and-ridged-regime-right-black-is-the-fluid-front-red-is-the-lighter-particle-front-and-blue-is-the-heavier-particle-front&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 5: Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 5:&amp;lt;/strong&amp;gt; Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;809&#34; height=&#34;616&#34;&gt;
@@ -371,6 +406,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -384,7 +424,7 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure class=&#34;half-size2&#34;&gt;
+&lt;figure class=&#34;half-size2&#34; &gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha50_chi0.5_hu8f09f3b77e52b39e1afde7bf05b55c86_30714_2000x2000_fit_lanczos_2.png&#34; &gt;
@@ -403,6 +443,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -416,10 +461,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure class=&#34;half-size1&#34;&gt;
+&lt;figure class=&#34;half-size1&#34; id=&#34;figure-__figure-6__-height-profile-for-the-settled-left-and-ridged-right-regimes&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 6: Height profile for the settled (left) and ridged (right) regimes.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 6:&amp;lt;/strong&amp;gt; Height profile for the settled (left) and ridged (right) regimes.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;771&#34; height=&#34;425&#34;&gt;
@@ -440,6 +485,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -453,7 +503,7 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure class=&#34;half-size2&#34;&gt;
+&lt;figure class=&#34;half-size2&#34; &gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha50_hufd25af0d0031ecfaac829549c686669a_28144_2000x2000_fit_lanczos_2.png&#34; &gt;

@@ -5,12 +5,29 @@
     <link>https://avivaprins.com/</link>
       <atom:link href="https://avivaprins.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Aviva Prins</title>
       <link>https://avivaprins.com/</link>
     </image>
+    
+    <item>
+      <title>Incorporating Healthcare Motivated Constraints in Restless Multi-Armed Bandit Based Resource Allocation</title>
+      <link>https://avivaprins.com/publication/crcs2020/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/crcs2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Equitable Resource Allocation of Tuberculosis Treatment Interventions in India</title>
+      <link>https://avivaprins.com/project/crcs/</link>
+      <pubDate>Sun, 23 Aug 2020 16:39:56 -0700</pubDate>
+      <guid>https://avivaprins.com/project/crcs/</guid>
+      <description>&lt;p&gt;This research was conducted during my fellowship at Harvard University&amp;rsquo;s Center for Research in Computation and Society.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Investigation of Constant Volume and Constant Flux Initial Conditions on Bidensity Particle-Laden Slurries on an Incline</title>
@@ -21,7 +38,25 @@
     </item>
     
     <item>
-      <title>Gang Reduction and Youth Development</title>
+      <title>Privacy Preservation in Google&#39;s Ads Data Hub</title>
+      <link>https://avivaprins.com/project/rips/</link>
+      <pubDate>Fri, 23 Aug 2019 16:39:56 -0700</pubDate>
+      <guid>https://avivaprins.com/project/rips/</guid>
+      <description>&lt;p&gt;Research conducted during the Research in Industrial Projects for Students (RIPS) program, co-sponsored by the Institute for Pure and Applied Mathematics at UCLA and Google LA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Risk Assessments and Measurements of Privacy Leaks within Google&#39;s Ads Data Hub</title>
+      <link>https://avivaprins.com/publication/rips2019/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/rips2019/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interventions for Gang Reduction and Youth Development</title>
       <link>https://avivaprins.com/project/gryd/</link>
       <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/project/gryd/</guid>
@@ -47,6 +82,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -60,10 +100,10 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-1__-principle-component-analysis-on-the-scales-of-the-dataset-the-numbers-on-the-x-and-y-axis-represent-the-explained-variance-corresponding-to-the-top-two-eigenvectors-4934-of-the-data-is-captured-by-the-first-eigenvector-in-dimensionality-reduction&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 1: Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 1:&amp;lt;/strong&amp;gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;491&#34; height=&#34;278&#34;&gt;
@@ -85,6 +125,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -98,10 +143,10 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-2__-principle-component-analysis-on-the-questions-just-like-in-figure-1-the-numbers-on-the-x-and-y-axis-represent-the-explained-variance-corresponding-to-the-top-two-eigenvectors&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 2: Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 2:&amp;lt;/strong&amp;gt; Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;491&#34; height=&#34;278&#34;&gt;
@@ -131,34 +176,32 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
       <link>https://avivaprins.com/project/political-donations/</link>
       <pubDate>Fri, 03 Aug 2018 18:20:56 -0700</pubDate>
       <guid>https://avivaprins.com/project/political-donations/</guid>
-      <description>&lt;p&gt;Please see our 
-&lt;a href=&#34;https://github.com/leahbalter/political-campaign-networks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;main repository&lt;/a&gt;
- or the links below for more information.&lt;/p&gt;
+      <description>&lt;p&gt;Please see our &lt;a href=&#34;https://github.com/leahbalter/political-campaign-networks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;main repository&lt;/a&gt; or the links below for more information.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
-      <link>https://avivaprins.com/report/gryd-dmd/</link>
+      <link>https://avivaprins.com/publication/gryd-dmd/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/report/gryd-dmd/</guid>
+      <guid>https://avivaprins.com/publication/gryd-dmd/</guid>
       <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
-      <link>https://avivaprins.com/report/financial-well-being/</link>
+      <link>https://avivaprins.com/publication/financial-well-being/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/report/financial-well-being/</guid>
+      <guid>https://avivaprins.com/publication/financial-well-being/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
-      <link>https://avivaprins.com/report/political-donations/</link>
+      <link>https://avivaprins.com/publication/political-donations/</link>
       <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/report/political-donations/</guid>
+      <guid>https://avivaprins.com/publication/political-donations/</guid>
       <description></description>
     </item>
     
@@ -167,9 +210,7 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
       <link>https://avivaprins.com/project/beam/</link>
       <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/project/beam/</guid>
-      <description>&lt;p&gt;Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their 
-&lt;a href=&#34;http://www.tanms-erc.org/beam&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website.&lt;/a&gt;
-&lt;/p&gt;
+      <description>&lt;p&gt;Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their &lt;a href=&#34;http://www.tanms-erc.org/beam&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -185,17 +226,17 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
     
     <item>
       <title>PCA and Isomap Analysis</title>
-      <link>https://avivaprins.com/report/gryd-pca/</link>
+      <link>https://avivaprins.com/publication/gryd-pca/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/report/gryd-pca/</guid>
+      <guid>https://avivaprins.com/publication/gryd-pca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
-      <link>https://avivaprins.com/report/particle-laden-flow-summer-2017/</link>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/report/particle-laden-flow-summer-2017/</guid>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
       <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
@@ -213,6 +254,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -226,10 +272,10 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-1__-bidisperse-slurries-are-any-slurry-with-two-types-of-particles-present-such-as-this-bidensity-slurry-to-study-how-gravity-and-shear-force-affect-the-flow-we-use-an-incline-with-variable-angle-alpha-since-the-height-of-the-slurry-h-is-small-relative-to-the-length-of-the-incline-this-is-called-a-thin-film-flow&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 1: Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 1:&amp;lt;/strong&amp;gt; Bidisperse slurries are any slurry with two types of particles present, such as this bidensity slurry. To study how gravity and shear force affect the flow, we use an incline with variable angle $\alpha$. Since the height of the slurry $h$ is small relative to the length of the incline, this is called a thin-film flow.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Shear%20Stress_hud7324b44456eb5ca5f1b303998d50cc1_62302_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;886&#34; height=&#34;429&#34;&gt;
@@ -251,6 +297,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -264,10 +315,10 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
-&lt;figure class=&#34;half-size1&#34;&gt;
+&lt;figure class=&#34;half-size1&#34; id=&#34;figure-__figure-2__-two-regimes-emerge-as-the-slurry-flows-down-the-incline-depending-on-the-dominating-force-gravity-dominates-in-the-settled-regime-so-the-particles-sink-out-of-the-flow-in-this-case-the-heavier-particles-settle-first-followed-by-the-lighter-particles-leaving-a-clear-fluid-front-in-the-ridged-regime-the-shear-force-dominates-creating-a-particle-rich-front&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 2: Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 2:&amp;lt;/strong&amp;gt; Two regimes emerge as the slurry flows down the incline, depending on the dominating force. Gravity dominates in the settled regime, so the particles sink out of the flow. In this case, the heavier particles settle first, followed by the lighter particles, leaving a clear fluid front. In the ridged regime, the shear force dominates, creating a particle-rich front.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/settled%20regime_hu59be9d782806480a824e28237ec2b995_85409_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1046&#34; height=&#34;567&#34;&gt;
@@ -288,6 +339,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -301,7 +357,7 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
-&lt;figure class=&#34;half-size2&#34;&gt;
+&lt;figure class=&#34;half-size2&#34; &gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/ridged%20regime_hudb377af2c36174626bc95af458c55f32_84554_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
@@ -350,6 +406,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -363,10 +424,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-3__-a-picture-of-our-adjustable-incline-the-track-is-clear-with-a-green-screen-behind-it-the-white-peristaltic-pump-on-the-left-is-used-for-constant-flux-experiments&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 3: A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 3:&amp;lt;/strong&amp;gt; A picture of our adjustable incline. The track is clear with a green screen behind it. The white peristaltic pump on the left is used for constant flux experiments.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Trackpic_hudea9cc541f106047937d947e4afb2e65_2592546_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1650&#34; height=&#34;928&#34;&gt;
@@ -444,6 +505,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -457,10 +523,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-4__-one-frame-from-a-height-profile-experiment-as-the-particle-laden-flow-moves-down-the-incline-it-distorts-the-location-of-the-laser-line-in-the-video&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 4: One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 4:&amp;lt;/strong&amp;gt; One frame from a height profile experiment. As the particle laden flow moves down the incline, it distorts the location of the laser line in the video.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/heightP_hub04e9850b532b7dca532f872ad9d1cb4_120928_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1338&#34; height=&#34;258&#34;&gt;
@@ -483,6 +549,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -496,10 +567,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-5__-markers-specify-experimental-trials-shading-indicates-the-ridged-dark-grey-well-mixed-light-grey-and-settled-white-regimes-the-theory-suggests-that-eventually-the-boundary-between-settled-and-ridged-regimes-is-the-dotted-line&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Figure 5: Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 5:&amp;lt;/strong&amp;gt; Markers specify experimental trials. Shading indicates the ridged (dark grey), well-mixed (light grey), and settled (white) regimes. The theory suggests that eventually, the boundary between settled and ridged regimes is the dotted line.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/Phase_Diagram_final_hu1482f9b059d32b1adb1b179da5f8d22f_20248_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;578&#34; height=&#34;417&#34;&gt;
@@ -522,6 +593,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -535,10 +611,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure class=&#34;half-size1&#34;&gt;
+&lt;figure class=&#34;half-size1&#34; id=&#34;figure-__figure-5__-front-position-for-the-settled-regime-left-and-ridged-regime-right-black-is-the-fluid-front-red-is-the-lighter-particle-front-and-blue-is-the-heavier-particle-front&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 5: Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 5:&amp;lt;/strong&amp;gt; Front position for the settled regime (left) and ridged regime (right). Black is the fluid front, red is the lighter particle front, and blue is the heavier particle front.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha30_chi0.75_hue1e37d80516201f586fa724776fab9f9_33344_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;809&#34; height=&#34;616&#34;&gt;
@@ -559,6 +635,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -572,7 +653,7 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure class=&#34;half-size2&#34;&gt;
+&lt;figure class=&#34;half-size2&#34; &gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/fpcmp_alpha50_chi0.5_hu8f09f3b77e52b39e1afde7bf05b55c86_30714_2000x2000_fit_lanczos_2.png&#34; &gt;
@@ -591,6 +672,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -604,10 +690,10 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure class=&#34;half-size1&#34;&gt;
+&lt;figure class=&#34;half-size1&#34; id=&#34;figure-__figure-6__-height-profile-for-the-settled-left-and-ridged-right-regimes&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 6: Height profile for the settled (left) and ridged (right) regimes.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 6:&amp;lt;/strong&amp;gt; Height profile for the settled (left) and ridged (right) regimes.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/particle-laden-flows/alpha30_hu33abed490e9e71d244e83d22c6657b2d_29586_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;771&#34; height=&#34;425&#34;&gt;
@@ -628,6 +714,11 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -641,7 +732,7 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
 
 
 
-&lt;figure class=&#34;half-size2&#34;&gt;
+&lt;figure class=&#34;half-size2&#34; &gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/particle-laden-flows/alpha50_hufd25af0d0031ecfaac829549c686669a_28144_2000x2000_fit_lanczos_2.png&#34; &gt;
@@ -686,18 +777,18 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
     
     <item>
       <title>Bidensity Particle-Laden Flows on an Incline</title>
-      <link>https://avivaprins.com/report/particle-laden-flow-spring-2017/</link>
+      <link>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/report/particle-laden-flow-spring-2017/</guid>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</guid>
       <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</title>
-      <link>https://avivaprins.com/report/particle-laden-flow-summer-2016/</link>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</link>
       <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/report/particle-laden-flow-summer-2016/</guid>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</guid>
       <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
@@ -707,11 +798,7 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
       <link>https://avivaprins.com/project/women-in-technology/</link>
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/project/women-in-technology/</guid>
-      <description>&lt;p&gt;Women in Technology is a chapter of the 
-&lt;a href=&#34;https://www.acm.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Association for Computing Machinery&lt;/a&gt;
- at 
-&lt;a href=&#34;http://www.smc.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Santa Monica College.&lt;/a&gt;
- I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.&lt;/p&gt;
+      <description>&lt;p&gt;Women in Technology is a chapter of the &lt;a href=&#34;https://www.acm.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Association for Computing Machinery&lt;/a&gt; at &lt;a href=&#34;http://www.smc.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Santa Monica College.&lt;/a&gt; I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.&lt;/p&gt;
 </description>
     </item>
     

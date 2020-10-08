@@ -5,7 +5,7 @@
     <link>https://avivaprins.com/tags/dynamical-systems/</link>
       <atom:link href="https://avivaprins.com/tags/dynamical-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Dynamical Systems</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Tue, 04 Jun 2019 16:39:56 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Tue, 04 Jun 2019 16:39:56 -0700</lastBuildDate>
     <image>
       <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Dynamical Systems</title>
@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Gang Reduction and Youth Development</title>
+      <title>Interventions for Gang Reduction and Youth Development</title>
       <link>https://avivaprins.com/project/gryd/</link>
       <pubDate>Tue, 04 Jun 2019 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/project/gryd/</guid>
@@ -39,6 +39,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -52,10 +57,10 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-1__-principle-component-analysis-on-the-scales-of-the-dataset-the-numbers-on-the-x-and-y-axis-represent-the-explained-variance-corresponding-to-the-top-two-eigenvectors-4934-of-the-data-is-captured-by-the-first-eigenvector-in-dimensionality-reduction&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 1: Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 1:&amp;lt;/strong&amp;gt; Principle Component Analysis on the scales of the dataset. The numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors. $49.34%$ of the data is captured by the first eigenvector in dimensionality reduction.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/gryd/sPCA_hudbbf5c06552a10ad717ab4d874fc4541_50636_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;491&#34; height=&#34;278&#34;&gt;
@@ -77,6 +82,11 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
+
+  
+
+
+
   
   
 
@@ -90,10 +100,10 @@ so the projection minimizes the error by taking the largest two eigenvalues.&lt;
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-__figure-2__-principle-component-analysis-on-the-questions-just-like-in-figure-1-the-numbers-on-the-x-and-y-axis-represent-the-explained-variance-corresponding-to-the-top-two-eigenvectors&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Figure 2: Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Figure 2:&amp;lt;/strong&amp;gt; Principle Component Analysis on the questions. Just like in Figure 1, the numbers on the $x$ and $y$ axis represent the explained variance corresponding to the top two eigenvectors.&#34;&gt;
 
 
   &lt;img data-src=&#34;https://avivaprins.com/project/gryd/qPCA_huba4ddd1494776de66383bd0dc72ea3a6_47403_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;491&#34; height=&#34;278&#34;&gt;

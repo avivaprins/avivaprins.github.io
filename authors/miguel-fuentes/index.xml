@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Miguel Fuentes | Aviva Prins</title>
+    <link>https://avivaprins.com/authors/miguel-fuentes/</link>
+      <atom:link href="https://avivaprins.com/authors/miguel-fuentes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Miguel Fuentes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
+      <title>Miguel Fuentes</title>
+      <link>https://avivaprins.com/authors/miguel-fuentes/</link>
+    </image>
+    
+    <item>
+      <title>Risk Assessments and Measurements of Privacy Leaks within Google&#39;s Ads Data Hub</title>
+      <link>https://avivaprins.com/publication/rips2019/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/rips2019/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

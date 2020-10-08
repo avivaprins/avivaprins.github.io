@@ -5,19 +5,28 @@
     <link>https://avivaprins.com/publication_types/4/</link>
       <atom:link href="https://avivaprins.com/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Aviva Prins</copyright><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://avivaprins.com/img/icon-192.png</url>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>4</title>
       <link>https://avivaprins.com/publication_types/4/</link>
     </image>
+    
+    <item>
+      <title>Risk Assessments and Measurements of Privacy Leaks within Google&#39;s Ads Data Hub</title>
+      <link>https://avivaprins.com/publication/rips2019/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/rips2019/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
       <link>https://avivaprins.com/publication/gryd-dmd/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication/gryd-dmd/</guid>
-      <description>&lt;p&gt;Report available on request only.&lt;/p&gt;
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
     
@@ -46,11 +55,20 @@
     </item>
     
     <item>
-      <title>Bidensity Particle Laden Flows on an Incline</title>
+      <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bidensity Particle-Laden Flows on an Incline</title>
       <link>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</guid>
-      <description>&lt;p&gt;Report available on request only.&lt;/p&gt;
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
     
@@ -59,7 +77,7 @@
       <link>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</link>
       <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</guid>
-      <description>&lt;p&gt;Report available on request only.&lt;/p&gt;
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
 </description>
     </item>
     

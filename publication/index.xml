@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Aviva Prins</title>
+    <title>Publications and Reports | Aviva Prins</title>
     <link>https://avivaprins.com/publication/</link>
       <atom:link href="https://avivaprins.com/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <description>Publications and Reports</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
-      <title>Publications</title>
+      <title>Publications and Reports</title>
       <link>https://avivaprins.com/publication/</link>
     </image>
+    
+    <item>
+      <title>Incorporating Healthcare Motivated Constraints in Restless Multi-Armed Bandit Based Resource Allocation</title>
+      <link>https://avivaprins.com/publication/crcs2020/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/crcs2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Investigation of Constant Volume and Constant Flux Initial Conditions on Bidensity Particle-Laden Slurries on an Incline</title>
@@ -18,6 +26,75 @@
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication/ajur2019/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Risk Assessments and Measurements of Privacy Leaks within Google&#39;s Ads Data Hub</title>
+      <link>https://avivaprins.com/publication/rips2019/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/rips2019/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analyzing Gang Reduction Strategies Through Dynamic Mode Decomposition</title>
+      <link>https://avivaprins.com/publication/gryd-dmd/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/gryd-dmd/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How fat is your piggy bank? An exploration into the predictability of financial well-being using Support Vector Machines</title>
+      <link>https://avivaprins.com/publication/financial-well-being/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/financial-well-being/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilizing Political Campaign Contribution Networks to Identify Political Affiliations and Important Actors in US Elections</title>
+      <link>https://avivaprins.com/publication/political-donations/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/political-donations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PCA and Isomap Analysis</title>
+      <link>https://avivaprins.com/publication/gryd-pca/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/gryd-pca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bidensity Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-spring-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Constant Flux Particle-laden Viscous Thin Film Flows on an Incline</title>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2016/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
