@@ -5,7 +5,7 @@
     <link>https://avivaprins.com/</link>
       <atom:link href="https://avivaprins.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Aviva Prins</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Aviva Prins</copyright><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Aviva Prins</copyright><lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
       <title>Aviva Prins</title>
@@ -13,11 +13,35 @@
     </image>
     
     <item>
+      <title>Non-stationary Probabilistic Policies for Resource Constrained Restless Multi-Armed Bandits</title>
+      <link>https://avivaprins.com/publication/nonstationary-probfair/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/nonstationary-probfair/</guid>
+      <description>&lt;p&gt;Preprint available upon request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Planning to Fairly Allocate: Probabilistic Fairness in the Restless Bandit Setting</title>
+      <link>https://avivaprins.com/publication/probfair/</link>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/probfair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Incorporating Healthcare Motivated Constraints in Restless Multi-Armed Bandit Based Resource Allocation</title>
       <link>https://avivaprins.com/publication/crcs2020/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://avivaprins.com/publication/crcs2020/</guid>
-      <description></description>
+      <description>&lt;p&gt;Appeared at the following NeurIPS 2020 Workshops:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Challenges of Real World Reinforcement Learning&lt;/li&gt;
+&lt;li&gt;Machine Learning in Public Health (Best Lightning Paper)&lt;/li&gt;
+&lt;li&gt;Machine Learning for Health (Best on Theme)&lt;/li&gt;
+&lt;li&gt;Machine Learning for the Developing World&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +49,7 @@
       <link>https://avivaprins.com/project/crcs/</link>
       <pubDate>Sun, 23 Aug 2020 16:39:56 -0700</pubDate>
       <guid>https://avivaprins.com/project/crcs/</guid>
-      <description>&lt;p&gt;This research was conducted during my fellowship at Harvard University&amp;rsquo;s Center for Research in Computation and Society.&lt;/p&gt;
+      <description>&lt;p&gt;This research was conducted during my fellowship at Harvard University&amp;rsquo;s Center for Research in Computation and Society in 2020.&lt;/p&gt;
 </description>
     </item>
     
@@ -808,15 +832,6 @@ $$U_t + (F(U))_x = 0$$&lt;/p&gt;
       <pubDate>Sat, 04 Jun 2016 18:33:47 -0700</pubDate>
       <guid>https://avivaprins.com/project/audubon/</guid>
       <description>&lt;p&gt;The Los Angeles Audubon’s environmental education program at Kenneth Hahn State Recreation Area educates local students about the outdoors. Interns lead elementary and middle school students on guided walks with educational stations. The curriculum includes lessons on photosynthesis, ecosystems, ecology, and geology depending on grade level.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://avivaprins.com/us-political-donations/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://avivaprins.com/us-political-donations/readme/</guid>
-      <description>&lt;h1 id=&#34;us-political-donations&#34;&gt;US-political-donations&lt;/h1&gt;
 </description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christine Herlihy | Aviva Prins</title>
+    <link>https://avivaprins.com/authors/christine-herlihy/</link>
+      <atom:link href="https://avivaprins.com/authors/christine-herlihy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christine Herlihy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Aviva Prins</copyright><lastBuildDate>Thu, 29 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
+      <title>Christine Herlihy</title>
+      <link>https://avivaprins.com/authors/christine-herlihy/</link>
+    </image>
+    
+    <item>
+      <title>Planning to Fairly Allocate: Probabilistic Fairness in the Restless Bandit Setting</title>
+      <link>https://avivaprins.com/publication/probfair/</link>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/probfair/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

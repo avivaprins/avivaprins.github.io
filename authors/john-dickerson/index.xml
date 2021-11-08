@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Dickerson | Aviva Prins</title>
+    <link>https://avivaprins.com/authors/john-dickerson/</link>
+      <atom:link href="https://avivaprins.com/authors/john-dickerson/index.xml" rel="self" type="application/rss+xml" />
+    <description>John Dickerson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Aviva Prins</copyright><lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
+      <title>John Dickerson</title>
+      <link>https://avivaprins.com/authors/john-dickerson/</link>
+    </image>
+    
+    <item>
+      <title>Non-stationary Probabilistic Policies for Resource Constrained Restless Multi-Armed Bandits</title>
+      <link>https://avivaprins.com/publication/nonstationary-probfair/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/nonstationary-probfair/</guid>
+      <description>&lt;p&gt;Preprint available upon request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Planning to Fairly Allocate: Probabilistic Fairness in the Restless Bandit Setting</title>
+      <link>https://avivaprins.com/publication/probfair/</link>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/probfair/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
